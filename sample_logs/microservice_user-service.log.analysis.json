@@ -1,0 +1,164 @@
+{
+  "summary": {
+    "total_insights": 6,
+    "average_confidence": 0.9100000262260437,
+    "categories": {
+      "ERROR": 3,
+      "SECURITY": 1,
+      "SEMANTIC": 2
+    },
+    "severities": {
+      "HIGH": 4,
+      "CRITICAL": 2
+    }
+  },
+  "insights": [
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 11.1%)",
+      "timestamp": "2025-07-26T18:20:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 3,
+      "evidence_sample": [
+        "2025-07-26 18:22:43.254 [UserService] ERROR: Authentication failed for user bob.wilson from 10.10.10.100 - invalid password",
+        "2025-07-26 18:23:02.436 [UserService] ERROR: Authentication failed for user mike.davis from 198.51.100.8 - invalid password",
+        "2025-07-26 18:23:33.602 [UserService] ERROR: Authentication failed for user tom.miller from 172.16.0.20 - invalid password"
+      ],
+      "metadata": {
+        "error_rate": 0.1111111111111111,
+        "threshold": 0.1,
+        "total_entries": 27,
+        "matching_entries": 3
+      }
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 28.6%)",
+      "timestamp": "2025-07-26T18:50:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 5,
+      "evidence_sample": [
+        "2025-07-26 18:51:02.623 [UserService] ERROR: Authentication failed for user sarah.johnson from 192.168.0.50 - invalid password",
+        "2025-07-26 18:51:27.214 [UserService] ERROR: Authentication failed for user lisa.brown from 198.51.100.8 - invalid password",
+        "2025-07-26 18:52:13.239 [UserService] ERROR: Authentication failed for user alice.smith from 198.51.100.8 - invalid password"
+      ],
+      "metadata": {
+        "error_rate": 0.2857142857142857,
+        "threshold": 0.1,
+        "total_entries": 56,
+        "matching_entries": 16
+      }
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 22.6%)",
+      "timestamp": "2025-07-26T18:55:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 5,
+      "evidence_sample": [
+        "2025-07-26 18:55:05.791 [UserService] ERROR: Authentication failed for user user123 from 192.168.0.50 - invalid password",
+        "2025-07-26 18:55:05.928 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials",
+        "2025-07-26 18:55:07.447 [UserService] ERROR: Authentication failed for user bob.wilson from 192.168.1.10 - invalid password"
+      ],
+      "metadata": {
+        "error_rate": 0.22580645161290322,
+        "threshold": 0.1,
+        "total_entries": 62,
+        "matching_entries": 14
+      }
+    },
+    {
+      "rule_name": "authentication_failures",
+      "confidence": 0.5000109672546387,
+      "description": "Authentication failures detected (49 occurrences)",
+      "timestamp": "2025-07-26T18:22:43",
+      "severity": "HIGH",
+      "category": "SECURITY",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 18:22:43.254 [UserService] ERROR: Authentication failed for user bob.wilson from 10.10.10.100 - invalid password",
+        "2025-07-26 18:23:02.436 [UserService] ERROR: Authentication failed for user mike.davis from 198.51.100.8 - invalid password",
+        "2025-07-26 18:23:33.602 [UserService] ERROR: Authentication failed for user tom.miller from 172.16.0.20 - invalid password"
+      ],
+      "metadata": {
+        "total_matches": 49,
+        "pattern": "authentication.*failed",
+        "original_rule_confidence": 1.0,
+        "entailment_boost": 2.1925005057710223e-05
+      },
+      "avg_entailment_score": 2.1925005057710223e-05,
+      "target_statement": "authentication and security problems",
+      "entailment_scores": [
+        2.158934876206331e-05,
+        2.0965944713680074e-05,
+        2.0301105905673467e-05,
+        2.276376289955806e-05,
+        2.4034548914642073e-05
+      ]
+    },
+    {
+      "rule_name": "entailment_based",
+      "confidence": 0.9761106371879578,
+      "description": "High entailment with: 'logs related to system performance issues' (71 matches)",
+      "timestamp": "2025-07-26T18:22:34",
+      "severity": "CRITICAL",
+      "category": "SEMANTIC",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 18:22:34.418 [UserService] INFO: Session validated for sarah.johnson",
+        "2025-07-26 18:22:38.186 [UserService] INFO: Session validated for sarah.johnson",
+        "2025-07-26 18:22:41.376 [UserService] INFO: Session validated for mike.davis"
+      ],
+      "metadata": {
+        "method": "pure_entailment",
+        "total_matches": 71,
+        "score_threshold": 0.7,
+        "max_entries_processed": 1000
+      },
+      "avg_entailment_score": 0.9761106371879578,
+      "target_statement": "logs related to system performance issues",
+      "entailment_scores": [
+        0.9995842576026917,
+        0.8994347453117371,
+        0.918411910533905,
+        0.9655660390853882,
+        0.9836906790733337
+      ]
+    },
+    {
+      "rule_name": "entailment_based",
+      "confidence": 0.9856409430503845,
+      "description": "High entailment with: 'memory and resource exhaustion' (59 matches)",
+      "timestamp": "2025-07-26T18:24:25",
+      "severity": "CRITICAL",
+      "category": "SEMANTIC",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 18:24:25.284 [UserService] INFO: Password reset requested for alice.smith",
+        "2025-07-26 18:27:32.194 [UserService] INFO: Password reset requested for sarah.johnson",
+        "2025-07-26 18:27:37.061 [UserService] INFO: Password reset requested for jane.garcia"
+      ],
+      "metadata": {
+        "method": "pure_entailment",
+        "total_matches": 59,
+        "score_threshold": 0.7,
+        "max_entries_processed": 1000
+      },
+      "avg_entailment_score": 0.9856409430503845,
+      "target_statement": "memory and resource exhaustion",
+      "entailment_scores": [
+        0.999890923500061,
+        0.9987393021583557,
+        0.829677402973175,
+        0.999065101146698,
+        0.9586864709854126
+      ]
+    }
+  ]
+}

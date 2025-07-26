@@ -1,0 +1,312 @@
+{
+  "summary": {
+    "total_insights": 11,
+    "average_confidence": 0.8040000200271606,
+    "categories": {
+      "RESOURCE": 2,
+      "ERROR": 3,
+      "PERFORMANCE": 2,
+      "SECURITY": 1,
+      "SEMANTIC": 3
+    },
+    "severities": {
+      "CRITICAL": 4,
+      "HIGH": 5,
+      "MEDIUM": 2
+    }
+  },
+  "insights": [
+    {
+      "rule_name": "memory_exhaustion",
+      "confidence": 0.9692479968070984,
+      "description": "Memory exhaustion detected (65 occurrences)",
+      "timestamp": "2025-07-26T17:22:30",
+      "severity": "CRITICAL",
+      "category": "RESOURCE",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 17:22:30.821 [WebServer] ERROR: OutOfMemoryError: Java heap space exhausted",
+        "2025-07-26 17:22:47.020 [APIGateway] ERROR: OutOfMemoryError: Java heap space exhausted",
+        "2025-07-26 17:22:49.676 [EmailService] ERROR: OutOfMemoryError: Java heap space exhausted"
+      ],
+      "metadata": {
+        "total_matches": 65,
+        "pattern": "OutOfMemoryError",
+        "original_rule_confidence": 1.0,
+        "entailment_boost": 0.9384959936141968
+      },
+      "avg_entailment_score": 0.9384959936141968,
+      "target_statement": "memory and resource exhaustion",
+      "entailment_scores": [
+        0.4382173717021942,
+        0.9981789588928223,
+        0.9953071475028992,
+        0.9671354293823242,
+        0.9975416660308838
+      ]
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 100.0%)",
+      "timestamp": "2025-07-26T17:20:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 5,
+      "evidence_sample": [
+        "2025-07-26 17:22:22.310 [PaymentProcessor] ERROR: Unable to connect to external service",
+        "2025-07-26 17:22:24.260 [AuthenticationManager] ERROR: Slow query detected: execution time 5000ms on table 'orders'",
+        "2025-07-26 17:22:24.465 [BackgroundWorker] ERROR: Slow query detected: execution time 5000ms on table 'inventory'"
+      ],
+      "metadata": {
+        "error_rate": 1.0,
+        "threshold": 0.1,
+        "total_entries": 157,
+        "matching_entries": 157
+      }
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 100.0%)",
+      "timestamp": "2025-07-26T17:25:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 5,
+      "evidence_sample": [
+        "2025-07-26 17:25:02.329 [EmailService] FATAL: Database query execution failed on table 'users'",
+        "2025-07-26 17:25:03.112 [PaymentProcessor] ERROR: Failed to authenticate user credentials for user 'admin' from 192.168.1.10",
+        "2025-07-26 17:25:04.222 [AuthenticationManager] FATAL: Session expired for user"
+      ],
+      "metadata": {
+        "error_rate": 1.0,
+        "threshold": 0.1,
+        "total_entries": 309,
+        "matching_entries": 309
+      }
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 37.4%)",
+      "timestamp": "2025-07-26T17:30:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 5,
+      "evidence_sample": [
+        "2025-07-26 17:30:01.662 [NotificationService] FATAL: Connection timeout after 30 seconds",
+        "2025-07-26 17:30:01.868 [APIGateway] FATAL: Database query execution failed on table 'users'",
+        "2025-07-26 17:30:02.912 [WebServer] ERROR: Slow query detected: execution time 5000ms on table 'inventory'"
+      ],
+      "metadata": {
+        "error_rate": 0.3741496598639456,
+        "threshold": 0.1,
+        "total_entries": 294,
+        "matching_entries": 110
+      }
+    },
+    {
+      "rule_name": "slow_queries",
+      "confidence": 0.5461075305938721,
+      "description": "Slow database queries detected (60 occurrences)",
+      "timestamp": "2025-07-26T17:22:24",
+      "severity": "MEDIUM",
+      "category": "PERFORMANCE",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 17:22:24.260 [AuthenticationManager] ERROR: Slow query detected: execution time 5000ms on table 'orders'",
+        "2025-07-26 17:22:24.465 [BackgroundWorker] ERROR: Slow query detected: execution time 5000ms on table 'inventory'",
+        "2025-07-26 17:22:36.656 [WebServer] ERROR: Slow query detected: execution time 5000ms on table 'inventory'"
+      ],
+      "metadata": {
+        "total_matches": 60,
+        "pattern": "slow query",
+        "original_rule_confidence": 1.0,
+        "entailment_boost": 0.09221503883600235
+      },
+      "avg_entailment_score": 0.09221503883600235,
+      "target_statement": "database performance problems",
+      "entailment_scores": [
+        4.16104267060291e-05,
+        0.00031831691740080714,
+        0.00044638419058173895,
+        0.0005233570700511336,
+        0.9148944020271301
+      ]
+    },
+    {
+      "rule_name": "authentication_failures",
+      "confidence": 0.4000675678253174,
+      "description": "Authentication failures detected (8 occurrences)",
+      "timestamp": "2025-07-26T17:23:06",
+      "severity": "HIGH",
+      "category": "SECURITY",
+      "evidence_count": 8,
+      "evidence_sample": [
+        "2025-07-26 17:23:06.069 [AuthenticationManager] ERROR: Database query execution failed on table 'users'",
+        "2025-07-26 17:27:20.333 [AuthenticationManager] FATAL: Payment processing failed - invalid card for ORDER-63103",
+        "2025-07-26 17:27:22.637 [AuthenticationManager] FATAL: Failed to authenticate user credentials for user 'mike.davis' from 10.0.0.15"
+      ],
+      "metadata": {
+        "total_matches": 8,
+        "pattern": "authentication.*failed",
+        "original_rule_confidence": 0.8,
+        "entailment_boost": 0.0001351168320979923
+      },
+      "avg_entailment_score": 0.0001351168320979923,
+      "target_statement": "authentication and security problems",
+      "entailment_scores": [
+        2.34280541917542e-05,
+        0.0007668979815207422,
+        4.5531323848990723e-05,
+        3.697739157360047e-05,
+        0.00015040072321426123
+      ]
+    },
+    {
+      "rule_name": "connection_issues",
+      "confidence": 0.500543475151062,
+      "description": "Network connectivity issues detected (169 occurrences)",
+      "timestamp": "2025-07-26T17:22:22",
+      "severity": "HIGH",
+      "category": "PERFORMANCE",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 17:22:22.310 [PaymentProcessor] ERROR: Unable to connect to external service",
+        "2025-07-26 17:22:25.800 [OrderService] ERROR: Unable to connect to external service",
+        "2025-07-26 17:22:27.559 [PaymentProcessor] ERROR: Connection timeout after 30 seconds"
+      ],
+      "metadata": {
+        "total_matches": 169,
+        "pattern": "connection.*refused",
+        "original_rule_confidence": 1.0,
+        "entailment_boost": 0.0010868922108784318
+      },
+      "avg_entailment_score": 0.0010868922108784318,
+      "target_statement": "logs related to system performance issues",
+      "entailment_scores": [
+        0.0007107006385922432,
+        0.00025995203759521246,
+        0.0023695863783359528,
+        0.000288484210614115,
+        5.945788143435493e-05
+      ]
+    },
+    {
+      "rule_name": "resource_warnings",
+      "confidence": 0.5000442862510681,
+      "description": "Resource utilization warnings (47 occurrences)",
+      "timestamp": "2025-07-26T17:22:26",
+      "severity": "MEDIUM",
+      "category": "RESOURCE",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 17:22:26.377 [PaymentProcessor] ERROR: Thread pool exhausted - unable to process request",
+        "2025-07-26 17:22:29.160 [DatabasePool] FATAL: Thread pool exhausted - unable to process request",
+        "2025-07-26 17:22:47.200 [NotificationService] ERROR: Thread pool exhausted - unable to process request"
+      ],
+      "metadata": {
+        "total_matches": 47,
+        "pattern": "disk.*full",
+        "original_rule_confidence": 1.0,
+        "entailment_boost": 8.860356319928542e-05
+      },
+      "avg_entailment_score": 8.860356319928542e-05,
+      "target_statement": "memory and resource exhaustion",
+      "entailment_scores": [
+        7.780724263284355e-05,
+        7.16669819667004e-05,
+        7.117711356841028e-05,
+        8.71797019499354e-05,
+        8.918966341298074e-05
+      ]
+    },
+    {
+      "rule_name": "entailment_based",
+      "confidence": 0.9869686365127563,
+      "description": "High entailment with: 'logs related to system performance issues' (399 matches)",
+      "timestamp": "2025-07-26T17:22:24",
+      "severity": "CRITICAL",
+      "category": "SEMANTIC",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 17:22:24.260 [AuthenticationManager] ERROR: Slow query detected: execution time 5000ms on table 'orders'",
+        "2025-07-26 17:22:24.465 [BackgroundWorker] ERROR: Slow query detected: execution time 5000ms on table 'inventory'",
+        "2025-07-26 17:22:24.494 [OrderService] FATAL: Session expired for user"
+      ],
+      "metadata": {
+        "method": "pure_entailment",
+        "total_matches": 399,
+        "score_threshold": 0.7,
+        "max_entries_processed": 1000
+      },
+      "avg_entailment_score": 0.9869686365127563,
+      "target_statement": "logs related to system performance issues",
+      "entailment_scores": [
+        0.9998379945755005,
+        0.9999051094055176,
+        0.9940698146820068,
+        0.9466394782066345,
+        0.9997922778129578
+      ]
+    },
+    {
+      "rule_name": "entailment_based",
+      "confidence": 0.9834717512130737,
+      "description": "High entailment with: 'memory and resource exhaustion' (105 matches)",
+      "timestamp": "2025-07-26T17:22:28",
+      "severity": "CRITICAL",
+      "category": "SEMANTIC",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 17:22:28.838 [NotificationService] FATAL: Failed to authenticate user credentials for user 'jane.garcia' from 10.0.0.15",
+        "2025-07-26 17:22:36.656 [WebServer] ERROR: Slow query detected: execution time 5000ms on table 'inventory'",
+        "2025-07-26 17:22:36.839 [WebServer] ERROR: Database query execution failed on table 'products'"
+      ],
+      "metadata": {
+        "method": "pure_entailment",
+        "total_matches": 105,
+        "score_threshold": 0.7,
+        "max_entries_processed": 1000
+      },
+      "avg_entailment_score": 0.9834717512130737,
+      "target_statement": "memory and resource exhaustion",
+      "entailment_scores": [
+        0.9668964743614197,
+        0.9932616353034973,
+        0.946946918964386,
+        0.999893069267273,
+        0.9924112558364868
+      ]
+    },
+    {
+      "rule_name": "entailment_based",
+      "confidence": 0.9592639207839966,
+      "description": "High entailment with: 'database performance problems' (52 matches)",
+      "timestamp": "2025-07-26T17:22:36",
+      "severity": "CRITICAL",
+      "category": "SEMANTIC",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 17:22:36.839 [WebServer] ERROR: Database query execution failed on table 'products'",
+        "2025-07-26 17:22:36.876 [CacheManager] ERROR: Database query execution failed on table 'inventory'",
+        "2025-07-26 17:22:42.928 [OrderService] ERROR: Database query execution failed on table 'users'"
+      ],
+      "metadata": {
+        "method": "pure_entailment",
+        "total_matches": 52,
+        "score_threshold": 0.7,
+        "max_entries_processed": 1000
+      },
+      "avg_entailment_score": 0.9592639207839966,
+      "target_statement": "database performance problems",
+      "entailment_scores": [
+        0.9528617262840271,
+        0.9968047142028809,
+        0.7503607273101807,
+        0.9903250932693481,
+        0.9990955591201782
+      ]
+    }
+  ]
+}

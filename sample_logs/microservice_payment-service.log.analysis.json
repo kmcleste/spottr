@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total_insights": 7,
+    "average_confidence": 0.8569999933242798,
+    "categories": {
+      "RESOURCE": 1,
+      "ERROR": 4,
+      "SEMANTIC": 2
+    },
+    "severities": {
+      "CRITICAL": 2,
+      "HIGH": 5
+    }
+  },
+  "insights": [
+    {
+      "rule_name": "memory_exhaustion",
+      "confidence": 0.15001320838928223,
+      "description": "Memory exhaustion detected (3 occurrences)",
+      "timestamp": "2025-07-26T19:07:35",
+      "severity": "CRITICAL",
+      "category": "RESOURCE",
+      "evidence_count": 3,
+      "evidence_sample": [
+        "2025-07-26 19:07:35.769 [PaymentProcessor] FATAL: OutOfMemoryError during payment processing - high transaction volume",
+        "2025-07-26 19:08:56.045 [PaymentProcessor] FATAL: OutOfMemoryError during payment processing - high transaction volume",
+        "2025-07-26 19:10:10.051 [PaymentProcessor] FATAL: OutOfMemoryError during payment processing - high transaction volume"
+      ],
+      "metadata": {
+        "total_matches": 3,
+        "pattern": "OutOfMemoryError",
+        "original_rule_confidence": 0.3,
+        "entailment_boost": 2.6416653781780042e-05
+      },
+      "avg_entailment_score": 2.6416653781780042e-05,
+      "target_statement": "memory and resource exhaustion",
+      "entailment_scores": [
+        2.7087642592960037e-05,
+        2.5836956410785206e-05,
+        2.6325364160584286e-05
+      ]
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 10.3%)",
+      "timestamp": "2025-07-26T18:25:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 4,
+      "evidence_sample": [
+        "2025-07-26 18:25:06.098 [PaymentProcessor] ERROR: Payment failed for ORDER-41721 - fraud detection triggered",
+        "2025-07-26 18:25:27.168 [PaymentProcessor] ERROR: Payment failed for ORDER-39471 - invalid card number",
+        "2025-07-26 18:28:58.549 [PaymentProcessor] ERROR: Payment failed for ORDER-54543 - insufficient funds"
+      ],
+      "metadata": {
+        "error_rate": 0.10256410256410256,
+        "threshold": 0.1,
+        "total_entries": 39,
+        "matching_entries": 4
+      }
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 15.0%)",
+      "timestamp": "2025-07-26T18:50:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 5,
+      "evidence_sample": [
+        "2025-07-26 18:52:07.072 [PaymentProcessor] ERROR: Payment failed for ORDER-14326 - insufficient funds",
+        "2025-07-26 18:52:21.611 [PaymentProcessor] ERROR: Payment failed for ORDER-32221 - card expired",
+        "2025-07-26 18:52:34.782 [PaymentProcessor] ERROR: Payment failed for ORDER-31956 - invalid card number"
+      ],
+      "metadata": {
+        "error_rate": 0.15,
+        "threshold": 0.1,
+        "total_entries": 40,
+        "matching_entries": 6
+      }
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 11.4%)",
+      "timestamp": "2025-07-26T19:05:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 5,
+      "evidence_sample": [
+        "2025-07-26 19:05:43.870 [PaymentProcessor] ERROR: Payment failed for ORDER-54935 - fraud detection triggered",
+        "2025-07-26 19:05:47.733 [PaymentProcessor] ERROR: Payment failed for ORDER-31979 - insufficient funds",
+        "2025-07-26 19:06:20.881 [PaymentProcessor] ERROR: Payment failed for ORDER-76677 - insufficient funds"
+      ],
+      "metadata": {
+        "error_rate": 0.11363636363636363,
+        "threshold": 0.1,
+        "total_entries": 44,
+        "matching_entries": 5
+      }
+    },
+    {
+      "rule_name": "high_error_rate",
+      "confidence": 1.0,
+      "description": "High error rate detected (rate: 16.7%)",
+      "timestamp": "2025-07-26T19:10:00",
+      "severity": "HIGH",
+      "category": "ERROR",
+      "evidence_count": 3,
+      "evidence_sample": [
+        "2025-07-26 19:10:10.051 [PaymentProcessor] FATAL: OutOfMemoryError during payment processing - high transaction volume",
+        "2025-07-26 19:11:41.283 [PaymentProcessor] ERROR: Payment failed for ORDER-90213 - insufficient funds",
+        "2025-07-26 19:11:53.180 [PaymentProcessor] ERROR: Payment failed for ORDER-30125 - insufficient funds"
+      ],
+      "metadata": {
+        "error_rate": 0.16666666666666666,
+        "threshold": 0.1,
+        "total_entries": 18,
+        "matching_entries": 3
+      }
+    },
+    {
+      "rule_name": "entailment_based",
+      "confidence": 0.9804996848106384,
+      "description": "High entailment with: 'logs related to system performance issues' (23 matches)",
+      "timestamp": "2025-07-26T18:25:06",
+      "severity": "CRITICAL",
+      "category": "SEMANTIC",
+      "evidence_count": 10,
+      "evidence_sample": [
+        "2025-07-26 18:25:06.098 [PaymentProcessor] ERROR: Payment failed for ORDER-41721 - fraud detection triggered",
+        "2025-07-26 18:25:27.168 [PaymentProcessor] ERROR: Payment failed for ORDER-39471 - invalid card number",
+        "2025-07-26 18:30:24.111 [PaymentProcessor] INFO: Payment processed successfully for ORDER-24136 - amount: $349"
+      ],
+      "metadata": {
+        "method": "pure_entailment",
+        "total_matches": 23,
+        "score_threshold": 0.7,
+        "max_entries_processed": 1000
+      },
+      "avg_entailment_score": 0.9804996848106384,
+      "target_statement": "logs related to system performance issues",
+      "entailment_scores": [
+        0.9995936751365662,
+        0.9998300075531006,
+        0.7053149342536926,
+        0.9992470741271973,
+        0.9998975992202759
+      ]
+    },
+    {
+      "rule_name": "entailment_based",
+      "confidence": 0.871931791305542,
+      "description": "High entailment with: 'memory and resource exhaustion' (2 matches)",
+      "timestamp": "2025-07-26T18:42:31",
+      "severity": "HIGH",
+      "category": "SEMANTIC",
+      "evidence_count": 2,
+      "evidence_sample": [
+        "2025-07-26 18:42:31.662 [PaymentProcessor] INFO: Payment processed successfully for ORDER-80052 - amount: $179",
+        "2025-07-26 18:50:27.877 [PaymentProcessor] INFO: Payment processed successfully for ORDER-64684 - amount: $113"
+      ],
+      "metadata": {
+        "method": "pure_entailment",
+        "total_matches": 2,
+        "score_threshold": 0.7,
+        "max_entries_processed": 1000
+      },
+      "avg_entailment_score": 0.871931791305542,
+      "target_statement": "memory and resource exhaustion",
+      "entailment_scores": [
+        0.8243933320045471,
+        0.9194703102111816
+      ]
+    }
+  ]
+}
