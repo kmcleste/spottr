@@ -1,0 +1,1800 @@
+2025-07-26 21:47:37.636 [InventoryService] INFO: Order processed successfully
+2025-07-26 21:47:41.795 [APIGateway] INFO: User session created
+2025-07-26 21:47:42.715 [OrderService] DEBUG: Cache hit for product data
+2025-07-26 21:47:43.246 [NotificationService] INFO: Email notification sent
+2025-07-26 21:47:45.583 [AuthenticationManager] INFO: Order processed successfully from 198.51.100.8
+2025-07-26 21:47:45.604 [APIGateway] INFO: Background job completed for user lisa.brown
+2025-07-26 21:47:46.560 [DatabasePool] INFO: Order processed successfully from 127.0.0.1
+2025-07-26 21:47:47.146 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 21:47:47.446 [APIGateway] INFO: User session created
+2025-07-26 21:47:48.436 [DatabasePool] INFO: Request processed in 150ms
+2025-07-26 21:47:48.475 [CacheManager] INFO: User session created from 192.168.0.50
+2025-07-26 21:47:49.324 [NotificationService] INFO: Health check passed for user mike.davis
+2025-07-26 21:47:50.178 [EmailService] INFO: Background job completed for user user123 from 198.51.100.8
+2025-07-26 21:47:54.083 [UserService] INFO: Configuration loaded successfully from 203.0.113.5
+2025-07-26 21:47:54.962 [BackgroundWorker] INFO: Cache hit for product data
+2025-07-26 21:47:57.326 [OrderService] DEBUG: Cache hit for product data
+2025-07-26 21:47:57.773 [NotificationService] INFO: Cache hit for product data
+2025-07-26 21:47:59.359 [DatabasePool] INFO: User login successful from 127.0.0.1
+2025-07-26 21:47:59.571 [BackgroundWorker] INFO: Health check passed from 127.0.0.1
+2025-07-26 21:48:00.389 [APIGateway] INFO: Cache hit for product data
+2025-07-26 21:48:00.610 [OrderService] DEBUG: Background job completed
+2025-07-26 21:48:01.248 [AuthenticationManager] DEBUG: User session created for user alice.smith from 192.168.0.50
+2025-07-26 21:48:01.814 [WebServer] INFO: Order processed successfully
+2025-07-26 21:48:02.157 [PaymentProcessor] DEBUG: User session created for user mike.davis from 10.10.10.100
+2025-07-26 21:48:04.658 [OrderService] INFO: User session created
+2025-07-26 21:48:04.992 [NotificationService] INFO: Background job completed
+2025-07-26 21:48:06.339 [PaymentProcessor] INFO: Background job completed
+2025-07-26 21:48:06.852 [OrderService] INFO: Background job completed
+2025-07-26 21:48:07.753 [OrderService] DEBUG: Database connection established from 192.168.1.10
+2025-07-26 21:48:07.766 [AuthenticationManager] DEBUG: Request processed in 150ms
+2025-07-26 21:48:08.512 [InventoryService] INFO: Configuration loaded successfully for user john.doe
+2025-07-26 21:48:08.803 [PaymentProcessor] INFO: Cache hit for product data from 198.51.100.8
+2025-07-26 21:48:09.296 [CacheManager] INFO: Background job completed
+2025-07-26 21:48:10.297 [AuthenticationManager] INFO: User session created
+2025-07-26 21:48:11.900 [EmailService] INFO: Cache hit for product data
+2025-07-26 21:48:13.460 [EmailService] INFO: Request processed in 150ms for user john.doe
+2025-07-26 21:48:14.067 [OrderService] INFO: Background job completed for user jane.garcia from 192.168.0.50
+2025-07-26 21:48:14.494 [APIGateway] INFO: Cache hit for product data
+2025-07-26 21:48:15.738 [BackgroundWorker] INFO: Email notification sent
+2025-07-26 21:48:16.942 [APIGateway] INFO: Background job completed
+2025-07-26 21:48:18.657 [EmailService] INFO: Request processed in 150ms
+2025-07-26 21:48:19.111 [PaymentProcessor] INFO: Request processed in 150ms for user bob.wilson
+2025-07-26 21:48:20.001 [OrderService] INFO: Background job completed
+2025-07-26 21:48:20.642 [UserService] INFO: Database connection established
+2025-07-26 21:48:22.147 [OrderService] DEBUG: Email notification sent
+2025-07-26 21:48:23.676 [BackgroundWorker] INFO: User login successful from 198.51.100.8
+2025-07-26 21:48:24.135 [UserService] INFO: Email notification sent
+2025-07-26 21:48:24.925 [WebServer] INFO: Cache hit for product data for user jane.garcia
+2025-07-26 21:48:25.031 [CacheManager] INFO: User session created for user jane.garcia
+2025-07-26 21:48:26.342 [DatabasePool] DEBUG: Health check passed
+2025-07-26 21:48:26.507 [WebServer] INFO: Email notification sent
+2025-07-26 21:48:26.843 [InventoryService] INFO: Cache hit for product data for user mike.davis from 198.51.100.8
+2025-07-26 21:48:30.923 [CacheManager] INFO: Configuration loaded successfully
+2025-07-26 21:48:31.268 [AuthenticationManager] INFO: Cache hit for product data for user user123 from 10.0.0.15
+2025-07-26 21:48:32.412 [APIGateway] INFO: Cache hit for product data for user sarah.johnson from 10.10.10.100
+2025-07-26 21:48:32.548 [BackgroundWorker] INFO: Health check passed
+2025-07-26 21:48:33.283 [BackgroundWorker] INFO: Cache hit for product data
+2025-07-26 21:48:34.066 [WebServer] INFO: Background job completed for user bob.wilson
+2025-07-26 21:48:34.165 [APIGateway] INFO: Order processed successfully from 192.168.1.10
+2025-07-26 21:48:35.688 [BackgroundWorker] INFO: User login successful for user sarah.johnson
+2025-07-26 21:48:36.921 [OrderService] INFO: Order processed successfully for user mike.davis from 192.168.0.50
+2025-07-26 21:48:36.946 [PaymentProcessor] INFO: Email notification sent from 10.10.10.100
+2025-07-26 21:48:37.287 [EmailService] INFO: Health check passed for user admin
+2025-07-26 21:48:37.366 [PaymentProcessor] DEBUG: User session created for user tom.miller
+2025-07-26 21:48:39.823 [InventoryService] INFO: Email notification sent
+2025-07-26 21:48:40.591 [WebServer] DEBUG: Configuration loaded successfully for user admin
+2025-07-26 21:48:44.098 [CacheManager] INFO: Email notification sent for user admin
+2025-07-26 21:48:44.352 [OrderService] INFO: Email notification sent for user lisa.brown
+2025-07-26 21:48:44.495 [WebServer] INFO: User session created
+2025-07-26 21:48:48.543 [OrderService] INFO: Email notification sent
+2025-07-26 21:48:48.766 [APIGateway] INFO: Request processed in 150ms for user john.doe
+2025-07-26 21:48:49.579 [CacheManager] INFO: Database connection established from 192.168.1.10
+2025-07-26 21:48:50.131 [PaymentProcessor] INFO: Cache hit for product data for user sarah.johnson
+2025-07-26 21:48:51.696 [WebServer] INFO: Cache hit for product data from 172.16.0.20
+2025-07-26 21:48:52.218 [EmailService] INFO: User session created
+2025-07-26 21:48:52.947 [BackgroundWorker] INFO: Email notification sent
+2025-07-26 21:48:53.035 [WebServer] INFO: User session created
+2025-07-26 21:48:55.315 [APIGateway] DEBUG: User session created
+2025-07-26 21:48:55.667 [PaymentProcessor] INFO: User login successful for user jane.garcia
+2025-07-26 21:48:55.743 [CacheManager] DEBUG: Database connection established
+2025-07-26 21:48:57.018 [DatabasePool] INFO: Request processed in 150ms
+2025-07-26 21:48:57.253 [CacheManager] INFO: Database connection established from 127.0.0.1
+2025-07-26 21:49:00.156 [APIGateway] INFO: Health check passed for user mike.davis
+2025-07-26 21:49:01.284 [EmailService] INFO: Request processed in 150ms for user user123
+2025-07-26 21:49:02.392 [DatabasePool] INFO: Order processed successfully from 203.0.113.5
+2025-07-26 21:49:03.048 [WebServer] INFO: Health check passed for user alice.smith
+2025-07-26 21:49:03.510 [BackgroundWorker] INFO: Health check passed
+2025-07-26 21:49:04.338 [OrderService] INFO: Cache hit for product data for user mike.davis from 203.0.113.5
+2025-07-26 21:49:06.343 [InventoryService] INFO: Request processed in 150ms
+2025-07-26 21:49:06.906 [APIGateway] DEBUG: User session created from 192.168.1.10
+2025-07-26 21:49:07.749 [BackgroundWorker] INFO: Database connection established
+2025-07-26 21:49:08.966 [NotificationService] INFO: Order processed successfully
+2025-07-26 21:49:11.296 [BackgroundWorker] INFO: User session created for user tom.miller
+2025-07-26 21:49:13.067 [CacheManager] INFO: Configuration loaded successfully
+2025-07-26 21:49:13.567 [AuthenticationManager] INFO: Configuration loaded successfully for user bob.wilson
+2025-07-26 21:49:13.583 [AuthenticationManager] INFO: Database connection established
+2025-07-26 21:49:15.077 [DatabasePool] INFO: Database connection established
+2025-07-26 21:49:15.312 [PaymentProcessor] INFO: Database connection established for user sarah.johnson
+2025-07-26 21:49:15.566 [APIGateway] INFO: Email notification sent
+2025-07-26 21:49:15.648 [NotificationService] INFO: Order processed successfully from 198.51.100.8
+2025-07-26 21:49:18.733 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 21:49:20.722 [EmailService] DEBUG: Request processed in 150ms
+2025-07-26 21:49:21.253 [PaymentProcessor] INFO: Order processed successfully for user admin
+2025-07-26 21:49:21.302 [InventoryService] INFO: Configuration loaded successfully
+2025-07-26 21:49:21.320 [APIGateway] INFO: Background job completed
+2025-07-26 21:49:21.796 [APIGateway] INFO: User session created for user user123
+2025-07-26 21:49:22.931 [CacheManager] INFO: Request processed in 150ms for user admin
+2025-07-26 21:49:24.057 [CacheManager] INFO: User session created for user sarah.johnson
+2025-07-26 21:49:24.649 [BackgroundWorker] INFO: Configuration loaded successfully
+2025-07-26 21:49:25.788 [WebServer] DEBUG: Configuration loaded successfully
+2025-07-26 21:49:28.128 [BackgroundWorker] INFO: Database connection established for user john.doe
+2025-07-26 21:49:28.213 [EmailService] INFO: Order processed successfully for user sarah.johnson
+2025-07-26 21:49:29.718 [EmailService] INFO: Order processed successfully for user sarah.johnson from 172.16.0.20
+2025-07-26 21:49:30.293 [NotificationService] INFO: Database connection established
+2025-07-26 21:49:32.206 [OrderService] INFO: Health check passed for user mike.davis
+2025-07-26 21:49:32.799 [WebServer] INFO: User session created
+2025-07-26 21:49:33.931 [DatabasePool] INFO: Email notification sent
+2025-07-26 21:49:34.698 [UserService] INFO: Configuration loaded successfully
+2025-07-26 21:49:35.056 [DatabasePool] INFO: Configuration loaded successfully from 198.51.100.8
+2025-07-26 21:49:36.753 [DatabasePool] INFO: Configuration loaded successfully from 203.0.113.5
+2025-07-26 21:49:36.865 [CacheManager] INFO: Cache hit for product data
+2025-07-26 21:49:37.972 [PaymentProcessor] INFO: User login successful for user jane.garcia
+2025-07-26 21:49:38.127 [OrderService] INFO: User login successful
+2025-07-26 21:49:38.145 [APIGateway] INFO: User session created from 192.168.1.10
+2025-07-26 21:49:38.316 [InventoryService] INFO: User session created
+2025-07-26 21:49:38.929 [OrderService] INFO: Email notification sent
+2025-07-26 21:49:40.342 [NotificationService] INFO: Health check passed
+2025-07-26 21:49:43.093 [OrderService] INFO: Database connection established
+2025-07-26 21:49:43.972 [APIGateway] INFO: Background job completed for user bob.wilson
+2025-07-26 21:49:43.989 [NotificationService] DEBUG: User session created from 203.0.113.5
+2025-07-26 21:49:44.833 [EmailService] INFO: Order processed successfully
+2025-07-26 21:49:47.252 [UserService] DEBUG: Background job completed for user admin
+2025-07-26 21:49:47.375 [InventoryService] INFO: Database connection established for user user123 from 10.0.0.15
+2025-07-26 21:49:49.322 [AuthenticationManager] INFO: Health check passed for user mike.davis
+2025-07-26 21:49:50.076 [OrderService] INFO: Request processed in 150ms for user bob.wilson
+2025-07-26 21:49:51.697 [WebServer] DEBUG: User session created
+2025-07-26 21:49:52.157 [WebServer] DEBUG: User session created for user alice.smith
+2025-07-26 21:49:53.768 [InventoryService] INFO: Email notification sent for user lisa.brown
+2025-07-26 21:49:53.941 [InventoryService] INFO: Request processed in 150ms
+2025-07-26 21:49:57.549 [AuthenticationManager] DEBUG: Request processed in 150ms
+2025-07-26 21:49:57.615 [AuthenticationManager] INFO: Health check passed
+2025-07-26 21:49:58.283 [UserService] INFO: Database connection established
+2025-07-26 21:49:58.544 [BackgroundWorker] INFO: User login successful for user user123
+2025-07-26 21:49:58.547 [NotificationService] DEBUG: Health check passed
+2025-07-26 21:49:58.627 [UserService] DEBUG: User session created for user user123
+2025-07-26 21:50:00.159 [DatabasePool] INFO: Request processed in 150ms for user alice.smith
+2025-07-26 21:50:02.460 [OrderService] INFO: Order processed successfully for user john.doe
+2025-07-26 21:50:03.823 [AuthenticationManager] INFO: Configuration loaded successfully from 10.0.0.15
+2025-07-26 21:50:06.585 [DatabasePool] DEBUG: Health check passed
+2025-07-26 21:50:06.794 [APIGateway] INFO: Health check passed
+2025-07-26 21:50:07.840 [InventoryService] INFO: Health check passed
+2025-07-26 21:50:08.277 [OrderService] INFO: Cache hit for product data
+2025-07-26 21:50:08.661 [PaymentProcessor] INFO: Cache hit for product data for user bob.wilson
+2025-07-26 21:50:10.487 [BackgroundWorker] INFO: Order processed successfully
+2025-07-26 21:50:11.425 [UserService] INFO: Background job completed
+2025-07-26 21:50:14.698 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 21:50:14.947 [WebServer] INFO: Cache hit for product data
+2025-07-26 21:50:15.848 [InventoryService] INFO: Background job completed
+2025-07-26 21:50:16.684 [BackgroundWorker] INFO: Health check passed from 10.0.0.15
+2025-07-26 21:50:18.368 [NotificationService] INFO: Email notification sent
+2025-07-26 21:50:18.411 [UserService] INFO: Background job completed
+2025-07-26 21:50:18.644 [CacheManager] INFO: User login successful
+2025-07-26 21:50:18.733 [NotificationService] INFO: Email notification sent
+2025-07-26 21:50:18.743 [DatabasePool] INFO: User login successful
+2025-07-26 21:50:21.031 [WebServer] INFO: Order processed successfully
+2025-07-26 21:50:21.595 [PaymentProcessor] INFO: Database connection established for user admin
+2025-07-26 21:50:21.623 [EmailService] DEBUG: Background job completed
+2025-07-26 21:50:22.138 [CacheManager] DEBUG: Email notification sent
+2025-07-26 21:50:22.402 [BackgroundWorker] INFO: Request processed in 150ms for user admin
+2025-07-26 21:50:23.621 [InventoryService] INFO: User login successful
+2025-07-26 21:50:24.195 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 21:50:24.305 [DatabasePool] DEBUG: Database connection established
+2025-07-26 21:50:26.310 [WebServer] INFO: User login successful
+2025-07-26 21:50:28.239 [NotificationService] INFO: Order processed successfully
+2025-07-26 21:50:29.484 [UserService] DEBUG: Request processed in 150ms
+2025-07-26 21:50:33.248 [CacheManager] INFO: Configuration loaded successfully from 10.0.0.15
+2025-07-26 21:50:33.539 [DatabasePool] INFO: User session created
+2025-07-26 21:50:34.265 [NotificationService] INFO: User session created for user user123 from 192.168.0.50
+2025-07-26 21:50:35.736 [BackgroundWorker] INFO: User login successful
+2025-07-26 21:50:36.412 [InventoryService] INFO: Health check passed for user tom.miller
+2025-07-26 21:50:37.013 [WebServer] INFO: User login successful for user user123
+2025-07-26 21:50:37.872 [CacheManager] DEBUG: Request processed in 150ms
+2025-07-26 21:50:38.170 [UserService] DEBUG: Order processed successfully from 192.168.0.50
+2025-07-26 21:50:38.358 [DatabasePool] INFO: Email notification sent for user mike.davis
+2025-07-26 21:50:38.842 [InventoryService] DEBUG: User session created for user user123
+2025-07-26 21:50:39.059 [AuthenticationManager] DEBUG: User session created
+2025-07-26 21:50:39.900 [EmailService] INFO: Cache hit for product data for user alice.smith
+2025-07-26 21:50:40.997 [AuthenticationManager] DEBUG: Health check passed
+2025-07-26 21:50:41.269 [AuthenticationManager] INFO: User session created from 172.16.0.20
+2025-07-26 21:50:41.984 [APIGateway] INFO: Configuration loaded successfully
+2025-07-26 21:50:42.215 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 21:50:43.405 [AuthenticationManager] INFO: Health check passed from 10.0.0.15
+2025-07-26 21:50:44.527 [APIGateway] INFO: Cache hit for product data
+2025-07-26 21:50:47.238 [InventoryService] INFO: Email notification sent for user admin from 172.16.0.20
+2025-07-26 21:50:47.884 [CacheManager] INFO: Background job completed
+2025-07-26 21:50:49.211 [NotificationService] INFO: Health check passed from 10.10.10.100
+2025-07-26 21:50:50.559 [CacheManager] DEBUG: Cache hit for product data
+2025-07-26 21:50:51.348 [BackgroundWorker] DEBUG: User login successful for user user123 from 192.168.0.50
+2025-07-26 21:50:52.072 [DatabasePool] INFO: User session created
+2025-07-26 21:50:52.352 [InventoryService] DEBUG: Configuration loaded successfully
+2025-07-26 21:50:53.006 [APIGateway] INFO: Cache hit for product data for user sarah.johnson
+2025-07-26 21:50:53.278 [DatabasePool] INFO: Configuration loaded successfully
+2025-07-26 21:50:54.319 [DatabasePool] INFO: User login successful for user bob.wilson
+2025-07-26 21:50:55.215 [APIGateway] INFO: Request processed in 150ms
+2025-07-26 21:50:56.537 [CacheManager] DEBUG: Configuration loaded successfully for user john.doe from 192.168.1.10
+2025-07-26 21:50:57.371 [CacheManager] INFO: Health check passed for user bob.wilson
+2025-07-26 21:50:59.078 [APIGateway] DEBUG: Background job completed for user admin
+2025-07-26 21:50:59.104 [DatabasePool] INFO: Background job completed
+2025-07-26 21:51:00.910 [DatabasePool] DEBUG: User session created
+2025-07-26 21:51:02.051 [NotificationService] INFO: Background job completed
+2025-07-26 21:51:02.515 [AuthenticationManager] INFO: Database connection established
+2025-07-26 21:51:04.292 [NotificationService] DEBUG: User session created for user john.doe
+2025-07-26 21:51:04.741 [OrderService] DEBUG: Email notification sent for user john.doe from 192.168.1.10
+2025-07-26 21:51:05.563 [APIGateway] INFO: Configuration loaded successfully for user tom.miller
+2025-07-26 21:51:05.614 [WebServer] DEBUG: Request processed in 150ms
+2025-07-26 21:51:06.569 [BackgroundWorker] INFO: Email notification sent from 10.10.10.100
+2025-07-26 21:51:07.244 [DatabasePool] INFO: Health check passed from 203.0.113.5
+2025-07-26 21:51:10.587 [BackgroundWorker] INFO: Background job completed
+2025-07-26 21:51:10.790 [CacheManager] INFO: Order processed successfully
+2025-07-26 21:51:11.361 [DatabasePool] INFO: Configuration loaded successfully for user sarah.johnson from 192.168.0.50
+2025-07-26 21:51:12.634 [APIGateway] INFO: Background job completed
+2025-07-26 21:51:13.295 [OrderService] INFO: Background job completed from 192.168.0.50
+2025-07-26 21:51:13.521 [EmailService] INFO: Email notification sent for user john.doe from 192.168.0.50
+2025-07-26 21:51:14.711 [WebServer] DEBUG: Email notification sent from 172.16.0.20
+2025-07-26 21:51:15.507 [UserService] INFO: Order processed successfully
+2025-07-26 21:51:15.604 [APIGateway] INFO: User session created for user mike.davis
+2025-07-26 21:51:16.335 [PaymentProcessor] DEBUG: Request processed in 150ms from 198.51.100.8
+2025-07-26 21:51:18.154 [APIGateway] INFO: Email notification sent for user jane.garcia from 192.168.0.50
+2025-07-26 21:51:22.182 [UserService] INFO: Background job completed for user jane.garcia
+2025-07-26 21:51:25.599 [CacheManager] INFO: Request processed in 150ms
+2025-07-26 21:51:27.542 [InventoryService] INFO: Configuration loaded successfully from 203.0.113.5
+2025-07-26 21:51:28.907 [NotificationService] INFO: Request processed in 150ms for user alice.smith
+2025-07-26 21:51:29.084 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 21:51:29.413 [OrderService] INFO: Health check passed from 127.0.0.1
+2025-07-26 21:51:31.432 [OrderService] INFO: Order processed successfully for user john.doe
+2025-07-26 21:51:32.574 [CacheManager] INFO: Configuration loaded successfully
+2025-07-26 21:51:34.038 [OrderService] DEBUG: Cache hit for product data for user sarah.johnson
+2025-07-26 21:51:34.822 [NotificationService] INFO: Request processed in 150ms
+2025-07-26 21:51:36.006 [PaymentProcessor] INFO: Request processed in 150ms for user alice.smith
+2025-07-26 21:51:36.023 [CacheManager] INFO: Email notification sent from 192.168.1.10
+2025-07-26 21:51:38.419 [AuthenticationManager] INFO: Health check passed
+2025-07-26 21:51:41.045 [AuthenticationManager] INFO: Request processed in 150ms
+2025-07-26 21:51:41.298 [PaymentProcessor] INFO: Email notification sent
+2025-07-26 21:51:41.522 [InventoryService] INFO: Order processed successfully from 172.16.0.20
+2025-07-26 21:51:41.556 [EmailService] INFO: User login successful for user bob.wilson from 192.168.0.50
+2025-07-26 21:51:42.492 [EmailService] INFO: Configuration loaded successfully for user lisa.brown from 192.168.0.50
+2025-07-26 21:51:42.699 [PaymentProcessor] INFO: Request processed in 150ms for user bob.wilson
+2025-07-26 21:51:42.915 [APIGateway] INFO: Health check passed for user bob.wilson
+2025-07-26 21:51:43.847 [NotificationService] INFO: Cache hit for product data
+2025-07-26 21:51:46.149 [EmailService] INFO: Cache hit for product data for user admin
+2025-07-26 21:51:46.649 [EmailService] INFO: User login successful from 127.0.0.1
+2025-07-26 21:51:46.750 [NotificationService] INFO: User session created
+2025-07-26 21:51:48.211 [APIGateway] DEBUG: Cache hit for product data
+2025-07-26 21:51:48.256 [DatabasePool] DEBUG: Email notification sent from 10.10.10.100
+2025-07-26 21:51:48.390 [NotificationService] INFO: Request processed in 150ms
+2025-07-26 21:51:48.678 [AuthenticationManager] DEBUG: Order processed successfully for user mike.davis from 172.16.0.20
+2025-07-26 21:51:48.687 [PaymentProcessor] INFO: Background job completed
+2025-07-26 21:51:49.304 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 21:51:49.612 [NotificationService] DEBUG: Order processed successfully
+2025-07-26 21:51:54.415 [NotificationService] DEBUG: User session created
+2025-07-26 21:51:55.034 [EmailService] INFO: Cache hit for product data
+2025-07-26 21:51:56.564 [NotificationService] INFO: User login successful for user bob.wilson
+2025-07-26 21:51:56.940 [PaymentProcessor] INFO: User session created for user bob.wilson
+2025-07-26 21:51:57.626 [NotificationService] INFO: Cache hit for product data for user user123
+2025-07-26 21:51:58.816 [APIGateway] INFO: Configuration loaded successfully for user sarah.johnson
+2025-07-26 21:51:59.057 [PaymentProcessor] INFO: Request processed in 150ms
+2025-07-26 21:51:59.594 [NotificationService] INFO: Email notification sent for user mike.davis from 192.168.0.50
+2025-07-26 21:52:00.838 [APIGateway] DEBUG: Configuration loaded successfully
+2025-07-26 21:52:00.871 [InventoryService] DEBUG: User login successful
+2025-07-26 21:52:01.069 [CacheManager] INFO: Request processed in 150ms
+2025-07-26 21:52:03.557 [PaymentProcessor] INFO: Background job completed
+2025-07-26 21:52:04.430 [NotificationService] INFO: Background job completed
+2025-07-26 21:52:06.470 [OrderService] DEBUG: Health check passed
+2025-07-26 21:52:07.135 [UserService] INFO: User login successful
+2025-07-26 21:52:07.734 [DatabasePool] INFO: Database connection established for user mike.davis
+2025-07-26 21:52:09.488 [WebServer] INFO: Database connection established
+2025-07-26 21:52:10.019 [DatabasePool] INFO: Configuration loaded successfully
+2025-07-26 21:52:10.829 [APIGateway] DEBUG: Background job completed
+2025-07-26 21:52:12.736 [AuthenticationManager] INFO: Database connection established
+2025-07-26 21:52:14.962 [NotificationService] INFO: Database connection established
+2025-07-26 21:52:15.945 [UserService] INFO: Health check passed from 127.0.0.1
+2025-07-26 21:52:16.142 [BackgroundWorker] INFO: Email notification sent for user jane.garcia
+2025-07-26 21:52:16.156 [OrderService] INFO: User login successful
+2025-07-26 21:52:19.678 [EmailService] INFO: Request processed in 150ms
+2025-07-26 21:52:20.903 [OrderService] DEBUG: Database connection established
+2025-07-26 21:52:21.144 [AuthenticationManager] INFO: Configuration loaded successfully
+2025-07-26 21:52:21.311 [BackgroundWorker] DEBUG: Configuration loaded successfully
+2025-07-26 21:52:21.860 [DatabasePool] INFO: User login successful for user mike.davis
+2025-07-26 21:52:22.683 [NotificationService] INFO: Order processed successfully
+2025-07-26 21:52:24.389 [NotificationService] INFO: Database connection established from 198.51.100.8
+2025-07-26 21:52:24.622 [AuthenticationManager] DEBUG: Health check passed
+2025-07-26 21:52:27.335 [InventoryService] INFO: Email notification sent
+2025-07-26 21:52:27.627 [OrderService] INFO: Order processed successfully from 10.0.0.15
+2025-07-26 21:52:30.284 [UserService] DEBUG: Background job completed for user sarah.johnson from 192.168.1.10
+2025-07-26 21:52:30.572 [DatabasePool] INFO: Request processed in 150ms
+2025-07-26 21:52:31.025 [PaymentProcessor] INFO: User session created
+2025-07-26 21:52:31.188 [BackgroundWorker] INFO: Cache hit for product data
+2025-07-26 21:52:32.505 [AuthenticationManager] INFO: User session created for user sarah.johnson
+2025-07-26 21:52:33.969 [APIGateway] DEBUG: Email notification sent from 192.168.0.50
+2025-07-26 21:52:35.048 [BackgroundWorker] INFO: Background job completed
+2025-07-26 21:52:37.036 [APIGateway] INFO: Background job completed
+2025-07-26 21:52:38.010 [BackgroundWorker] INFO: Request processed in 150ms from 192.168.0.50
+2025-07-26 21:52:38.493 [PaymentProcessor] INFO: Health check passed
+2025-07-26 21:52:39.134 [InventoryService] INFO: User session created for user jane.garcia from 192.168.1.10
+2025-07-26 21:52:39.323 [APIGateway] INFO: User login successful
+2025-07-26 21:52:40.128 [BackgroundWorker] DEBUG: Database connection established for user sarah.johnson
+2025-07-26 21:52:40.190 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 21:52:40.438 [APIGateway] INFO: User session created
+2025-07-26 21:52:41.726 [InventoryService] INFO: Health check passed
+2025-07-26 21:52:43.175 [APIGateway] INFO: Cache hit for product data for user john.doe
+2025-07-26 21:52:43.621 [InventoryService] INFO: Configuration loaded successfully from 10.0.0.15
+2025-07-26 21:52:44.936 [UserService] INFO: User login successful
+2025-07-26 21:52:44.981 [PaymentProcessor] INFO: User session created
+2025-07-26 21:52:45.011 [UserService] INFO: User login successful for user tom.miller from 127.0.0.1
+2025-07-26 21:52:50.697 [OrderService] DEBUG: Request processed in 150ms
+2025-07-26 21:52:52.428 [AuthenticationManager] INFO: Order processed successfully
+2025-07-26 21:52:52.749 [UserService] INFO: Request processed in 150ms
+2025-07-26 21:52:54.914 [NotificationService] INFO: User session created from 10.10.10.100
+2025-07-26 21:52:54.920 [UserService] INFO: Email notification sent for user alice.smith
+2025-07-26 21:52:54.927 [AuthenticationManager] INFO: Order processed successfully for user mike.davis
+2025-07-26 21:52:55.526 [OrderService] DEBUG: User login successful from 203.0.113.5
+2025-07-26 21:52:55.573 [WebServer] DEBUG: User session created from 192.168.0.50
+2025-07-26 21:52:58.281 [DatabasePool] DEBUG: Health check passed from 192.168.1.10
+2025-07-26 21:52:58.724 [APIGateway] DEBUG: Request processed in 150ms
+2025-07-26 21:53:00.161 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 21:53:00.263 [BackgroundWorker] INFO: User session created for user admin
+2025-07-26 21:53:00.719 [CacheManager] INFO: Configuration loaded successfully
+2025-07-26 21:53:01.821 [BackgroundWorker] INFO: Request processed in 150ms
+2025-07-26 21:53:03.561 [DatabasePool] INFO: Background job completed
+2025-07-26 21:53:03.817 [CacheManager] INFO: Request processed in 150ms for user alice.smith from 192.168.1.10
+2025-07-26 21:53:06.245 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 21:53:06.980 [AuthenticationManager] INFO: User session created from 172.16.0.20
+2025-07-26 21:53:07.583 [CacheManager] INFO: User session created
+2025-07-26 21:53:09.196 [InventoryService] INFO: User session created for user lisa.brown
+2025-07-26 21:53:09.796 [BackgroundWorker] INFO: User session created from 203.0.113.5
+2025-07-26 21:53:10.343 [BackgroundWorker] INFO: Email notification sent from 198.51.100.8
+2025-07-26 21:53:10.846 [CacheManager] INFO: Request processed in 150ms
+2025-07-26 21:53:12.331 [DatabasePool] DEBUG: Request processed in 150ms
+2025-07-26 21:53:13.093 [WebServer] INFO: Request processed in 150ms
+2025-07-26 21:53:13.758 [CacheManager] INFO: Email notification sent for user lisa.brown
+2025-07-26 21:53:13.815 [NotificationService] INFO: Cache hit for product data for user tom.miller from 203.0.113.5
+2025-07-26 21:53:14.000 [DatabasePool] DEBUG: Configuration loaded successfully for user admin
+2025-07-26 21:53:14.865 [BackgroundWorker] INFO: Database connection established
+2025-07-26 21:53:16.352 [UserService] INFO: Request processed in 150ms
+2025-07-26 21:53:16.883 [InventoryService] INFO: Configuration loaded successfully
+2025-07-26 21:53:17.700 [CacheManager] INFO: Configuration loaded successfully
+2025-07-26 21:53:18.687 [EmailService] INFO: User login successful
+2025-07-26 21:53:20.103 [BackgroundWorker] INFO: Background job completed
+2025-07-26 21:53:23.728 [WebServer] INFO: Email notification sent
+2025-07-26 21:53:23.767 [DatabasePool] INFO: User session created
+2025-07-26 21:53:25.123 [DatabasePool] INFO: Health check passed for user bob.wilson
+2025-07-26 21:53:26.407 [AuthenticationManager] INFO: Database connection established for user tom.miller
+2025-07-26 21:53:27.953 [AuthenticationManager] INFO: Email notification sent
+2025-07-26 21:53:28.674 [EmailService] INFO: Database connection established for user user123
+2025-07-26 21:53:31.353 [CacheManager] INFO: Health check passed
+2025-07-26 21:53:31.879 [APIGateway] INFO: Order processed successfully
+2025-07-26 21:53:35.061 [BackgroundWorker] INFO: Email notification sent
+2025-07-26 21:53:35.544 [CacheManager] DEBUG: Request processed in 150ms for user sarah.johnson
+2025-07-26 21:53:35.754 [InventoryService] INFO: Order processed successfully for user jane.garcia
+2025-07-26 21:53:36.135 [NotificationService] INFO: Order processed successfully
+2025-07-26 21:53:37.832 [PaymentProcessor] DEBUG: Order processed successfully
+2025-07-26 21:53:38.434 [EmailService] INFO: Background job completed
+2025-07-26 21:53:41.245 [DatabasePool] DEBUG: Database connection established
+2025-07-26 21:53:43.140 [PaymentProcessor] INFO: Order processed successfully for user alice.smith
+2025-07-26 21:53:46.103 [UserService] INFO: Configuration loaded successfully
+2025-07-26 21:53:46.147 [EmailService] INFO: Cache hit for product data for user mike.davis from 172.16.0.20
+2025-07-26 21:53:46.733 [APIGateway] INFO: Database connection established for user admin from 10.10.10.100
+2025-07-26 21:53:47.965 [EmailService] INFO: Email notification sent
+2025-07-26 21:53:48.376 [WebServer] DEBUG: User login successful from 192.168.0.50
+2025-07-26 21:53:49.141 [BackgroundWorker] INFO: User login successful
+2025-07-26 21:53:49.536 [BackgroundWorker] INFO: Order processed successfully for user admin
+2025-07-26 21:53:53.240 [EmailService] INFO: Order processed successfully
+2025-07-26 21:53:54.850 [UserService] INFO: User login successful
+2025-07-26 21:53:54.916 [CacheManager] INFO: User session created
+2025-07-26 21:53:55.944 [PaymentProcessor] INFO: Configuration loaded successfully
+2025-07-26 21:53:56.272 [CacheManager] INFO: Cache hit for product data from 198.51.100.8
+2025-07-26 21:53:57.081 [PaymentProcessor] INFO: Background job completed for user alice.smith
+2025-07-26 21:53:57.368 [CacheManager] INFO: Health check passed
+2025-07-26 21:53:58.147 [NotificationService] INFO: Email notification sent from 172.16.0.20
+2025-07-26 21:53:58.412 [DatabasePool] INFO: Request processed in 150ms for user admin from 192.168.1.10
+2025-07-26 21:53:59.909 [InventoryService] INFO: Health check passed
+2025-07-26 21:54:00.767 [InventoryService] INFO: Health check passed
+2025-07-26 21:54:00.971 [APIGateway] INFO: Configuration loaded successfully
+2025-07-26 21:54:01.250 [CacheManager] INFO: Email notification sent for user user123
+2025-07-26 21:54:01.750 [AuthenticationManager] INFO: Order processed successfully for user admin
+2025-07-26 21:54:01.964 [EmailService] INFO: Background job completed
+2025-07-26 21:54:02.744 [EmailService] INFO: Order processed successfully from 10.10.10.100
+2025-07-26 21:54:03.193 [DatabasePool] DEBUG: User session created for user jane.garcia from 198.51.100.8
+2025-07-26 21:54:05.529 [WebServer] INFO: Background job completed for user tom.miller
+2025-07-26 21:54:06.029 [NotificationService] DEBUG: Request processed in 150ms for user lisa.brown
+2025-07-26 21:54:07.143 [NotificationService] INFO: Health check passed
+2025-07-26 21:54:07.876 [AuthenticationManager] DEBUG: User session created
+2025-07-26 21:54:08.002 [OrderService] INFO: Health check passed for user tom.miller
+2025-07-26 21:54:09.860 [BackgroundWorker] DEBUG: Request processed in 150ms
+2025-07-26 21:54:10.463 [DatabasePool] INFO: User login successful
+2025-07-26 21:54:11.837 [BackgroundWorker] INFO: Configuration loaded successfully
+2025-07-26 21:54:12.896 [UserService] DEBUG: Database connection established
+2025-07-26 21:54:13.384 [InventoryService] DEBUG: User session created
+2025-07-26 21:54:13.584 [NotificationService] INFO: Configuration loaded successfully
+2025-07-26 21:54:14.124 [UserService] INFO: User session created for user tom.miller from 127.0.0.1
+2025-07-26 21:54:15.163 [DatabasePool] INFO: Email notification sent for user lisa.brown
+2025-07-26 21:54:15.258 [OrderService] INFO: Background job completed for user admin
+2025-07-26 21:54:15.704 [CacheManager] INFO: Health check passed for user lisa.brown
+2025-07-26 21:54:15.760 [CacheManager] INFO: Order processed successfully for user admin
+2025-07-26 21:54:16.628 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 21:54:22.392 [DatabasePool] INFO: User login successful for user lisa.brown from 203.0.113.5
+2025-07-26 21:54:22.695 [BackgroundWorker] INFO: Configuration loaded successfully
+2025-07-26 21:54:24.922 [DatabasePool] INFO: Database connection established for user user123
+2025-07-26 21:54:26.306 [BackgroundWorker] INFO: User session created
+2025-07-26 21:54:26.478 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 21:54:28.116 [AuthenticationManager] INFO: Background job completed
+2025-07-26 21:54:28.942 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 21:54:29.549 [DatabasePool] INFO: Background job completed
+2025-07-26 21:54:30.193 [WebServer] INFO: User login successful
+2025-07-26 21:54:31.988 [InventoryService] INFO: Cache hit for product data for user user123
+2025-07-26 21:54:32.323 [NotificationService] INFO: Health check passed from 10.0.0.15
+2025-07-26 21:54:34.097 [DatabasePool] INFO: User login successful
+2025-07-26 21:54:34.692 [InventoryService] INFO: Health check passed from 172.16.0.20
+2025-07-26 21:54:34.742 [PaymentProcessor] DEBUG: Health check passed for user user123 from 192.168.0.50
+2025-07-26 21:54:36.040 [EmailService] INFO: Order processed successfully
+2025-07-26 21:54:37.614 [DatabasePool] INFO: Order processed successfully for user bob.wilson
+2025-07-26 21:54:37.636 [EmailService] DEBUG: Health check passed
+2025-07-26 21:54:38.784 [APIGateway] INFO: Order processed successfully from 172.16.0.20
+2025-07-26 21:54:38.922 [UserService] INFO: Request processed in 150ms for user bob.wilson
+2025-07-26 21:54:39.113 [InventoryService] INFO: Email notification sent
+2025-07-26 21:54:39.215 [CacheManager] INFO: Email notification sent for user alice.smith from 10.10.10.100
+2025-07-26 21:54:40.006 [UserService] INFO: Request processed in 150ms from 172.16.0.20
+2025-07-26 21:54:42.243 [PaymentProcessor] DEBUG: User session created from 198.51.100.8
+2025-07-26 21:54:42.336 [InventoryService] INFO: Database connection established
+2025-07-26 21:54:42.936 [AuthenticationManager] INFO: Configuration loaded successfully from 192.168.1.10
+2025-07-26 21:54:46.419 [EmailService] DEBUG: Background job completed
+2025-07-26 21:54:46.445 [PaymentProcessor] DEBUG: Background job completed
+2025-07-26 21:54:47.332 [InventoryService] INFO: Order processed successfully from 192.168.0.50
+2025-07-26 21:54:48.631 [NotificationService] INFO: Request processed in 150ms for user sarah.johnson
+2025-07-26 21:54:49.895 [PaymentProcessor] INFO: Email notification sent from 10.0.0.15
+2025-07-26 21:54:50.909 [BackgroundWorker] INFO: Email notification sent
+2025-07-26 21:54:50.909 [CacheManager] INFO: Background job completed for user admin
+2025-07-26 21:54:52.385 [CacheManager] INFO: Database connection established
+2025-07-26 21:54:52.566 [PaymentProcessor] INFO: Database connection established
+2025-07-26 21:54:55.406 [PaymentProcessor] INFO: Background job completed
+2025-07-26 21:54:55.674 [UserService] INFO: Background job completed
+2025-07-26 21:54:56.333 [InventoryService] INFO: User session created
+2025-07-26 21:54:57.152 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 21:54:57.733 [UserService] INFO: Cache hit for product data
+2025-07-26 21:55:00.518 [InventoryService] INFO: Cache hit for product data from 10.10.10.100
+2025-07-26 21:55:00.795 [EmailService] INFO: Health check passed
+2025-07-26 21:55:01.879 [BackgroundWorker] INFO: User login successful
+2025-07-26 21:55:05.632 [CacheManager] INFO: Email notification sent
+2025-07-26 21:55:06.503 [EmailService] INFO: Background job completed for user jane.garcia
+2025-07-26 21:55:06.775 [CacheManager] DEBUG: Health check passed for user sarah.johnson
+2025-07-26 21:55:09.385 [CacheManager] DEBUG: Order processed successfully
+2025-07-26 21:55:09.743 [DatabasePool] DEBUG: Cache hit for product data for user john.doe
+2025-07-26 21:55:10.586 [APIGateway] INFO: Request processed in 150ms
+2025-07-26 21:55:11.164 [AuthenticationManager] INFO: User session created
+2025-07-26 21:55:12.801 [DatabasePool] INFO: Order processed successfully
+2025-07-26 21:55:13.181 [OrderService] INFO: Database connection established
+2025-07-26 21:55:13.839 [CacheManager] INFO: User login successful
+2025-07-26 21:55:14.183 [AuthenticationManager] INFO: User session created
+2025-07-26 21:55:14.437 [UserService] DEBUG: Cache hit for product data for user jane.garcia
+2025-07-26 21:55:16.089 [UserService] INFO: Cache hit for product data for user admin from 172.16.0.20
+2025-07-26 21:55:17.254 [UserService] INFO: Background job completed
+2025-07-26 21:55:18.834 [CacheManager] INFO: Configuration loaded successfully
+2025-07-26 21:55:18.853 [UserService] INFO: User login successful for user tom.miller
+2025-07-26 21:55:19.652 [UserService] INFO: Order processed successfully
+2025-07-26 21:55:21.751 [DatabasePool] INFO: User session created
+2025-07-26 21:55:23.125 [AuthenticationManager] DEBUG: Cache hit for product data for user alice.smith
+2025-07-26 21:55:24.179 [DatabasePool] DEBUG: User session created
+2025-07-26 21:55:25.268 [UserService] DEBUG: Configuration loaded successfully
+2025-07-26 21:55:25.991 [CacheManager] INFO: Health check passed for user alice.smith
+2025-07-26 21:55:26.931 [WebServer] INFO: Health check passed
+2025-07-26 21:55:27.719 [InventoryService] INFO: Configuration loaded successfully
+2025-07-26 21:55:28.354 [APIGateway] INFO: User session created for user bob.wilson from 127.0.0.1
+2025-07-26 21:55:28.671 [EmailService] INFO: User session created for user mike.davis
+2025-07-26 21:55:30.333 [NotificationService] INFO: Order processed successfully
+2025-07-26 21:55:33.477 [APIGateway] DEBUG: User session created for user tom.miller
+2025-07-26 21:55:33.822 [NotificationService] DEBUG: Email notification sent for user admin
+2025-07-26 21:55:34.272 [OrderService] INFO: User session created
+2025-07-26 21:55:34.411 [NotificationService] INFO: Cache hit for product data
+2025-07-26 21:55:34.513 [EmailService] INFO: Cache hit for product data
+2025-07-26 21:55:36.606 [OrderService] INFO: Order processed successfully
+2025-07-26 21:55:37.150 [BackgroundWorker] INFO: Health check passed for user jane.garcia
+2025-07-26 21:55:37.968 [InventoryService] INFO: Request processed in 150ms
+2025-07-26 21:55:38.075 [BackgroundWorker] INFO: Database connection established from 192.168.0.50
+2025-07-26 21:55:38.134 [UserService] DEBUG: Email notification sent for user admin from 10.0.0.15
+2025-07-26 21:55:40.230 [NotificationService] INFO: User login successful
+2025-07-26 21:55:40.963 [DatabasePool] INFO: Database connection established
+2025-07-26 21:55:41.413 [InventoryService] INFO: Configuration loaded successfully
+2025-07-26 21:55:42.366 [CacheManager] INFO: Cache hit for product data
+2025-07-26 21:55:43.096 [UserService] INFO: User login successful
+2025-07-26 21:55:43.951 [WebServer] DEBUG: Background job completed
+2025-07-26 21:55:45.658 [APIGateway] INFO: Email notification sent
+2025-07-26 21:55:45.987 [BackgroundWorker] INFO: Background job completed from 192.168.1.10
+2025-07-26 21:55:48.626 [DatabasePool] INFO: Background job completed
+2025-07-26 21:55:48.855 [WebServer] INFO: Email notification sent for user jane.garcia
+2025-07-26 21:55:49.212 [AuthenticationManager] DEBUG: Cache hit for product data
+2025-07-26 21:55:49.495 [WebServer] DEBUG: Background job completed
+2025-07-26 21:55:49.682 [EmailService] INFO: Database connection established
+2025-07-26 21:55:49.982 [OrderService] INFO: Email notification sent
+2025-07-26 21:55:51.559 [EmailService] INFO: Health check passed from 172.16.0.20
+2025-07-26 21:55:51.893 [APIGateway] INFO: Health check passed
+2025-07-26 21:55:52.150 [CacheManager] INFO: Health check passed
+2025-07-26 21:55:53.069 [UserService] INFO: Configuration loaded successfully
+2025-07-26 21:55:53.272 [WebServer] INFO: Background job completed
+2025-07-26 21:55:53.789 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 21:55:54.801 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 21:55:55.870 [PaymentProcessor] INFO: Background job completed for user tom.miller from 172.16.0.20
+2025-07-26 21:55:57.602 [WebServer] DEBUG: Order processed successfully from 172.16.0.20
+2025-07-26 21:55:59.645 [OrderService] INFO: Background job completed
+2025-07-26 21:56:00.050 [NotificationService] INFO: Configuration loaded successfully for user sarah.johnson from 10.0.0.15
+2025-07-26 21:56:00.298 [BackgroundWorker] INFO: Background job completed for user mike.davis
+2025-07-26 21:56:00.388 [NotificationService] INFO: Database connection established
+2025-07-26 21:56:00.775 [WebServer] DEBUG: Request processed in 150ms
+2025-07-26 21:56:01.186 [EmailService] INFO: Request processed in 150ms from 127.0.0.1
+2025-07-26 21:56:01.818 [EmailService] DEBUG: Health check passed
+2025-07-26 21:56:05.161 [DatabasePool] INFO: Request processed in 150ms for user admin from 203.0.113.5
+2025-07-26 21:56:05.637 [PaymentProcessor] INFO: User login successful
+2025-07-26 21:56:05.653 [APIGateway] DEBUG: Configuration loaded successfully for user bob.wilson
+2025-07-26 21:56:05.992 [UserService] DEBUG: Background job completed
+2025-07-26 21:56:07.828 [PaymentProcessor] INFO: Request processed in 150ms for user mike.davis
+2025-07-26 21:56:09.820 [CacheManager] DEBUG: Request processed in 150ms
+2025-07-26 21:56:11.175 [WebServer] DEBUG: Configuration loaded successfully
+2025-07-26 21:56:15.005 [DatabasePool] DEBUG: Request processed in 150ms
+2025-07-26 21:56:15.701 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 21:56:20.077 [NotificationService] INFO: Email notification sent
+2025-07-26 21:56:20.243 [EmailService] INFO: Database connection established for user jane.garcia from 198.51.100.8
+2025-07-26 21:56:21.698 [BackgroundWorker] INFO: Database connection established for user alice.smith from 203.0.113.5
+2025-07-26 21:56:21.953 [BackgroundWorker] INFO: Database connection established
+2025-07-26 21:56:22.401 [BackgroundWorker] DEBUG: Request processed in 150ms
+2025-07-26 21:56:24.301 [BackgroundWorker] INFO: Request processed in 150ms
+2025-07-26 21:56:27.525 [AuthenticationManager] INFO: Cache hit for product data for user admin
+2025-07-26 21:56:27.647 [DatabasePool] INFO: Request processed in 150ms
+2025-07-26 21:56:27.996 [InventoryService] INFO: Email notification sent for user john.doe from 192.168.0.50
+2025-07-26 21:56:28.578 [PaymentProcessor] INFO: Background job completed
+2025-07-26 21:56:30.898 [AuthenticationManager] INFO: Email notification sent from 192.168.0.50
+2025-07-26 21:56:32.107 [InventoryService] INFO: Health check passed for user lisa.brown
+2025-07-26 21:56:34.977 [OrderService] DEBUG: User login successful
+2025-07-26 21:56:35.034 [CacheManager] INFO: Request processed in 150ms for user tom.miller
+2025-07-26 21:56:35.151 [WebServer] INFO: Email notification sent
+2025-07-26 21:56:35.801 [PaymentProcessor] INFO: Request processed in 150ms from 203.0.113.5
+2025-07-26 21:56:36.114 [CacheManager] INFO: Database connection established for user mike.davis
+2025-07-26 21:56:36.928 [PaymentProcessor] INFO: Database connection established for user sarah.johnson
+2025-07-26 21:56:37.995 [InventoryService] INFO: Order processed successfully
+2025-07-26 21:56:38.295 [WebServer] INFO: Background job completed for user user123
+2025-07-26 21:56:39.151 [AuthenticationManager] INFO: Health check passed for user sarah.johnson
+2025-07-26 21:56:39.835 [DatabasePool] INFO: Database connection established for user tom.miller
+2025-07-26 21:56:42.776 [WebServer] INFO: User session created
+2025-07-26 21:56:43.909 [BackgroundWorker] DEBUG: User login successful for user mike.davis
+2025-07-26 21:56:45.593 [PaymentProcessor] INFO: User session created
+2025-07-26 21:56:45.656 [WebServer] DEBUG: Health check passed
+2025-07-26 21:56:47.259 [OrderService] INFO: Order processed successfully
+2025-07-26 21:56:47.611 [OrderService] INFO: Configuration loaded successfully for user lisa.brown
+2025-07-26 21:56:47.864 [APIGateway] DEBUG: User session created for user bob.wilson
+2025-07-26 21:56:48.119 [DatabasePool] INFO: Email notification sent
+2025-07-26 21:56:48.535 [UserService] INFO: Cache hit for product data
+2025-07-26 21:56:48.600 [AuthenticationManager] INFO: Database connection established
+2025-07-26 21:56:49.683 [APIGateway] INFO: User session created
+2025-07-26 21:56:52.848 [WebServer] INFO: Configuration loaded successfully from 192.168.1.10
+2025-07-26 21:56:53.328 [DatabasePool] DEBUG: User session created
+2025-07-26 21:56:53.522 [InventoryService] INFO: Cache hit for product data
+2025-07-26 21:56:53.907 [AuthenticationManager] INFO: User login successful
+2025-07-26 21:56:57.038 [WebServer] DEBUG: Request processed in 150ms
+2025-07-26 21:57:01.676 [NotificationService] INFO: User login successful
+2025-07-26 21:57:01.916 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 21:57:03.452 [InventoryService] INFO: Database connection established
+2025-07-26 21:57:04.113 [APIGateway] INFO: User login successful
+2025-07-26 21:57:04.257 [PaymentProcessor] INFO: Email notification sent for user user123 from 10.10.10.100
+2025-07-26 21:57:04.832 [NotificationService] INFO: Email notification sent
+2025-07-26 21:57:06.176 [NotificationService] INFO: User session created for user bob.wilson from 10.10.10.100
+2025-07-26 21:57:06.797 [InventoryService] INFO: Configuration loaded successfully from 172.16.0.20
+2025-07-26 21:57:06.854 [APIGateway] INFO: Health check passed for user alice.smith from 203.0.113.5
+2025-07-26 21:57:07.694 [NotificationService] INFO: Cache hit for product data
+2025-07-26 21:57:09.223 [BackgroundWorker] INFO: Database connection established from 198.51.100.8
+2025-07-26 21:57:09.367 [AuthenticationManager] INFO: User login successful for user john.doe
+2025-07-26 21:57:11.333 [OrderService] INFO: User login successful
+2025-07-26 21:57:12.912 [BackgroundWorker] INFO: Email notification sent
+2025-07-26 21:57:13.965 [CacheManager] INFO: Background job completed
+2025-07-26 21:57:14.208 [AuthenticationManager] INFO: Order processed successfully
+2025-07-26 21:57:14.537 [AuthenticationManager] INFO: Order processed successfully for user alice.smith
+2025-07-26 21:57:16.010 [PaymentProcessor] INFO: Request processed in 150ms for user john.doe
+2025-07-26 21:57:16.436 [NotificationService] INFO: User session created for user user123 from 192.168.0.50
+2025-07-26 21:57:16.677 [AuthenticationManager] INFO: Request processed in 150ms
+2025-07-26 21:57:16.725 [DatabasePool] INFO: Background job completed
+2025-07-26 21:57:20.729 [BackgroundWorker] INFO: Email notification sent for user lisa.brown
+2025-07-26 21:57:21.020 [InventoryService] INFO: Health check passed
+2025-07-26 21:57:21.252 [InventoryService] INFO: Configuration loaded successfully for user bob.wilson from 198.51.100.8
+2025-07-26 21:57:22.054 [NotificationService] DEBUG: Order processed successfully
+2025-07-26 21:57:23.261 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 21:57:24.504 [UserService] INFO: Email notification sent from 127.0.0.1
+2025-07-26 21:57:26.437 [NotificationService] INFO: Configuration loaded successfully for user tom.miller
+2025-07-26 21:57:26.566 [OrderService] INFO: User session created for user lisa.brown from 10.0.0.15
+2025-07-26 21:57:27.486 [NotificationService] INFO: Order processed successfully for user mike.davis from 198.51.100.8
+2025-07-26 21:57:27.775 [BackgroundWorker] INFO: User login successful
+2025-07-26 21:57:28.594 [WebServer] INFO: User session created for user alice.smith
+2025-07-26 21:57:29.504 [NotificationService] INFO: Database connection established
+2025-07-26 21:57:30.308 [PaymentProcessor] DEBUG: Background job completed for user alice.smith
+2025-07-26 21:57:31.937 [AuthenticationManager] INFO: Background job completed for user lisa.brown from 127.0.0.1
+2025-07-26 21:57:33.779 [EmailService] INFO: Background job completed for user bob.wilson from 172.16.0.20
+2025-07-26 21:57:34.925 [CacheManager] INFO: User login successful for user lisa.brown
+2025-07-26 21:57:35.616 [NotificationService] DEBUG: Request processed in 150ms from 192.168.1.10
+2025-07-26 21:57:36.380 [InventoryService] INFO: Email notification sent
+2025-07-26 21:57:37.612 [OrderService] INFO: Background job completed
+2025-07-26 21:57:38.372 [UserService] ERROR: Payment processing failed - invalid card for ORDER-69466
+2025-07-26 21:57:39.399 [DatabasePool] INFO: Database connection established
+2025-07-26 21:57:39.709 [APIGateway] ERROR: Database query execution failed on table 'users'
+2025-07-26 21:57:40.597 [AuthenticationManager] INFO: Health check passed for user john.doe
+2025-07-26 21:57:40.978 [EmailService] INFO: Database connection established
+2025-07-26 21:57:44.232 [DatabasePool] INFO: User session created for user bob.wilson
+2025-07-26 21:57:44.534 [AuthenticationManager] DEBUG: User session created for user lisa.brown
+2025-07-26 21:57:44.569 [CacheManager] INFO: Request processed in 150ms
+2025-07-26 21:57:44.788 [NotificationService] INFO: Configuration loaded successfully
+2025-07-26 21:57:45.940 [PaymentProcessor] ERROR: Connection timeout after 30 seconds
+2025-07-26 21:57:47.330 [WebServer] ERROR: Session expired for user
+2025-07-26 21:57:47.539 [DatabasePool] ERROR: Unable to connect to external service
+2025-07-26 21:57:47.830 [DatabasePool] INFO: Background job completed
+2025-07-26 21:57:49.700 [InventoryService] INFO: Cache hit for product data from 198.51.100.8
+2025-07-26 21:57:51.247 [PaymentProcessor] ERROR: Connection timeout after 30 seconds
+2025-07-26 21:57:52.773 [OrderService] ERROR: Payment processing failed - invalid card for ORDER-27535
+2025-07-26 21:57:53.331 [PaymentProcessor] DEBUG: Configuration loaded successfully from 10.0.0.15
+2025-07-26 21:57:53.449 [UserService] ERROR: Failed to authenticate user credentials for user 'lisa.brown' from 198.51.100.8
+2025-07-26 21:57:53.821 [NotificationService] INFO: Request processed in 150ms for user bob.wilson from 172.16.0.20
+2025-07-26 21:57:55.390 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 21:57:56.717 [BackgroundWorker] ERROR: Payment processing failed - invalid card for ORDER-32650
+2025-07-26 21:57:58.871 [UserService] ERROR: Payment processing failed - invalid card for ORDER-17524
+2025-07-26 21:58:00.237 [EmailService] ERROR: Payment processing failed - invalid card for ORDER-68985
+2025-07-26 21:58:00.971 [AuthenticationManager] INFO: Configuration loaded successfully from 10.10.10.100
+2025-07-26 21:58:01.562 [CacheManager] INFO: Cache hit for product data
+2025-07-26 21:58:02.170 [UserService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 21:58:02.437 [DatabasePool] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 21:58:03.580 [BackgroundWorker] INFO: Configuration loaded successfully for user lisa.brown
+2025-07-26 21:58:04.355 [InventoryService] ERROR: Unable to connect to external service
+2025-07-26 21:58:04.612 [CacheManager] ERROR: Failed to authenticate user credentials for user 'bob.wilson' from 198.51.100.8
+2025-07-26 21:58:04.997 [AuthenticationManager] INFO: User login successful for user mike.davis
+2025-07-26 21:58:07.903 [InventoryService] INFO: User login successful from 172.16.0.20
+2025-07-26 21:58:08.925 [CacheManager] INFO: Order processed successfully
+2025-07-26 21:58:09.456 [DatabasePool] ERROR: Failed to authenticate user credentials for user 'lisa.brown' from 10.10.10.100
+2025-07-26 21:58:09.610 [OrderService] ERROR: Payment processing failed - invalid card for ORDER-99926
+2025-07-26 21:58:11.342 [CacheManager] ERROR: Unable to connect to external service
+2025-07-26 21:58:13.003 [DatabasePool] INFO: Background job completed for user tom.miller
+2025-07-26 21:58:13.032 [AuthenticationManager] INFO: Cache hit for product data from 127.0.0.1
+2025-07-26 21:58:14.971 [DatabasePool] ERROR: Unable to connect to external service
+2025-07-26 21:58:16.184 [APIGateway] INFO: Configuration loaded successfully
+2025-07-26 21:58:17.266 [AuthenticationManager] ERROR: Failed to authenticate user credentials for user 'jane.garcia' from 203.0.113.5
+2025-07-26 21:58:17.869 [UserService] INFO: Configuration loaded successfully for user mike.davis
+2025-07-26 21:58:19.274 [InventoryService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 21:58:19.630 [InventoryService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 21:58:20.785 [EmailService] INFO: Database connection established
+2025-07-26 21:58:23.380 [WebServer] INFO: Database connection established
+2025-07-26 21:58:23.627 [OrderService] DEBUG: Order processed successfully
+2025-07-26 21:58:29.145 [AuthenticationManager] ERROR: Connection timeout after 30 seconds
+2025-07-26 21:58:29.256 [InventoryService] ERROR: Payment processing failed - invalid card for ORDER-27461
+2025-07-26 21:58:29.340 [WebServer] DEBUG: Configuration loaded successfully
+2025-07-26 21:58:30.961 [OrderService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 21:58:30.964 [NotificationService] INFO: Configuration loaded successfully for user alice.smith
+2025-07-26 21:58:31.167 [UserService] ERROR: Payment processing failed - invalid card for ORDER-60225
+2025-07-26 21:58:31.825 [InventoryService] ERROR: Network unreachable - retrying connection
+2025-07-26 21:58:33.577 [CacheManager] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 21:58:34.251 [PaymentProcessor] INFO: Cache hit for product data from 10.10.10.100
+2025-07-26 21:58:34.402 [PaymentProcessor] INFO: Order processed successfully for user tom.miller
+2025-07-26 21:58:35.542 [InventoryService] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 21:58:35.777 [CacheManager] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 21:58:38.353 [NotificationService] INFO: Order processed successfully for user admin from 198.51.100.8
+2025-07-26 21:58:39.834 [EmailService] ERROR: Payment processing failed - invalid card for ORDER-25876
+2025-07-26 21:58:41.697 [WebServer] INFO: Database connection established
+2025-07-26 21:58:42.037 [APIGateway] INFO: Health check passed
+2025-07-26 21:58:43.195 [WebServer] ERROR: Network unreachable - retrying connection
+2025-07-26 21:58:43.248 [APIGateway] DEBUG: Cache hit for product data from 127.0.0.1
+2025-07-26 21:58:45.210 [PaymentProcessor] ERROR: Network unreachable - retrying connection
+2025-07-26 21:58:46.568 [NotificationService] INFO: Database connection established
+2025-07-26 21:58:48.176 [InventoryService] ERROR: Unable to connect to external service
+2025-07-26 21:58:50.491 [InventoryService] DEBUG: User login successful
+2025-07-26 21:58:51.591 [UserService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 21:58:52.279 [CacheManager] INFO: Background job completed for user user123
+2025-07-26 21:58:52.992 [PaymentProcessor] ERROR: Session expired for user
+2025-07-26 21:58:54.181 [UserService] INFO: Background job completed
+2025-07-26 21:58:54.253 [NotificationService] INFO: User session created
+2025-07-26 21:58:54.993 [UserService] INFO: Health check passed for user bob.wilson
+2025-07-26 21:58:55.119 [InventoryService] INFO: Background job completed for user jane.garcia
+2025-07-26 21:58:55.526 [UserService] ERROR: Network unreachable - retrying connection
+2025-07-26 21:58:55.530 [EmailService] INFO: Database connection established
+2025-07-26 21:58:56.965 [NotificationService] ERROR: Payment processing failed - invalid card for ORDER-80276
+2025-07-26 21:58:57.469 [EmailService] ERROR: Database query execution failed on table 'products'
+2025-07-26 21:58:57.699 [NotificationService] INFO: Health check passed
+2025-07-26 21:59:00.721 [InventoryService] INFO: Order processed successfully
+2025-07-26 21:59:02.756 [NotificationService] INFO: Database connection established for user user123
+2025-07-26 21:59:03.248 [PaymentProcessor] ERROR: Connection timeout after 30 seconds
+2025-07-26 21:59:09.026 [UserService] ERROR: Failed to authenticate user credentials for user 'mike.davis' from 172.16.0.20
+2025-07-26 21:59:11.081 [AuthenticationManager] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 21:59:12.209 [WebServer] ERROR: Network unreachable - retrying connection
+2025-07-26 21:59:12.758 [PaymentProcessor] INFO: User login successful
+2025-07-26 21:59:12.964 [WebServer] ERROR: Database query execution failed on table 'orders'
+2025-07-26 21:59:13.121 [PaymentProcessor] ERROR: Failed to authenticate user credentials for user 'bob.wilson' from 192.168.1.10
+2025-07-26 21:59:13.906 [InventoryService] ERROR: Database query execution failed on table 'users'
+2025-07-26 21:59:16.390 [BackgroundWorker] INFO: Email notification sent
+2025-07-26 21:59:17.526 [EmailService] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 21:59:17.532 [UserService] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 21:59:18.820 [EmailService] ERROR: Connection timeout after 30 seconds
+2025-07-26 21:59:19.222 [BackgroundWorker] ERROR: Session expired for user
+2025-07-26 21:59:19.333 [BackgroundWorker] INFO: User session created for user mike.davis
+2025-07-26 21:59:20.489 [APIGateway] ERROR: Session expired for user
+2025-07-26 21:59:21.252 [CacheManager] ERROR: Session expired for user
+2025-07-26 21:59:22.910 [AuthenticationManager] ERROR: Payment processing failed - invalid card for ORDER-89867
+2025-07-26 21:59:24.050 [EmailService] DEBUG: Health check passed
+2025-07-26 21:59:24.935 [InventoryService] INFO: Health check passed
+2025-07-26 21:59:25.350 [DatabasePool] ERROR: Failed to authenticate user credentials for user 'bob.wilson' from 10.10.10.100
+2025-07-26 21:59:25.647 [EmailService] INFO: Database connection established
+2025-07-26 21:59:27.849 [UserService] INFO: Order processed successfully for user tom.miller
+2025-07-26 21:59:28.259 [AuthenticationManager] ERROR: Slow query detected: execution time 5000ms on table 'orders'
+2025-07-26 21:59:28.280 [WebServer] ERROR: Unable to connect to external service
+2025-07-26 21:59:28.311 [CacheManager] INFO: Background job completed
+2025-07-26 21:59:28.394 [AuthenticationManager] INFO: User login successful for user lisa.brown
+2025-07-26 21:59:28.542 [AuthenticationManager] INFO: Configuration loaded successfully
+2025-07-26 21:59:30.343 [OrderService] INFO: Order processed successfully
+2025-07-26 21:59:30.364 [PaymentProcessor] ERROR: Payment processing failed - invalid card for ORDER-46344
+2025-07-26 21:59:30.386 [CacheManager] INFO: Email notification sent
+2025-07-26 21:59:30.848 [UserService] INFO: Email notification sent
+2025-07-26 21:59:31.235 [AuthenticationManager] INFO: Health check passed from 203.0.113.5
+2025-07-26 21:59:32.059 [BackgroundWorker] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 21:59:36.342 [APIGateway] ERROR: Network unreachable - retrying connection
+2025-07-26 21:59:36.414 [WebServer] INFO: User login successful
+2025-07-26 21:59:36.694 [APIGateway] ERROR: Failed to authenticate user credentials for user 'jane.garcia' from 192.168.0.50
+2025-07-26 21:59:37.030 [NotificationService] ERROR: Payment processing failed - invalid card for ORDER-95811
+2025-07-26 21:59:37.588 [NotificationService] ERROR: Slow query detected: execution time 5000ms on table 'products'
+2025-07-26 21:59:39.384 [NotificationService] ERROR: Network unreachable - retrying connection
+2025-07-26 21:59:41.847 [PaymentProcessor] INFO: Request processed in 150ms
+2025-07-26 21:59:42.722 [OrderService] INFO: Configuration loaded successfully
+2025-07-26 21:59:43.990 [BackgroundWorker] ERROR: Connection timeout after 30 seconds
+2025-07-26 21:59:47.042 [DatabasePool] INFO: User session created from 127.0.0.1
+2025-07-26 21:59:47.474 [WebServer] INFO: Background job completed for user jane.garcia
+2025-07-26 21:59:47.635 [APIGateway] INFO: Background job completed
+2025-07-26 21:59:50.427 [EmailService] INFO: Background job completed for user admin
+2025-07-26 21:59:51.397 [WebServer] ERROR: Network unreachable - retrying connection
+2025-07-26 21:59:52.714 [DatabasePool] ERROR: Failed to authenticate user credentials for user 'john.doe' from 172.16.0.20
+2025-07-26 21:59:53.772 [APIGateway] ERROR: Failed to authenticate user credentials for user 'lisa.brown' from 10.10.10.100
+2025-07-26 21:59:55.003 [OrderService] ERROR: Database query execution failed on table 'orders'
+2025-07-26 21:59:55.361 [InventoryService] INFO: Email notification sent
+2025-07-26 21:59:57.795 [PaymentProcessor] INFO: User session created from 192.168.1.10
+2025-07-26 21:59:58.105 [APIGateway] INFO: Email notification sent
+2025-07-26 21:59:59.091 [CacheManager] INFO: Health check passed
+2025-07-26 21:59:59.280 [DatabasePool] INFO: User login successful
+2025-07-26 21:59:59.595 [UserService] ERROR: Database query execution failed on table 'orders'
+2025-07-26 22:00:00.763 [EmailService] DEBUG: Database connection established from 198.51.100.8
+2025-07-26 22:00:01.175 [AuthenticationManager] INFO: Order processed successfully for user mike.davis
+2025-07-26 22:00:02.213 [DatabasePool] ERROR: Unable to connect to external service
+2025-07-26 22:00:02.353 [APIGateway] INFO: Configuration loaded successfully
+2025-07-26 22:00:03.239 [CacheManager] INFO: Configuration loaded successfully
+2025-07-26 22:00:03.589 [BackgroundWorker] DEBUG: User session created from 10.10.10.100
+2025-07-26 22:00:05.609 [DatabasePool] DEBUG: Cache hit for product data
+2025-07-26 22:00:05.634 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-75512
+2025-07-26 22:00:06.159 [AuthenticationManager] ERROR: Failed to authenticate user credentials for user 'admin' from 198.51.100.8
+2025-07-26 22:00:06.550 [NotificationService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:00:09.757 [AuthenticationManager] INFO: User session created
+2025-07-26 22:00:09.923 [InventoryService] ERROR: Session expired for user
+2025-07-26 22:00:10.115 [APIGateway] INFO: User login successful
+2025-07-26 22:00:10.545 [WebServer] INFO: Cache hit for product data for user tom.miller
+2025-07-26 22:00:10.963 [WebServer] ERROR: Session expired for user
+2025-07-26 22:00:12.329 [DatabasePool] INFO: Email notification sent from 203.0.113.5
+2025-07-26 22:00:13.154 [InventoryService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:00:14.011 [DatabasePool] ERROR: Network unreachable - retrying connection
+2025-07-26 22:00:17.315 [EmailService] INFO: Background job completed
+2025-07-26 22:00:17.799 [APIGateway] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:00:21.273 [DatabasePool] DEBUG: Configuration loaded successfully
+2025-07-26 22:00:23.204 [BackgroundWorker] ERROR: Network unreachable - retrying connection
+2025-07-26 22:00:24.251 [NotificationService] ERROR: Unable to connect to external service
+2025-07-26 22:00:24.455 [BackgroundWorker] ERROR: Session expired for user
+2025-07-26 22:00:24.988 [NotificationService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:00:24.990 [UserService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:00:27.939 [InventoryService] INFO: Background job completed
+2025-07-26 22:00:28.157 [WebServer] ERROR: Slow query detected: execution time 5000ms on table 'orders'
+2025-07-26 22:00:29.551 [BackgroundWorker] INFO: Order processed successfully
+2025-07-26 22:00:30.076 [DatabasePool] ERROR: Slow query detected: execution time 5000ms on table 'inventory'
+2025-07-26 22:00:31.303 [NotificationService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:00:32.079 [CacheManager] ERROR: Session expired for user
+2025-07-26 22:00:32.689 [APIGateway] DEBUG: Background job completed
+2025-07-26 22:00:32.908 [OrderService] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:00:33.277 [WebServer] INFO: Order processed successfully
+2025-07-26 22:00:34.160 [UserService] INFO: Cache hit for product data
+2025-07-26 22:00:34.548 [InventoryService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:00:35.189 [CacheManager] ERROR: Session expired for user
+2025-07-26 22:00:35.275 [APIGateway] INFO: User session created for user sarah.johnson
+2025-07-26 22:00:36.345 [BackgroundWorker] INFO: Database connection established
+2025-07-26 22:00:37.342 [AuthenticationManager] ERROR: Database query execution failed on table 'users'
+2025-07-26 22:00:37.598 [DatabasePool] DEBUG: User session created
+2025-07-26 22:00:38.619 [UserService] ERROR: Session expired for user
+2025-07-26 22:00:38.734 [PaymentProcessor] ERROR: Unable to connect to external service
+2025-07-26 22:00:40.495 [UserService] ERROR: Slow query detected: execution time 5000ms on table 'inventory'
+2025-07-26 22:00:41.596 [CacheManager] ERROR: Payment processing failed - invalid card for ORDER-90648
+2025-07-26 22:00:42.715 [WebServer] ERROR: Unable to connect to external service
+2025-07-26 22:00:43.815 [CacheManager] ERROR: Session expired for user
+2025-07-26 22:00:48.030 [PaymentProcessor] DEBUG: Cache hit for product data
+2025-07-26 22:00:48.038 [APIGateway] ERROR: Network unreachable - retrying connection
+2025-07-26 22:00:48.088 [APIGateway] INFO: Cache hit for product data for user tom.miller
+2025-07-26 22:00:52.507 [CacheManager] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:00:54.139 [NotificationService] INFO: Order processed successfully for user user123
+2025-07-26 22:00:55.060 [CacheManager] ERROR: Payment processing failed - invalid card for ORDER-22564
+2025-07-26 22:00:55.448 [NotificationService] ERROR: Failed to authenticate user credentials for user 'john.doe' from 127.0.0.1
+2025-07-26 22:00:57.236 [CacheManager] ERROR: Network unreachable - retrying connection
+2025-07-26 22:00:57.696 [EmailService] ERROR: Failed to authenticate user credentials for user 'mike.davis' from 192.168.0.50
+2025-07-26 22:00:59.414 [APIGateway] INFO: Email notification sent
+2025-07-26 22:01:00.575 [OrderService] INFO: Background job completed
+2025-07-26 22:01:02.545 [WebServer] INFO: Database connection established from 10.0.0.15
+2025-07-26 22:01:04.336 [DatabasePool] ERROR: Payment processing failed - invalid card for ORDER-13939
+2025-07-26 22:01:04.387 [DatabasePool] ERROR: Session expired for user
+2025-07-26 22:01:05.650 [WebServer] DEBUG: Database connection established
+2025-07-26 22:01:07.370 [InventoryService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:01:08.591 [WebServer] INFO: Health check passed
+2025-07-26 22:01:10.670 [BackgroundWorker] INFO: Request processed in 150ms
+2025-07-26 22:01:11.128 [APIGateway] INFO: Cache hit for product data
+2025-07-26 22:01:11.407 [InventoryService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:01:11.970 [InventoryService] ERROR: Database query execution failed on table 'users'
+2025-07-26 22:01:12.033 [NotificationService] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:01:12.295 [BackgroundWorker] INFO: Health check passed
+2025-07-26 22:01:12.714 [InventoryService] INFO: Health check passed for user sarah.johnson
+2025-07-26 22:01:13.944 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-47798
+2025-07-26 22:01:14.041 [AuthenticationManager] INFO: Order processed successfully for user user123 from 203.0.113.5
+2025-07-26 22:01:15.006 [APIGateway] DEBUG: Email notification sent
+2025-07-26 22:01:15.073 [DatabasePool] INFO: Email notification sent
+2025-07-26 22:01:15.307 [CacheManager] DEBUG: User login successful
+2025-07-26 22:01:15.884 [DatabasePool] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:01:15.997 [NotificationService] INFO: Configuration loaded successfully from 203.0.113.5
+2025-07-26 22:01:16.482 [EmailService] ERROR: Payment processing failed - invalid card for ORDER-47756
+2025-07-26 22:01:18.931 [UserService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:01:21.045 [APIGateway] DEBUG: Order processed successfully for user sarah.johnson
+2025-07-26 22:01:21.986 [WebServer] DEBUG: Database connection established
+2025-07-26 22:01:22.368 [CacheManager] ERROR: Unable to connect to external service
+2025-07-26 22:01:23.135 [APIGateway] INFO: Request processed in 150ms from 192.168.0.50
+2025-07-26 22:01:23.703 [WebServer] ERROR: Payment processing failed - invalid card for ORDER-40921
+2025-07-26 22:01:24.396 [InventoryService] INFO: Background job completed
+2025-07-26 22:01:25.988 [WebServer] INFO: Request processed in 150ms
+2025-07-26 22:01:25.995 [DatabasePool] ERROR: Database query execution failed on table 'orders'
+2025-07-26 22:01:27.035 [BackgroundWorker] INFO: User session created
+2025-07-26 22:01:27.651 [DatabasePool] INFO: Email notification sent
+2025-07-26 22:01:30.445 [CacheManager] INFO: User session created from 192.168.1.10
+2025-07-26 22:01:30.633 [PaymentProcessor] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:01:31.430 [APIGateway] INFO: Request processed in 150ms from 172.16.0.20
+2025-07-26 22:01:31.916 [PaymentProcessor] ERROR: Network unreachable - retrying connection
+2025-07-26 22:01:32.015 [AuthenticationManager] INFO: Email notification sent
+2025-07-26 22:01:34.313 [NotificationService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:01:34.817 [OrderService] INFO: Order processed successfully for user alice.smith
+2025-07-26 22:01:35.909 [AuthenticationManager] INFO: Email notification sent for user sarah.johnson from 192.168.1.10
+2025-07-26 22:01:36.398 [BackgroundWorker] ERROR: Slow query detected: execution time 5000ms on table 'products'
+2025-07-26 22:01:38.493 [PaymentProcessor] DEBUG: Database connection established
+2025-07-26 22:01:39.201 [BackgroundWorker] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:01:39.446 [PaymentProcessor] INFO: Order processed successfully for user tom.miller
+2025-07-26 22:01:41.546 [EmailService] DEBUG: User session created
+2025-07-26 22:01:42.645 [NotificationService] INFO: Health check passed
+2025-07-26 22:01:43.628 [CacheManager] DEBUG: Configuration loaded successfully
+2025-07-26 22:01:43.730 [OrderService] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:01:44.604 [AuthenticationManager] INFO: Database connection established
+2025-07-26 22:01:45.131 [CacheManager] ERROR: Failed to authenticate user credentials for user 'mike.davis' from 192.168.1.10
+2025-07-26 22:01:45.659 [BackgroundWorker] DEBUG: Database connection established
+2025-07-26 22:01:46.302 [CacheManager] INFO: Cache hit for product data
+2025-07-26 22:01:46.342 [InventoryService] ERROR: Session expired for user
+2025-07-26 22:01:46.529 [OrderService] INFO: Configuration loaded successfully from 10.0.0.15
+2025-07-26 22:01:46.546 [NotificationService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:01:46.611 [NotificationService] INFO: User session created
+2025-07-26 22:01:48.364 [OrderService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:01:48.388 [OrderService] DEBUG: Order processed successfully
+2025-07-26 22:01:49.545 [AuthenticationManager] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:01:50.024 [WebServer] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:01:52.128 [OrderService] INFO: Request processed in 150ms from 198.51.100.8
+2025-07-26 22:01:52.464 [InventoryService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:01:53.569 [APIGateway] INFO: Health check passed from 203.0.113.5
+2025-07-26 22:01:53.997 [WebServer] INFO: User session created for user user123
+2025-07-26 22:01:58.166 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-37064
+2025-07-26 22:01:59.678 [InventoryService] ERROR: Database query execution failed on table 'users'
+2025-07-26 22:02:00.549 [UserService] ERROR: Session expired for user
+2025-07-26 22:02:01.230 [DatabasePool] INFO: Health check passed for user mike.davis
+2025-07-26 22:02:02.155 [EmailService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:02:04.775 [CacheManager] ERROR: Unable to connect to external service
+2025-07-26 22:02:05.061 [InventoryService] DEBUG: Background job completed for user bob.wilson
+2025-07-26 22:02:07.674 [OrderService] ERROR: Payment processing failed - invalid card for ORDER-67324
+2025-07-26 22:02:08.377 [OrderService] INFO: Configuration loaded successfully
+2025-07-26 22:02:08.912 [WebServer] DEBUG: Cache hit for product data
+2025-07-26 22:02:08.949 [EmailService] ERROR: Unable to connect to external service
+2025-07-26 22:02:09.119 [CacheManager] ERROR: Payment processing failed - invalid card for ORDER-38041
+2025-07-26 22:02:09.774 [UserService] ERROR: Unable to connect to external service
+2025-07-26 22:02:11.302 [AuthenticationManager] DEBUG: User session created
+2025-07-26 22:02:12.130 [CacheManager] DEBUG: User session created
+2025-07-26 22:02:14.181 [PaymentProcessor] ERROR: Failed to authenticate user credentials for user 'sarah.johnson' from 10.0.0.15
+2025-07-26 22:02:15.476 [NotificationService] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:02:15.738 [BackgroundWorker] INFO: Health check passed for user bob.wilson
+2025-07-26 22:02:17.438 [EmailService] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:02:20.844 [EmailService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:02:21.262 [CacheManager] INFO: Request processed in 150ms for user mike.davis from 192.168.0.50
+2025-07-26 22:02:21.488 [CacheManager] INFO: Email notification sent for user tom.miller
+2025-07-26 22:02:22.088 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 22:02:22.240 [BackgroundWorker] ERROR: Failed to authenticate user credentials for user 'sarah.johnson' from 127.0.0.1
+2025-07-26 22:02:22.893 [BackgroundWorker] ERROR: Failed to authenticate user credentials for user 'john.doe' from 127.0.0.1
+2025-07-26 22:02:24.091 [CacheManager] ERROR: Failed to authenticate user credentials for user 'john.doe' from 172.16.0.20
+2025-07-26 22:02:25.757 [AuthenticationManager] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:02:26.493 [PaymentProcessor] ERROR: Failed to authenticate user credentials for user 'jane.garcia' from 192.168.0.50
+2025-07-26 22:02:26.588 [BackgroundWorker] ERROR: Session expired for user
+2025-07-26 22:02:27.760 [OrderService] INFO: Configuration loaded successfully for user lisa.brown
+2025-07-26 22:02:30.153 [CacheManager] INFO: User login successful from 192.168.1.10
+2025-07-26 22:02:32.334 [PaymentProcessor] INFO: Order processed successfully for user sarah.johnson
+2025-07-26 22:02:34.275 [BackgroundWorker] INFO: Configuration loaded successfully
+2025-07-26 22:02:35.020 [DatabasePool] INFO: Order processed successfully for user bob.wilson
+2025-07-26 22:02:35.589 [PaymentProcessor] INFO: Email notification sent
+2025-07-26 22:02:35.911 [BackgroundWorker] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:02:36.191 [DatabasePool] ERROR: Session expired for user
+2025-07-26 22:02:38.604 [CacheManager] DEBUG: Database connection established
+2025-07-26 22:02:38.740 [CacheManager] ERROR: Unable to connect to external service
+2025-07-26 22:02:39.211 [EmailService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:02:39.346 [APIGateway] ERROR: Session expired for user
+2025-07-26 22:02:39.530 [BackgroundWorker] INFO: Request processed in 150ms
+2025-07-26 22:02:40.297 [EmailService] ERROR: Payment processing failed - invalid card for ORDER-60840
+2025-07-26 22:02:42.481 [OrderService] INFO: Configuration loaded successfully from 127.0.0.1
+2025-07-26 22:02:43.431 [InventoryService] ERROR: Unable to connect to external service
+2025-07-26 22:02:44.622 [UserService] INFO: Email notification sent
+2025-07-26 22:02:44.963 [InventoryService] INFO: Configuration loaded successfully
+2025-07-26 22:02:45.559 [BackgroundWorker] ERROR: Session expired for user
+2025-07-26 22:02:46.065 [DatabasePool] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:02:47.158 [PaymentProcessor] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:02:49.360 [CacheManager] INFO: User session created
+2025-07-26 22:02:50.360 [AuthenticationManager] ERROR: Network unreachable - retrying connection
+2025-07-26 22:02:50.740 [NotificationService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:02:50.903 [BackgroundWorker] INFO: User session created from 192.168.0.50
+2025-07-26 22:02:52.627 [WebServer] INFO: User session created
+2025-07-26 22:02:53.127 [NotificationService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:02:56.024 [BackgroundWorker] INFO: Email notification sent for user jane.garcia
+2025-07-26 22:02:58.791 [BackgroundWorker] INFO: Email notification sent
+2025-07-26 22:02:59.280 [DatabasePool] DEBUG: Cache hit for product data
+2025-07-26 22:02:59.376 [PaymentProcessor] INFO: User login successful
+2025-07-26 22:02:59.417 [OrderService] INFO: User login successful
+2025-07-26 22:02:59.703 [EmailService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:03:00.487 [BackgroundWorker] ERROR: Slow query detected: execution time 5000ms on table 'orders'
+2025-07-26 22:03:00.834 [NotificationService] INFO: Health check passed for user admin from 192.168.1.10
+2025-07-26 22:03:01.864 [AuthenticationManager] INFO: Configuration loaded successfully for user sarah.johnson
+2025-07-26 22:03:03.535 [UserService] INFO: User login successful
+2025-07-26 22:03:05.125 [OrderService] INFO: Health check passed
+2025-07-26 22:03:05.567 [PaymentProcessor] INFO: Database connection established for user user123
+2025-07-26 22:03:05.593 [InventoryService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:03:06.251 [AuthenticationManager] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:03:07.074 [WebServer] INFO: User login successful for user tom.miller
+2025-07-26 22:03:07.580 [WebServer] INFO: Email notification sent from 172.16.0.20
+2025-07-26 22:03:07.996 [WebServer] DEBUG: Background job completed for user admin
+2025-07-26 22:03:08.370 [InventoryService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:03:09.148 [InventoryService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:03:12.026 [AuthenticationManager] INFO: User session created for user john.doe
+2025-07-26 22:03:13.504 [AuthenticationManager] ERROR: Payment processing failed - invalid card for ORDER-35524
+2025-07-26 22:03:13.715 [BackgroundWorker] ERROR: Session expired for user
+2025-07-26 22:03:13.985 [EmailService] ERROR: Payment processing failed - invalid card for ORDER-48646
+2025-07-26 22:03:14.164 [PaymentProcessor] INFO: Cache hit for product data
+2025-07-26 22:03:15.256 [BackgroundWorker] ERROR: Failed to authenticate user credentials for user 'bob.wilson' from 192.168.0.50
+2025-07-26 22:03:15.641 [PaymentProcessor] ERROR: Payment processing failed - invalid card for ORDER-60718
+2025-07-26 22:03:23.971 [DatabasePool] ERROR: Unable to connect to external service
+2025-07-26 22:03:24.686 [CacheManager] ERROR: Payment processing failed - invalid card for ORDER-38733
+2025-07-26 22:03:25.400 [DatabasePool] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:03:26.734 [EmailService] ERROR: Unable to connect to external service
+2025-07-26 22:03:28.880 [BackgroundWorker] INFO: Request processed in 150ms
+2025-07-26 22:03:30.865 [InventoryService] INFO: Order processed successfully
+2025-07-26 22:03:31.607 [UserService] ERROR: Payment processing failed - invalid card for ORDER-41775
+2025-07-26 22:03:32.222 [AuthenticationManager] INFO: Health check passed
+2025-07-26 22:03:33.426 [PaymentProcessor] INFO: User session created
+2025-07-26 22:03:33.481 [EmailService] ERROR: Database query execution failed on table 'users'
+2025-07-26 22:03:34.405 [BackgroundWorker] INFO: Request processed in 150ms
+2025-07-26 22:03:34.712 [DatabasePool] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:03:35.459 [DatabasePool] INFO: Order processed successfully for user bob.wilson from 198.51.100.8
+2025-07-26 22:03:36.195 [AuthenticationManager] DEBUG: User session created
+2025-07-26 22:03:36.296 [PaymentProcessor] ERROR: Unable to connect to external service
+2025-07-26 22:03:37.187 [CacheManager] DEBUG: Health check passed
+2025-07-26 22:03:37.400 [DatabasePool] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:03:38.475 [BackgroundWorker] ERROR: Payment processing failed - invalid card for ORDER-98070
+2025-07-26 22:03:38.758 [EmailService] DEBUG: Request processed in 150ms
+2025-07-26 22:03:39.151 [InventoryService] INFO: Cache hit for product data
+2025-07-26 22:03:39.437 [UserService] INFO: Email notification sent for user user123
+2025-07-26 22:03:39.463 [OrderService] INFO: Request processed in 150ms for user user123
+2025-07-26 22:03:40.728 [EmailService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:03:40.778 [OrderService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:03:41.709 [EmailService] ERROR: Unable to connect to external service
+2025-07-26 22:03:42.456 [UserService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:03:43.497 [DatabasePool] ERROR: Failed to authenticate user credentials for user 'john.doe' from 10.10.10.100
+2025-07-26 22:03:45.616 [NotificationService] ERROR: Unable to connect to external service
+2025-07-26 22:03:45.856 [CacheManager] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:03:46.988 [CacheManager] ERROR: Network unreachable - retrying connection
+2025-07-26 22:03:47.630 [BackgroundWorker] ERROR: Failed to authenticate user credentials for user 'admin' from 192.168.1.10
+2025-07-26 22:03:47.674 [DatabasePool] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:03:47.866 [OrderService] DEBUG: Background job completed for user user123
+2025-07-26 22:03:48.218 [BackgroundWorker] DEBUG: User login successful
+2025-07-26 22:03:48.265 [InventoryService] INFO: Health check passed
+2025-07-26 22:03:51.889 [DatabasePool] INFO: User session created
+2025-07-26 22:03:53.148 [BackgroundWorker] INFO: User session created
+2025-07-26 22:03:54.521 [APIGateway] INFO: Request processed in 150ms
+2025-07-26 22:03:55.214 [PaymentProcessor] ERROR: Payment processing failed - invalid card for ORDER-41218
+2025-07-26 22:03:55.260 [PaymentProcessor] ERROR: Unable to connect to external service
+2025-07-26 22:03:56.656 [InventoryService] INFO: Order processed successfully
+2025-07-26 22:03:56.928 [InventoryService] INFO: Order processed successfully for user lisa.brown from 127.0.0.1
+2025-07-26 22:03:59.033 [EmailService] ERROR: Failed to authenticate user credentials for user 'sarah.johnson' from 10.0.0.15
+2025-07-26 22:04:00.231 [APIGateway] INFO: User session created
+2025-07-26 22:04:01.362 [AuthenticationManager] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:04:02.682 [WebServer] DEBUG: Background job completed
+2025-07-26 22:04:03.545 [DatabasePool] DEBUG: Cache hit for product data
+2025-07-26 22:04:04.918 [DatabasePool] INFO: Cache hit for product data for user admin from 203.0.113.5
+2025-07-26 22:04:08.103 [CacheManager] INFO: Background job completed
+2025-07-26 22:04:10.283 [CacheManager] DEBUG: Database connection established
+2025-07-26 22:04:11.707 [PaymentProcessor] ERROR: Slow query detected: execution time 5000ms on table 'orders'
+2025-07-26 22:04:11.824 [WebServer] ERROR: Network unreachable - retrying connection
+2025-07-26 22:04:13.048 [UserService] INFO: Request processed in 150ms for user alice.smith from 10.10.10.100
+2025-07-26 22:04:13.946 [NotificationService] DEBUG: Database connection established for user sarah.johnson
+2025-07-26 22:04:16.836 [PaymentProcessor] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:04:19.427 [InventoryService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:04:21.322 [CacheManager] ERROR: Payment processing failed - invalid card for ORDER-83935
+2025-07-26 22:04:22.951 [NotificationService] INFO: Configuration loaded successfully
+2025-07-26 22:04:23.609 [AuthenticationManager] INFO: User session created for user lisa.brown
+2025-07-26 22:04:24.082 [EmailService] INFO: Database connection established from 198.51.100.8
+2025-07-26 22:04:24.448 [PaymentProcessor] DEBUG: Configuration loaded successfully
+2025-07-26 22:04:24.702 [CacheManager] ERROR: Unable to connect to external service
+2025-07-26 22:04:24.755 [WebServer] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:04:24.993 [DatabasePool] DEBUG: Database connection established
+2025-07-26 22:04:25.451 [AuthenticationManager] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:04:28.188 [InventoryService] INFO: Cache hit for product data from 172.16.0.20
+2025-07-26 22:04:28.269 [UserService] ERROR: Payment processing failed - invalid card for ORDER-65363
+2025-07-26 22:04:28.559 [DatabasePool] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:04:29.020 [WebServer] ERROR: Payment processing failed - invalid card for ORDER-22928
+2025-07-26 22:04:30.774 [UserService] INFO: User session created from 10.0.0.15
+2025-07-26 22:04:30.803 [BackgroundWorker] ERROR: Database query execution failed on table 'orders'
+2025-07-26 22:04:31.828 [DatabasePool] INFO: Email notification sent
+2025-07-26 22:04:32.354 [NotificationService] INFO: Order processed successfully
+2025-07-26 22:04:32.464 [PaymentProcessor] ERROR: Failed to authenticate user credentials for user 'bob.wilson' from 10.10.10.100
+2025-07-26 22:04:35.325 [OrderService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:04:36.926 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 22:04:41.759 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-48729
+2025-07-26 22:04:43.416 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-57997
+2025-07-26 22:04:43.460 [AuthenticationManager] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:04:45.375 [PaymentProcessor] INFO: Email notification sent
+2025-07-26 22:04:45.453 [NotificationService] DEBUG: User login successful for user john.doe
+2025-07-26 22:04:45.708 [WebServer] INFO: Configuration loaded successfully for user admin
+2025-07-26 22:04:46.937 [OrderService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:04:47.812 [AuthenticationManager] INFO: Email notification sent for user jane.garcia
+2025-07-26 22:04:48.873 [WebServer] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:04:49.430 [AuthenticationManager] DEBUG: Configuration loaded successfully
+2025-07-26 22:04:49.869 [OrderService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:04:50.413 [InventoryService] INFO: Health check passed for user jane.garcia
+2025-07-26 22:04:53.156 [APIGateway] INFO: Health check passed for user bob.wilson
+2025-07-26 22:04:53.175 [APIGateway] INFO: Configuration loaded successfully from 172.16.0.20
+2025-07-26 22:04:54.660 [WebServer] ERROR: Database query execution failed on table 'inventory'
+2025-07-26 22:04:55.195 [AuthenticationManager] ERROR: Network unreachable - retrying connection
+2025-07-26 22:04:56.546 [APIGateway] INFO: Order processed successfully for user tom.miller from 198.51.100.8
+2025-07-26 22:04:57.006 [AuthenticationManager] INFO: User login successful from 198.51.100.8
+2025-07-26 22:04:58.949 [BackgroundWorker] INFO: Background job completed
+2025-07-26 22:05:00.749 [InventoryService] ERROR: Failed to authenticate user credentials for user 'john.doe' from 10.0.0.15
+2025-07-26 22:05:02.512 [PaymentProcessor] INFO: Health check passed for user jane.garcia
+2025-07-26 22:05:02.640 [BackgroundWorker] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:05:03.065 [WebServer] INFO: Health check passed
+2025-07-26 22:05:04.036 [InventoryService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:05:04.063 [APIGateway] DEBUG: User login successful
+2025-07-26 22:05:04.190 [PaymentProcessor] DEBUG: Request processed in 150ms
+2025-07-26 22:05:04.889 [APIGateway] DEBUG: Health check passed
+2025-07-26 22:05:07.128 [PaymentProcessor] ERROR: Session expired for user
+2025-07-26 22:05:10.214 [NotificationService] ERROR: Slow query detected: execution time 5000ms on table 'products'
+2025-07-26 22:05:11.668 [PaymentProcessor] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:05:12.389 [PaymentProcessor] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:05:13.141 [EmailService] INFO: Email notification sent
+2025-07-26 22:05:13.779 [CacheManager] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:05:14.338 [InventoryService] INFO: User login successful from 198.51.100.8
+2025-07-26 22:05:15.822 [WebServer] ERROR: Payment processing failed - invalid card for ORDER-18446
+2025-07-26 22:05:18.152 [BackgroundWorker] ERROR: Network unreachable - retrying connection
+2025-07-26 22:05:19.645 [NotificationService] DEBUG: Health check passed from 192.168.0.50
+2025-07-26 22:05:19.859 [OrderService] INFO: Configuration loaded successfully
+2025-07-26 22:05:20.489 [UserService] INFO: User session created
+2025-07-26 22:05:20.655 [APIGateway] DEBUG: User session created for user mike.davis
+2025-07-26 22:05:20.791 [WebServer] ERROR: Database query execution failed on table 'orders'
+2025-07-26 22:05:22.123 [UserService] ERROR: Payment processing failed - invalid card for ORDER-76886
+2025-07-26 22:05:22.811 [BackgroundWorker] INFO: Health check passed
+2025-07-26 22:05:22.983 [APIGateway] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:05:23.747 [APIGateway] ERROR: Slow query detected: execution time 5000ms on table 'inventory'
+2025-07-26 22:05:24.000 [BackgroundWorker] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:05:24.522 [InventoryService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:05:26.114 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 22:05:27.318 [PaymentProcessor] ERROR: Network unreachable - retrying connection
+2025-07-26 22:05:27.491 [NotificationService] ERROR: Unable to connect to external service
+2025-07-26 22:05:29.127 [EmailService] INFO: Configuration loaded successfully from 127.0.0.1
+2025-07-26 22:05:29.630 [NotificationService] DEBUG: User login successful from 192.168.0.50
+2025-07-26 22:05:29.724 [WebServer] INFO: User session created from 172.16.0.20
+2025-07-26 22:05:29.882 [APIGateway] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:05:31.206 [AuthenticationManager] INFO: Database connection established from 198.51.100.8
+2025-07-26 22:05:33.515 [APIGateway] DEBUG: Cache hit for product data for user sarah.johnson
+2025-07-26 22:05:35.095 [EmailService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:05:35.931 [UserService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:05:36.307 [DatabasePool] ERROR: Failed to authenticate user credentials for user 'admin' from 192.168.1.10
+2025-07-26 22:05:37.198 [EmailService] INFO: Database connection established
+2025-07-26 22:05:39.387 [EmailService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:05:39.893 [EmailService] INFO: Email notification sent
+2025-07-26 22:05:40.192 [OrderService] INFO: Request processed in 150ms
+2025-07-26 22:05:40.223 [UserService] ERROR: Payment processing failed - invalid card for ORDER-63883
+2025-07-26 22:05:40.696 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 22:05:41.166 [CacheManager] INFO: User login successful
+2025-07-26 22:05:41.215 [InventoryService] ERROR: Payment processing failed - invalid card for ORDER-47149
+2025-07-26 22:05:41.383 [WebServer] DEBUG: Configuration loaded successfully from 198.51.100.8
+2025-07-26 22:05:43.491 [OrderService] INFO: Order processed successfully from 10.0.0.15
+2025-07-26 22:05:44.182 [WebServer] INFO: Cache hit for product data
+2025-07-26 22:05:44.897 [APIGateway] INFO: Email notification sent for user alice.smith
+2025-07-26 22:05:48.341 [NotificationService] ERROR: Failed to authenticate user credentials for user 'tom.miller' from 203.0.113.5
+2025-07-26 22:05:48.700 [NotificationService] ERROR: Session expired for user
+2025-07-26 22:05:48.890 [NotificationService] ERROR: Database query execution failed on table 'users'
+2025-07-26 22:05:49.233 [BackgroundWorker] INFO: Request processed in 150ms
+2025-07-26 22:05:51.193 [AuthenticationManager] DEBUG: Health check passed
+2025-07-26 22:05:51.515 [CacheManager] INFO: Order processed successfully from 192.168.0.50
+2025-07-26 22:05:52.148 [NotificationService] ERROR: Unable to connect to external service
+2025-07-26 22:05:52.195 [CacheManager] ERROR: Network unreachable - retrying connection
+2025-07-26 22:05:53.541 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-53913
+2025-07-26 22:05:53.588 [NotificationService] INFO: Background job completed
+2025-07-26 22:05:53.901 [NotificationService] INFO: Cache hit for product data for user alice.smith
+2025-07-26 22:05:54.108 [PaymentProcessor] ERROR: Payment processing failed - invalid card for ORDER-26311
+2025-07-26 22:05:55.101 [CacheManager] DEBUG: Configuration loaded successfully from 10.0.0.15
+2025-07-26 22:05:55.579 [WebServer] ERROR: Network unreachable - retrying connection
+2025-07-26 22:05:57.010 [NotificationService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:05:57.593 [CacheManager] ERROR: Network unreachable - retrying connection
+2025-07-26 22:05:58.083 [OrderService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:05:59.560 [PaymentProcessor] ERROR: Session expired for user
+2025-07-26 22:06:00.377 [CacheManager] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:06:02.151 [EmailService] INFO: User login successful
+2025-07-26 22:06:02.799 [WebServer] INFO: Cache hit for product data from 198.51.100.8
+2025-07-26 22:06:03.889 [PaymentProcessor] INFO: Background job completed for user mike.davis from 10.0.0.15
+2025-07-26 22:06:03.980 [EmailService] ERROR: Database query execution failed on table 'orders'
+2025-07-26 22:06:04.704 [APIGateway] INFO: Health check passed for user tom.miller from 192.168.1.10
+2025-07-26 22:06:07.674 [PaymentProcessor] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:06:08.051 [APIGateway] INFO: Database connection established
+2025-07-26 22:06:13.078 [UserService] ERROR: Failed to authenticate user credentials for user 'jane.garcia' from 192.168.1.10
+2025-07-26 22:06:15.446 [PaymentProcessor] ERROR: Database query execution failed on table 'inventory'
+2025-07-26 22:06:15.504 [CacheManager] INFO: Background job completed for user alice.smith from 203.0.113.5
+2025-07-26 22:06:17.322 [CacheManager] ERROR: Slow query detected: execution time 5000ms on table 'products'
+2025-07-26 22:06:17.405 [PaymentProcessor] INFO: Cache hit for product data
+2025-07-26 22:06:19.489 [EmailService] ERROR: Session expired for user
+2025-07-26 22:06:19.554 [NotificationService] INFO: User session created
+2025-07-26 22:06:21.229 [InventoryService] INFO: Request processed in 150ms from 192.168.1.10
+2025-07-26 22:06:21.809 [OrderService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:06:22.726 [APIGateway] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:06:23.175 [AuthenticationManager] INFO: Cache hit for product data for user sarah.johnson
+2025-07-26 22:06:24.366 [PaymentProcessor] INFO: Email notification sent from 192.168.1.10
+2025-07-26 22:06:25.054 [BackgroundWorker] ERROR: Payment processing failed - invalid card for ORDER-12751
+2025-07-26 22:06:26.042 [InventoryService] ERROR: Session expired for user
+2025-07-26 22:06:26.620 [APIGateway] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:06:28.835 [WebServer] DEBUG: Health check passed
+2025-07-26 22:06:30.086 [EmailService] ERROR: Slow query detected: execution time 5000ms on table 'products'
+2025-07-26 22:06:30.468 [UserService] INFO: Background job completed for user sarah.johnson from 127.0.0.1
+2025-07-26 22:06:31.504 [InventoryService] INFO: Email notification sent
+2025-07-26 22:06:31.800 [OrderService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:06:33.170 [APIGateway] ERROR: Database query execution failed on table 'products'
+2025-07-26 22:06:33.177 [EmailService] DEBUG: Order processed successfully for user mike.davis
+2025-07-26 22:06:36.825 [OrderService] DEBUG: Background job completed for user bob.wilson from 192.168.1.10
+2025-07-26 22:06:37.323 [CacheManager] INFO: Request processed in 150ms
+2025-07-26 22:06:37.415 [WebServer] ERROR: Failed to authenticate user credentials for user 'lisa.brown' from 203.0.113.5
+2025-07-26 22:06:37.569 [OrderService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:06:39.544 [CacheManager] ERROR: Payment processing failed - invalid card for ORDER-13157
+2025-07-26 22:06:41.073 [NotificationService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:06:41.199 [OrderService] INFO: Cache hit for product data
+2025-07-26 22:06:41.378 [APIGateway] ERROR: Database query execution failed on table 'orders'
+2025-07-26 22:06:42.442 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 22:06:43.457 [PaymentProcessor] INFO: Database connection established
+2025-07-26 22:06:44.873 [AuthenticationManager] INFO: Health check passed
+2025-07-26 22:06:45.224 [NotificationService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:06:45.413 [DatabasePool] ERROR: Payment processing failed - invalid card for ORDER-82487
+2025-07-26 22:06:45.553 [CacheManager] INFO: Background job completed
+2025-07-26 22:06:47.208 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-39353
+2025-07-26 22:06:47.252 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-22327
+2025-07-26 22:06:47.429 [DatabasePool] INFO: Configuration loaded successfully for user lisa.brown
+2025-07-26 22:06:47.872 [APIGateway] ERROR: Database query execution failed on table 'inventory'
+2025-07-26 22:06:48.233 [UserService] INFO: User session created from 172.16.0.20
+2025-07-26 22:06:48.289 [CacheManager] DEBUG: Background job completed
+2025-07-26 22:06:50.564 [OrderService] DEBUG: Request processed in 150ms
+2025-07-26 22:06:55.665 [PaymentProcessor] INFO: User session created from 198.51.100.8
+2025-07-26 22:06:56.574 [InventoryService] ERROR: Unable to connect to external service
+2025-07-26 22:06:56.637 [AuthenticationManager] INFO: User login successful
+2025-07-26 22:06:56.929 [PaymentProcessor] DEBUG: Configuration loaded successfully for user alice.smith
+2025-07-26 22:06:57.147 [InventoryService] INFO: Database connection established
+2025-07-26 22:06:58.859 [InventoryService] ERROR: Database query execution failed on table 'inventory'
+2025-07-26 22:07:02.180 [UserService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:07:03.207 [PaymentProcessor] ERROR: Session expired for user
+2025-07-26 22:07:07.439 [WebServer] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:07:09.572 [AuthenticationManager] INFO: User login successful for user lisa.brown
+2025-07-26 22:07:09.797 [NotificationService] INFO: User login successful
+2025-07-26 22:07:10.746 [InventoryService] INFO: Background job completed from 198.51.100.8
+2025-07-26 22:07:10.940 [WebServer] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:07:12.189 [PaymentProcessor] INFO: Request processed in 150ms from 192.168.1.10
+2025-07-26 22:07:12.611 [PaymentProcessor] ERROR: Session expired for user
+2025-07-26 22:07:14.129 [BackgroundWorker] ERROR: Payment processing failed - invalid card for ORDER-38022
+2025-07-26 22:07:16.232 [AuthenticationManager] INFO: Health check passed from 172.16.0.20
+2025-07-26 22:07:17.156 [UserService] ERROR: Failed to authenticate user credentials for user 'mike.davis' from 10.10.10.100
+2025-07-26 22:07:17.805 [BackgroundWorker] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:07:17.951 [CacheManager] ERROR: Slow query detected: execution time 5000ms on table 'orders'
+2025-07-26 22:07:18.880 [InventoryService] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:07:18.936 [UserService] ERROR: Unable to connect to external service
+2025-07-26 22:07:19.530 [InventoryService] INFO: User login successful
+2025-07-26 22:07:21.198 [WebServer] INFO: Cache hit for product data for user tom.miller
+2025-07-26 22:07:25.270 [InventoryService] INFO: Background job completed from 127.0.0.1
+2025-07-26 22:07:25.280 [APIGateway] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:07:25.616 [InventoryService] INFO: Order processed successfully
+2025-07-26 22:07:25.668 [BackgroundWorker] DEBUG: Health check passed
+2025-07-26 22:07:25.686 [NotificationService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:07:26.447 [CacheManager] INFO: User session created for user user123
+2025-07-26 22:07:27.045 [NotificationService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:07:28.273 [UserService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:07:30.969 [PaymentProcessor] INFO: User login successful for user sarah.johnson
+2025-07-26 22:07:32.951 [BackgroundWorker] INFO: Cache hit for product data
+2025-07-26 22:07:33.177 [APIGateway] ERROR: Network unreachable - retrying connection
+2025-07-26 22:07:33.497 [BackgroundWorker] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:07:34.194 [PaymentProcessor] INFO: User login successful
+2025-07-26 22:07:36.214 [UserService] ERROR: Slow query detected: execution time 5000ms on table 'products'
+2025-07-26 22:07:36.552 [BackgroundWorker] INFO: User session created from 192.168.1.10
+2025-07-26 22:07:36.889 [APIGateway] INFO: Database connection established
+2025-07-26 22:07:37.183 [OrderService] INFO: Health check passed from 198.51.100.8
+2025-07-26 22:07:37.618 [EmailService] INFO: User login successful for user sarah.johnson
+2025-07-26 22:07:38.732 [PaymentProcessor] DEBUG: Email notification sent
+2025-07-26 22:07:38.942 [DatabasePool] INFO: Health check passed from 127.0.0.1
+2025-07-26 22:07:39.242 [WebServer] DEBUG: Order processed successfully
+2025-07-26 22:07:41.035 [CacheManager] DEBUG: User login successful
+2025-07-26 22:07:41.813 [EmailService] INFO: Database connection established for user jane.garcia
+2025-07-26 22:07:44.833 [EmailService] INFO: User login successful for user john.doe
+2025-07-26 22:07:47.890 [BackgroundWorker] INFO: User login successful
+2025-07-26 22:07:48.101 [APIGateway] INFO: User session created
+2025-07-26 22:07:49.841 [OrderService] DEBUG: User session created
+2025-07-26 22:07:51.953 [InventoryService] INFO: Health check passed
+2025-07-26 22:07:52.354 [UserService] INFO: User login successful for user john.doe
+2025-07-26 22:07:52.490 [EmailService] INFO: Health check passed
+2025-07-26 22:07:53.561 [BackgroundWorker] DEBUG: Configuration loaded successfully for user user123 from 203.0.113.5
+2025-07-26 22:07:53.634 [WebServer] INFO: Health check passed
+2025-07-26 22:07:53.913 [WebServer] INFO: Cache hit for product data for user user123 from 192.168.1.10
+2025-07-26 22:07:55.183 [BackgroundWorker] INFO: Email notification sent for user lisa.brown
+2025-07-26 22:07:55.236 [DatabasePool] DEBUG: Request processed in 150ms
+2025-07-26 22:07:55.837 [DatabasePool] DEBUG: Database connection established
+2025-07-26 22:07:56.594 [APIGateway] INFO: Database connection established
+2025-07-26 22:07:59.140 [PaymentProcessor] INFO: Email notification sent for user lisa.brown from 10.10.10.100
+2025-07-26 22:08:00.326 [CacheManager] INFO: User session created for user alice.smith from 10.0.0.15
+2025-07-26 22:08:00.533 [InventoryService] DEBUG: User login successful for user jane.garcia
+2025-07-26 22:08:02.261 [CacheManager] INFO: Request processed in 150ms
+2025-07-26 22:08:02.339 [UserService] DEBUG: Configuration loaded successfully
+2025-07-26 22:08:02.349 [WebServer] INFO: User login successful
+2025-07-26 22:08:02.352 [NotificationService] INFO: Order processed successfully for user tom.miller
+2025-07-26 22:08:02.992 [EmailService] INFO: Cache hit for product data from 192.168.0.50
+2025-07-26 22:08:05.754 [DatabasePool] INFO: Cache hit for product data from 172.16.0.20
+2025-07-26 22:08:06.849 [InventoryService] INFO: User login successful for user bob.wilson
+2025-07-26 22:08:09.421 [EmailService] INFO: Cache hit for product data
+2025-07-26 22:08:09.862 [PaymentProcessor] DEBUG: Health check passed for user sarah.johnson
+2025-07-26 22:08:12.850 [InventoryService] INFO: Cache hit for product data
+2025-07-26 22:08:13.775 [OrderService] INFO: Configuration loaded successfully
+2025-07-26 22:08:13.777 [EmailService] INFO: Cache hit for product data
+2025-07-26 22:08:16.723 [APIGateway] INFO: User session created from 10.10.10.100
+2025-07-26 22:08:17.539 [WebServer] INFO: Request processed in 150ms for user sarah.johnson from 203.0.113.5
+2025-07-26 22:08:18.927 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 22:08:19.101 [NotificationService] INFO: Cache hit for product data
+2025-07-26 22:08:20.029 [OrderService] DEBUG: Configuration loaded successfully
+2025-07-26 22:08:20.183 [UserService] INFO: Configuration loaded successfully from 10.0.0.15
+2025-07-26 22:08:20.487 [InventoryService] INFO: Order processed successfully
+2025-07-26 22:08:24.216 [APIGateway] INFO: Request processed in 150ms
+2025-07-26 22:08:24.557 [InventoryService] INFO: Request processed in 150ms for user bob.wilson
+2025-07-26 22:08:26.111 [CacheManager] INFO: Database connection established for user sarah.johnson
+2025-07-26 22:08:26.873 [PaymentProcessor] INFO: Background job completed
+2025-07-26 22:08:28.186 [AuthenticationManager] INFO: Request processed in 150ms
+2025-07-26 22:08:28.557 [AuthenticationManager] DEBUG: User session created for user mike.davis from 203.0.113.5
+2025-07-26 22:08:28.798 [UserService] INFO: User login successful
+2025-07-26 22:08:28.894 [WebServer] DEBUG: Cache hit for product data from 203.0.113.5
+2025-07-26 22:08:29.333 [OrderService] INFO: Order processed successfully for user jane.garcia
+2025-07-26 22:08:30.954 [EmailService] INFO: Order processed successfully from 203.0.113.5
+2025-07-26 22:08:31.060 [OrderService] INFO: Background job completed
+2025-07-26 22:08:32.033 [DatabasePool] INFO: Request processed in 150ms for user user123
+2025-07-26 22:08:32.464 [CacheManager] INFO: Health check passed
+2025-07-26 22:08:32.869 [EmailService] DEBUG: Cache hit for product data for user jane.garcia
+2025-07-26 22:08:33.276 [NotificationService] INFO: Request processed in 150ms
+2025-07-26 22:08:35.627 [NotificationService] DEBUG: Cache hit for product data for user john.doe
+2025-07-26 22:08:36.950 [CacheManager] DEBUG: Health check passed
+2025-07-26 22:08:38.233 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 22:08:38.587 [DatabasePool] INFO: Health check passed from 10.0.0.15
+2025-07-26 22:08:38.850 [UserService] INFO: User login successful for user john.doe
+2025-07-26 22:08:40.712 [AuthenticationManager] DEBUG: User session created
+2025-07-26 22:08:42.847 [DatabasePool] INFO: User session created
+2025-07-26 22:08:42.877 [InventoryService] DEBUG: Order processed successfully from 198.51.100.8
+2025-07-26 22:08:43.673 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 22:08:44.185 [DatabasePool] DEBUG: Cache hit for product data
+2025-07-26 22:08:44.234 [AuthenticationManager] INFO: User session created
+2025-07-26 22:08:45.795 [BackgroundWorker] INFO: Database connection established
+2025-07-26 22:08:46.198 [NotificationService] INFO: Request processed in 150ms
+2025-07-26 22:08:46.250 [AuthenticationManager] INFO: Order processed successfully
+2025-07-26 22:08:46.492 [OrderService] DEBUG: Configuration loaded successfully
+2025-07-26 22:08:47.699 [EmailService] INFO: Request processed in 150ms
+2025-07-26 22:08:49.223 [PaymentProcessor] INFO: Background job completed for user alice.smith
+2025-07-26 22:08:49.345 [BackgroundWorker] INFO: Health check passed for user sarah.johnson
+2025-07-26 22:08:50.024 [APIGateway] INFO: Background job completed for user tom.miller
+2025-07-26 22:08:50.549 [DatabasePool] INFO: User login successful
+2025-07-26 22:08:51.421 [APIGateway] INFO: User session created
+2025-07-26 22:08:51.640 [AuthenticationManager] INFO: Cache hit for product data from 203.0.113.5
+2025-07-26 22:08:52.346 [PaymentProcessor] INFO: Background job completed for user admin
+2025-07-26 22:08:52.555 [AuthenticationManager] INFO: Health check passed
+2025-07-26 22:08:54.911 [NotificationService] INFO: Order processed successfully from 127.0.0.1
+2025-07-26 22:08:55.517 [WebServer] INFO: User session created for user user123 from 10.0.0.15
+2025-07-26 22:08:56.081 [OrderService] DEBUG: Background job completed for user john.doe from 192.168.1.10
+2025-07-26 22:08:56.184 [CacheManager] DEBUG: User login successful
+2025-07-26 22:08:56.814 [DatabasePool] INFO: Health check passed
+2025-07-26 22:08:57.803 [InventoryService] INFO: Cache hit for product data from 203.0.113.5
+2025-07-26 22:08:58.202 [APIGateway] INFO: Email notification sent
+2025-07-26 22:08:58.317 [DatabasePool] INFO: User login successful for user sarah.johnson
+2025-07-26 22:08:59.456 [PaymentProcessor] INFO: Health check passed
+2025-07-26 22:09:00.167 [WebServer] DEBUG: Configuration loaded successfully for user tom.miller
+2025-07-26 22:09:00.225 [BackgroundWorker] DEBUG: Request processed in 150ms from 172.16.0.20
+2025-07-26 22:09:00.348 [CacheManager] INFO: Configuration loaded successfully
+2025-07-26 22:09:01.791 [AuthenticationManager] INFO: User session created from 198.51.100.8
+2025-07-26 22:09:02.073 [APIGateway] INFO: Database connection established
+2025-07-26 22:09:02.298 [WebServer] DEBUG: Database connection established for user jane.garcia
+2025-07-26 22:09:03.552 [AuthenticationManager] INFO: Email notification sent
+2025-07-26 22:09:04.032 [PaymentProcessor] INFO: Cache hit for product data from 192.168.0.50
+2025-07-26 22:09:04.609 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 22:09:05.184 [AuthenticationManager] INFO: Configuration loaded successfully from 10.0.0.15
+2025-07-26 22:09:07.562 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 22:09:07.706 [CacheManager] INFO: Background job completed
+2025-07-26 22:09:09.952 [APIGateway] INFO: User session created
+2025-07-26 22:09:11.245 [OrderService] DEBUG: Configuration loaded successfully
+2025-07-26 22:09:13.440 [PaymentProcessor] INFO: Order processed successfully for user alice.smith
+2025-07-26 22:09:13.739 [EmailService] INFO: User login successful for user user123
+2025-07-26 22:09:14.398 [BackgroundWorker] INFO: User session created
+2025-07-26 22:09:14.443 [APIGateway] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:09:16.857 [CacheManager] INFO: Database connection established
+2025-07-26 22:09:17.535 [WebServer] ERROR: Network unreachable - retrying connection
+2025-07-26 22:09:18.280 [WebServer] INFO: User login successful from 10.10.10.100
+2025-07-26 22:09:22.019 [PaymentProcessor] INFO: Cache hit for product data
+2025-07-26 22:09:24.151 [EmailService] ERROR: Database query execution failed on table 'users'
+2025-07-26 22:09:28.925 [APIGateway] INFO: Database connection established
+2025-07-26 22:09:31.982 [PaymentProcessor] DEBUG: User login successful for user admin
+2025-07-26 22:09:32.407 [AuthenticationManager] ERROR: Session expired for user
+2025-07-26 22:09:32.450 [BackgroundWorker] INFO: Database connection established for user jane.garcia from 172.16.0.20
+2025-07-26 22:09:32.454 [InventoryService] INFO: User session created for user user123
+2025-07-26 22:09:38.156 [DatabasePool] DEBUG: User login successful
+2025-07-26 22:09:38.880 [BackgroundWorker] INFO: Email notification sent
+2025-07-26 22:09:40.640 [EmailService] INFO: Database connection established
+2025-07-26 22:09:40.823 [DatabasePool] INFO: Database connection established
+2025-07-26 22:09:42.193 [BackgroundWorker] INFO: User session created
+2025-07-26 22:09:43.182 [DatabasePool] INFO: Health check passed for user jane.garcia
+2025-07-26 22:09:43.938 [WebServer] INFO: Database connection established for user tom.miller from 10.0.0.15
+2025-07-26 22:09:44.943 [AuthenticationManager] INFO: Email notification sent for user sarah.johnson
+2025-07-26 22:09:45.280 [AuthenticationManager] INFO: Background job completed for user jane.garcia from 127.0.0.1
+2025-07-26 22:09:45.815 [APIGateway] INFO: User session created for user tom.miller from 192.168.1.10
+2025-07-26 22:09:47.025 [AuthenticationManager] INFO: Email notification sent
+2025-07-26 22:09:48.856 [WebServer] INFO: User session created
+2025-07-26 22:09:49.265 [DatabasePool] ERROR: Slow query detected: execution time 5000ms on table 'inventory'
+2025-07-26 22:09:49.562 [DatabasePool] DEBUG: Health check passed
+2025-07-26 22:09:51.052 [InventoryService] INFO: Cache hit for product data for user bob.wilson
+2025-07-26 22:09:51.102 [WebServer] INFO: Cache hit for product data for user admin
+2025-07-26 22:09:51.970 [BackgroundWorker] INFO: User login successful for user john.doe
+2025-07-26 22:09:52.167 [PaymentProcessor] INFO: User session created
+2025-07-26 22:09:53.113 [InventoryService] ERROR: Unable to connect to external service
+2025-07-26 22:09:53.391 [DatabasePool] DEBUG: Health check passed
+2025-07-26 22:09:54.071 [AuthenticationManager] INFO: Order processed successfully
+2025-07-26 22:09:54.120 [BackgroundWorker] INFO: User login successful
+2025-07-26 22:09:55.855 [BackgroundWorker] INFO: Database connection established
+2025-07-26 22:09:56.045 [DatabasePool] DEBUG: Cache hit for product data for user sarah.johnson
+2025-07-26 22:09:56.461 [AuthenticationManager] INFO: Order processed successfully from 10.0.0.15
+2025-07-26 22:09:58.998 [PaymentProcessor] INFO: Configuration loaded successfully
+2025-07-26 22:09:59.583 [WebServer] ERROR: Slow query detected: execution time 5000ms on table 'products'
+2025-07-26 22:09:59.775 [AuthenticationManager] DEBUG: Request processed in 150ms
+2025-07-26 22:10:01.809 [UserService] INFO: Order processed successfully for user lisa.brown
+2025-07-26 22:10:02.937 [WebServer] INFO: Request processed in 150ms from 192.168.1.10
+2025-07-26 22:10:04.869 [UserService] INFO: User session created
+2025-07-26 22:10:07.401 [PaymentProcessor] INFO: User login successful for user alice.smith
+2025-07-26 22:10:07.494 [UserService] INFO: Configuration loaded successfully from 10.0.0.15
+2025-07-26 22:10:07.848 [NotificationService] INFO: Cache hit for product data from 203.0.113.5
+2025-07-26 22:10:07.910 [BackgroundWorker] INFO: Health check passed
+2025-07-26 22:10:09.084 [BackgroundWorker] INFO: Cache hit for product data for user tom.miller from 10.0.0.15
+2025-07-26 22:10:09.107 [APIGateway] INFO: Database connection established
+2025-07-26 22:10:09.873 [PaymentProcessor] INFO: User login successful from 203.0.113.5
+2025-07-26 22:10:10.963 [AuthenticationManager] DEBUG: User session created
+2025-07-26 22:10:12.200 [EmailService] INFO: Request processed in 150ms
+2025-07-26 22:10:12.465 [DatabasePool] INFO: Cache hit for product data
+2025-07-26 22:10:12.715 [EmailService] INFO: Database connection established
+2025-07-26 22:10:13.578 [PaymentProcessor] DEBUG: Background job completed
+2025-07-26 22:10:16.389 [WebServer] INFO: Email notification sent
+2025-07-26 22:10:18.444 [WebServer] INFO: User login successful
+2025-07-26 22:10:18.914 [OrderService] DEBUG: Health check passed
+2025-07-26 22:10:20.110 [InventoryService] INFO: User login successful
+2025-07-26 22:10:23.218 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 22:10:27.688 [BackgroundWorker] INFO: Health check passed
+2025-07-26 22:10:28.095 [NotificationService] INFO: Configuration loaded successfully
+2025-07-26 22:10:31.749 [OrderService] DEBUG: Email notification sent for user sarah.johnson
+2025-07-26 22:10:32.589 [UserService] INFO: Cache hit for product data
+2025-07-26 22:10:33.599 [NotificationService] INFO: Request processed in 150ms for user john.doe
+2025-07-26 22:10:33.780 [NotificationService] INFO: Request processed in 150ms for user jane.garcia from 10.0.0.15
+2025-07-26 22:10:35.062 [EmailService] DEBUG: Health check passed
+2025-07-26 22:10:35.297 [NotificationService] INFO: User session created
+2025-07-26 22:10:35.696 [WebServer] INFO: Email notification sent for user john.doe
+2025-07-26 22:10:36.201 [PaymentProcessor] INFO: Order processed successfully
+2025-07-26 22:10:36.456 [APIGateway] INFO: User login successful
+2025-07-26 22:10:36.558 [UserService] ERROR: Payment processing failed - invalid card for ORDER-13966
+2025-07-26 22:10:37.282 [APIGateway] INFO: Background job completed for user admin
+2025-07-26 22:10:39.517 [WebServer] INFO: Email notification sent for user mike.davis
+2025-07-26 22:10:40.677 [PaymentProcessor] INFO: Health check passed from 203.0.113.5
+2025-07-26 22:10:41.816 [AuthenticationManager] INFO: Request processed in 150ms from 172.16.0.20
+2025-07-26 22:10:42.549 [UserService] INFO: Database connection established
+2025-07-26 22:10:43.383 [APIGateway] INFO: Request processed in 150ms from 192.168.1.10
+2025-07-26 22:10:43.682 [InventoryService] INFO: Configuration loaded successfully from 192.168.1.10
+2025-07-26 22:10:43.760 [OrderService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:10:43.917 [UserService] INFO: User login successful
+2025-07-26 22:10:45.988 [CacheManager] DEBUG: Order processed successfully from 10.0.0.15
+2025-07-26 22:10:46.265 [PaymentProcessor] DEBUG: User session created
+2025-07-26 22:10:46.642 [DatabasePool] INFO: Database connection established
+2025-07-26 22:10:46.947 [BackgroundWorker] DEBUG: Request processed in 150ms
+2025-07-26 22:10:47.438 [BackgroundWorker] INFO: Background job completed from 172.16.0.20
+2025-07-26 22:10:47.867 [AuthenticationManager] INFO: User login successful
+2025-07-26 22:10:48.125 [NotificationService] DEBUG: Order processed successfully from 192.168.1.10
+2025-07-26 22:10:48.381 [BackgroundWorker] INFO: Cache hit for product data
+2025-07-26 22:10:48.389 [BackgroundWorker] INFO: User login successful for user jane.garcia
+2025-07-26 22:10:48.763 [PaymentProcessor] INFO: User session created
+2025-07-26 22:10:49.395 [EmailService] DEBUG: User login successful for user sarah.johnson
+2025-07-26 22:10:49.709 [BackgroundWorker] INFO: Cache hit for product data
+2025-07-26 22:10:50.936 [EmailService] INFO: Cache hit for product data
+2025-07-26 22:10:52.073 [CacheManager] INFO: Database connection established from 10.0.0.15
+2025-07-26 22:10:52.439 [EmailService] INFO: Email notification sent from 127.0.0.1
+2025-07-26 22:10:54.558 [EmailService] INFO: Request processed in 150ms for user john.doe from 192.168.0.50
+2025-07-26 22:10:56.037 [WebServer] INFO: Database connection established from 203.0.113.5
+2025-07-26 22:10:56.120 [NotificationService] INFO: Cache hit for product data
+2025-07-26 22:10:57.538 [CacheManager] INFO: Request processed in 150ms for user jane.garcia
+2025-07-26 22:10:59.125 [WebServer] INFO: Cache hit for product data for user john.doe
+2025-07-26 22:10:59.324 [PaymentProcessor] INFO: Background job completed
+2025-07-26 22:11:00.709 [AuthenticationManager] INFO: Email notification sent for user john.doe
+2025-07-26 22:11:02.818 [EmailService] INFO: Health check passed
+2025-07-26 22:11:03.023 [InventoryService] INFO: Order processed successfully
+2025-07-26 22:11:03.356 [BackgroundWorker] DEBUG: User session created
+2025-07-26 22:11:04.898 [WebServer] INFO: Order processed successfully
+2025-07-26 22:11:06.116 [NotificationService] ERROR: Slow query detected: execution time 5000ms on table 'orders'
+2025-07-26 22:11:07.443 [BackgroundWorker] INFO: Request processed in 150ms for user sarah.johnson
+2025-07-26 22:11:07.813 [InventoryService] INFO: Health check passed
+2025-07-26 22:11:07.847 [AuthenticationManager] ERROR: Slow query detected: execution time 5000ms on table 'inventory'
+2025-07-26 22:11:08.838 [PaymentProcessor] DEBUG: Health check passed from 192.168.0.50
+2025-07-26 22:11:10.344 [APIGateway] INFO: User login successful
+2025-07-26 22:11:14.046 [PaymentProcessor] ERROR: Slow query detected: execution time 5000ms on table 'inventory'
+2025-07-26 22:11:15.336 [APIGateway] ERROR: Payment processing failed - invalid card for ORDER-16288
+2025-07-26 22:11:18.216 [AuthenticationManager] INFO: Health check passed from 127.0.0.1
+2025-07-26 22:11:18.470 [CacheManager] DEBUG: Request processed in 150ms
+2025-07-26 22:11:19.642 [OrderService] DEBUG: Configuration loaded successfully for user bob.wilson
+2025-07-26 22:11:19.828 [DatabasePool] INFO: User login successful
+2025-07-26 22:11:19.839 [NotificationService] INFO: Cache hit for product data for user bob.wilson
+2025-07-26 22:11:21.049 [WebServer] INFO: Background job completed
+2025-07-26 22:11:23.378 [DatabasePool] INFO: Health check passed
+2025-07-26 22:11:26.916 [OrderService] INFO: Background job completed
+2025-07-26 22:11:27.988 [BackgroundWorker] INFO: User session created
+2025-07-26 22:11:31.800 [OrderService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:11:32.108 [DatabasePool] DEBUG: Database connection established
+2025-07-26 22:11:32.518 [OrderService] DEBUG: Background job completed from 192.168.1.10
+2025-07-26 22:11:33.176 [OrderService] INFO: Configuration loaded successfully
+2025-07-26 22:11:33.930 [OrderService] INFO: Health check passed
+2025-07-26 22:11:35.592 [UserService] INFO: User login successful for user alice.smith
+2025-07-26 22:11:35.889 [APIGateway] INFO: Request processed in 150ms
+2025-07-26 22:11:35.912 [EmailService] INFO: User login successful
+2025-07-26 22:11:37.229 [WebServer] INFO: Request processed in 150ms for user john.doe
+2025-07-26 22:11:37.819 [NotificationService] INFO: Database connection established from 203.0.113.5
+2025-07-26 22:11:38.045 [BackgroundWorker] DEBUG: User session created from 10.0.0.15
+2025-07-26 22:11:38.170 [APIGateway] INFO: Configuration loaded successfully
+2025-07-26 22:11:39.474 [WebServer] DEBUG: User session created
+2025-07-26 22:11:40.744 [UserService] INFO: User login successful
+2025-07-26 22:11:41.147 [InventoryService] INFO: Background job completed from 172.16.0.20
+2025-07-26 22:11:42.320 [PaymentProcessor] INFO: Request processed in 150ms for user john.doe
+2025-07-26 22:11:43.193 [PaymentProcessor] INFO: Request processed in 150ms
+2025-07-26 22:11:43.923 [CacheManager] INFO: User login successful
+2025-07-26 22:11:44.437 [CacheManager] INFO: Health check passed
+2025-07-26 22:11:46.758 [NotificationService] INFO: User login successful
+2025-07-26 22:11:47.371 [InventoryService] DEBUG: Health check passed for user tom.miller
+2025-07-26 22:11:50.702 [DatabasePool] INFO: Order processed successfully
+2025-07-26 22:11:51.903 [NotificationService] INFO: Cache hit for product data for user lisa.brown
+2025-07-26 22:11:52.034 [OrderService] INFO: Request processed in 150ms for user mike.davis
+2025-07-26 22:11:53.714 [EmailService] INFO: Background job completed
+2025-07-26 22:11:55.144 [CacheManager] INFO: Background job completed
+2025-07-26 22:11:55.322 [EmailService] INFO: Background job completed
+2025-07-26 22:11:55.826 [DatabasePool] INFO: Order processed successfully from 192.168.0.50
+2025-07-26 22:11:56.081 [EmailService] INFO: Request processed in 150ms for user alice.smith
+2025-07-26 22:11:56.557 [APIGateway] ERROR: Session expired for user
+2025-07-26 22:11:57.188 [AuthenticationManager] INFO: Cache hit for product data
+2025-07-26 22:11:57.802 [WebServer] INFO: Cache hit for product data for user tom.miller from 203.0.113.5
+2025-07-26 22:11:58.001 [BackgroundWorker] INFO: Background job completed
+2025-07-26 22:11:59.250 [NotificationService] DEBUG: Configuration loaded successfully for user sarah.johnson
+2025-07-26 22:12:00.222 [BackgroundWorker] DEBUG: Order processed successfully for user john.doe from 10.0.0.15
+2025-07-26 22:12:01.307 [UserService] INFO: Request processed in 150ms
+2025-07-26 22:12:02.064 [UserService] INFO: Order processed successfully
+2025-07-26 22:12:02.403 [AuthenticationManager] DEBUG: Email notification sent
+2025-07-26 22:12:04.008 [InventoryService] INFO: Email notification sent
+2025-07-26 22:12:06.901 [WebServer] INFO: Database connection established for user admin
+2025-07-26 22:12:10.259 [EmailService] INFO: Cache hit for product data for user bob.wilson from 203.0.113.5
+2025-07-26 22:12:11.791 [UserService] INFO: User session created from 10.10.10.100
+2025-07-26 22:12:12.939 [CacheManager] DEBUG: Cache hit for product data for user john.doe
+2025-07-26 22:12:13.458 [OrderService] INFO: Database connection established from 192.168.0.50
+2025-07-26 22:12:14.594 [UserService] INFO: Cache hit for product data for user john.doe from 203.0.113.5
+2025-07-26 22:12:15.033 [NotificationService] INFO: Email notification sent for user alice.smith from 198.51.100.8
+2025-07-26 22:12:15.367 [OrderService] INFO: Configuration loaded successfully
+2025-07-26 22:12:16.814 [NotificationService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:12:18.408 [AuthenticationManager] INFO: Order processed successfully for user tom.miller
+2025-07-26 22:12:18.527 [APIGateway] ERROR: Slow query detected: execution time 5000ms on table 'inventory'
+2025-07-26 22:12:19.086 [APIGateway] DEBUG: Email notification sent for user bob.wilson
+2025-07-26 22:12:21.673 [BackgroundWorker] INFO: Request processed in 150ms
+2025-07-26 22:12:21.938 [APIGateway] INFO: Order processed successfully
+2025-07-26 22:12:23.488 [OrderService] INFO: Database connection established
+2025-07-26 22:12:23.531 [BackgroundWorker] INFO: Cache hit for product data
+2025-07-26 22:12:24.755 [CacheManager] INFO: User session created
+2025-07-26 22:12:26.555 [EmailService] DEBUG: Health check passed for user jane.garcia
+2025-07-26 22:12:28.033 [PaymentProcessor] INFO: Request processed in 150ms
+2025-07-26 22:12:28.655 [WebServer] DEBUG: Order processed successfully from 127.0.0.1
+2025-07-26 22:12:28.673 [CacheManager] INFO: Health check passed for user jane.garcia
+2025-07-26 22:12:30.929 [PaymentProcessor] INFO: User login successful
+2025-07-26 22:12:31.869 [EmailService] DEBUG: Order processed successfully
+2025-07-26 22:12:32.634 [DatabasePool] DEBUG: Request processed in 150ms for user tom.miller from 127.0.0.1
+2025-07-26 22:12:32.855 [InventoryService] DEBUG: Background job completed
+2025-07-26 22:12:34.266 [PaymentProcessor] INFO: Email notification sent from 10.10.10.100
+2025-07-26 22:12:34.485 [OrderService] INFO: Cache hit for product data
+2025-07-26 22:12:35.044 [UserService] INFO: Request processed in 150ms
+2025-07-26 22:12:35.477 [APIGateway] INFO: Email notification sent
+2025-07-26 22:12:37.014 [BackgroundWorker] INFO: User session created for user user123
+2025-07-26 22:12:39.477 [NotificationService] INFO: User session created for user mike.davis
+2025-07-26 22:12:39.842 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 22:12:41.961 [InventoryService] INFO: User session created for user lisa.brown from 192.168.0.50
+2025-07-26 22:12:46.315 [PaymentProcessor] INFO: Request processed in 150ms for user jane.garcia
+2025-07-26 22:12:47.095 [NotificationService] INFO: Health check passed from 10.0.0.15
+2025-07-26 22:12:47.972 [InventoryService] DEBUG: Cache hit for product data
+2025-07-26 22:12:48.763 [PaymentProcessor] INFO: Request processed in 150ms
+2025-07-26 22:12:49.839 [WebServer] INFO: User session created
+2025-07-26 22:12:50.121 [APIGateway] INFO: Background job completed
+2025-07-26 22:12:50.569 [UserService] INFO: Cache hit for product data
+2025-07-26 22:12:50.894 [AuthenticationManager] DEBUG: Order processed successfully for user tom.miller from 203.0.113.5
+2025-07-26 22:12:54.133 [UserService] INFO: Configuration loaded successfully
+2025-07-26 22:12:54.219 [DatabasePool] INFO: Background job completed
+2025-07-26 22:12:55.123 [InventoryService] INFO: Background job completed for user lisa.brown
+2025-07-26 22:13:02.619 [CacheManager] INFO: Database connection established for user lisa.brown
+2025-07-26 22:13:03.492 [DatabasePool] INFO: Configuration loaded successfully for user lisa.brown
+2025-07-26 22:13:03.894 [UserService] INFO: Background job completed
+2025-07-26 22:13:03.986 [BackgroundWorker] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:13:06.465 [APIGateway] DEBUG: Health check passed
+2025-07-26 22:13:06.652 [EmailService] INFO: Health check passed
+2025-07-26 22:13:07.983 [BackgroundWorker] INFO: Database connection established
+2025-07-26 22:13:08.797 [BackgroundWorker] INFO: User session created
+2025-07-26 22:13:10.535 [OrderService] INFO: Order processed successfully from 127.0.0.1
+2025-07-26 22:13:11.056 [EmailService] INFO: Configuration loaded successfully from 10.10.10.100
+2025-07-26 22:13:11.459 [UserService] INFO: Database connection established
+2025-07-26 22:13:12.591 [APIGateway] DEBUG: Background job completed
+2025-07-26 22:13:13.490 [AuthenticationManager] INFO: Request processed in 150ms for user lisa.brown from 198.51.100.8
+2025-07-26 22:13:15.482 [UserService] INFO: Database connection established
+2025-07-26 22:13:15.733 [OrderService] INFO: Order processed successfully
+2025-07-26 22:13:17.004 [BackgroundWorker] INFO: User session created
+2025-07-26 22:13:17.699 [OrderService] INFO: User login successful for user lisa.brown
+2025-07-26 22:13:17.864 [BackgroundWorker] INFO: Health check passed
+2025-07-26 22:13:18.026 [PaymentProcessor] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:13:18.067 [OrderService] INFO: User login successful for user mike.davis
+2025-07-26 22:13:18.679 [PaymentProcessor] DEBUG: Configuration loaded successfully
+2025-07-26 22:13:19.127 [BackgroundWorker] INFO: Health check passed for user sarah.johnson
+2025-07-26 22:13:19.304 [PaymentProcessor] INFO: Database connection established from 172.16.0.20
+2025-07-26 22:13:19.707 [UserService] INFO: Health check passed for user sarah.johnson
+2025-07-26 22:13:19.765 [OrderService] INFO: Request processed in 150ms
+2025-07-26 22:13:20.519 [EmailService] DEBUG: User login successful
+2025-07-26 22:13:20.758 [APIGateway] INFO: Background job completed for user alice.smith
+2025-07-26 22:13:20.810 [BackgroundWorker] INFO: Configuration loaded successfully for user alice.smith
+2025-07-26 22:13:23.108 [InventoryService] INFO: Cache hit for product data
+2025-07-26 22:13:23.391 [BackgroundWorker] ERROR: Network unreachable - retrying connection
+2025-07-26 22:13:25.340 [InventoryService] INFO: Cache hit for product data
+2025-07-26 22:13:25.498 [AuthenticationManager] INFO: Cache hit for product data for user jane.garcia
+2025-07-26 22:13:26.639 [UserService] INFO: Email notification sent
+2025-07-26 22:13:27.795 [EmailService] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:13:28.154 [UserService] INFO: Configuration loaded successfully
+2025-07-26 22:13:28.192 [NotificationService] INFO: User login successful
+2025-07-26 22:13:28.515 [EmailService] INFO: Cache hit for product data
+2025-07-26 22:13:28.538 [WebServer] INFO: Health check passed
+2025-07-26 22:13:29.079 [UserService] INFO: Background job completed
+2025-07-26 22:13:30.844 [NotificationService] INFO: Request processed in 150ms
+2025-07-26 22:13:32.463 [APIGateway] INFO: Cache hit for product data
+2025-07-26 22:13:33.782 [NotificationService] DEBUG: Cache hit for product data for user sarah.johnson from 192.168.1.10
+2025-07-26 22:13:34.803 [PaymentProcessor] INFO: Order processed successfully for user mike.davis
+2025-07-26 22:13:35.300 [APIGateway] INFO: Cache hit for product data for user jane.garcia from 192.168.0.50
+2025-07-26 22:13:35.845 [EmailService] DEBUG: Order processed successfully for user admin
+2025-07-26 22:13:36.818 [PaymentProcessor] INFO: Email notification sent for user user123
+2025-07-26 22:13:39.189 [UserService] DEBUG: Order processed successfully
+2025-07-26 22:13:40.486 [UserService] INFO: Request processed in 150ms
+2025-07-26 22:13:42.495 [UserService] INFO: Request processed in 150ms
+2025-07-26 22:13:42.788 [CacheManager] INFO: Order processed successfully for user alice.smith
+2025-07-26 22:13:43.540 [WebServer] INFO: Cache hit for product data
+2025-07-26 22:13:45.363 [AuthenticationManager] INFO: User login successful
+2025-07-26 22:13:46.664 [APIGateway] INFO: Database connection established
+2025-07-26 22:13:46.956 [AuthenticationManager] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:13:48.515 [APIGateway] INFO: Order processed successfully
+2025-07-26 22:13:49.182 [DatabasePool] DEBUG: Configuration loaded successfully for user sarah.johnson
+2025-07-26 22:13:49.590 [WebServer] INFO: Cache hit for product data
+2025-07-26 22:13:49.865 [OrderService] DEBUG: Health check passed
+2025-07-26 22:13:52.417 [NotificationService] INFO: User session created for user user123
+2025-07-26 22:13:52.819 [WebServer] INFO: Background job completed
+2025-07-26 22:13:54.210 [NotificationService] DEBUG: Configuration loaded successfully
+2025-07-26 22:13:54.275 [InventoryService] INFO: User session created for user user123
+2025-07-26 22:13:55.689 [DatabasePool] INFO: Configuration loaded successfully
+2025-07-26 22:13:57.486 [DatabasePool] INFO: User session created
+2025-07-26 22:13:58.669 [InventoryService] DEBUG: Order processed successfully
+2025-07-26 22:13:59.375 [InventoryService] INFO: Background job completed from 192.168.1.10
+2025-07-26 22:13:59.521 [APIGateway] INFO: Database connection established
+2025-07-26 22:13:59.693 [DatabasePool] DEBUG: Health check passed for user lisa.brown
+2025-07-26 22:14:00.410 [APIGateway] INFO: Email notification sent
+2025-07-26 22:14:02.131 [PaymentProcessor] ERROR: Network unreachable - retrying connection
+2025-07-26 22:14:02.133 [OrderService] INFO: User session created for user tom.miller
+2025-07-26 22:14:02.909 [WebServer] INFO: Configuration loaded successfully
+2025-07-26 22:14:04.841 [EmailService] DEBUG: Background job completed
+2025-07-26 22:14:05.505 [InventoryService] DEBUG: Cache hit for product data for user jane.garcia
+2025-07-26 22:14:05.506 [APIGateway] INFO: User login successful for user alice.smith from 10.0.0.15
+2025-07-26 22:14:06.264 [DatabasePool] INFO: Health check passed
+2025-07-26 22:14:06.266 [EmailService] INFO: Database connection established from 198.51.100.8
+2025-07-26 22:14:08.508 [EmailService] INFO: Health check passed for user bob.wilson
+2025-07-26 22:14:10.099 [APIGateway] ERROR: Unable to connect to external service
+2025-07-26 22:14:10.796 [DatabasePool] INFO: Database connection established from 192.168.1.10
+2025-07-26 22:14:16.012 [APIGateway] INFO: Configuration loaded successfully
+2025-07-26 22:14:16.225 [APIGateway] INFO: User login successful for user jane.garcia
+2025-07-26 22:14:18.838 [DatabasePool] INFO: Order processed successfully for user mike.davis
+2025-07-26 22:14:19.763 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 22:14:21.318 [OrderService] DEBUG: Email notification sent for user jane.garcia
+2025-07-26 22:14:21.701 [APIGateway] INFO: Email notification sent from 10.0.0.15
+2025-07-26 22:14:21.964 [WebServer] INFO: User session created from 198.51.100.8
+2025-07-26 22:14:22.885 [APIGateway] INFO: Database connection established
+2025-07-26 22:14:22.914 [APIGateway] INFO: Email notification sent for user lisa.brown
+2025-07-26 22:14:23.234 [PaymentProcessor] INFO: Configuration loaded successfully for user mike.davis
+2025-07-26 22:14:23.442 [APIGateway] INFO: Request processed in 150ms
+2025-07-26 22:14:23.943 [APIGateway] INFO: Database connection established for user alice.smith
+2025-07-26 22:14:24.239 [NotificationService] INFO: User session created
+2025-07-26 22:14:24.864 [NotificationService] INFO: Request processed in 150ms for user sarah.johnson
+2025-07-26 22:14:26.081 [UserService] INFO: Cache hit for product data from 127.0.0.1
+2025-07-26 22:14:27.406 [NotificationService] DEBUG: Email notification sent
+2025-07-26 22:14:29.255 [BackgroundWorker] INFO: Cache hit for product data
+2025-07-26 22:14:29.453 [OrderService] INFO: Email notification sent
+2025-07-26 22:14:29.686 [PaymentProcessor] INFO: Health check passed
+2025-07-26 22:14:30.183 [NotificationService] INFO: User login successful
+2025-07-26 22:14:30.999 [NotificationService] DEBUG: Configuration loaded successfully
+2025-07-26 22:14:31.737 [BackgroundWorker] DEBUG: Order processed successfully from 198.51.100.8
+2025-07-26 22:14:32.557 [WebServer] INFO: User login successful
+2025-07-26 22:14:32.975 [APIGateway] INFO: Background job completed for user bob.wilson
+2025-07-26 22:14:33.422 [WebServer] INFO: User login successful for user jane.garcia from 198.51.100.8
+2025-07-26 22:14:37.185 [AuthenticationManager] INFO: Health check passed
+2025-07-26 22:14:40.639 [NotificationService] ERROR: Payment processing failed - invalid card for ORDER-30894
+2025-07-26 22:14:41.208 [DatabasePool] INFO: Configuration loaded successfully
+2025-07-26 22:14:42.418 [APIGateway] DEBUG: User session created from 192.168.0.50
+2025-07-26 22:14:43.017 [NotificationService] INFO: Email notification sent
+2025-07-26 22:14:43.229 [CacheManager] INFO: User login successful
+2025-07-26 22:14:43.687 [CacheManager] INFO: Cache hit for product data
+2025-07-26 22:14:43.713 [DatabasePool] INFO: User session created
+2025-07-26 22:14:48.033 [EmailService] INFO: User login successful
+2025-07-26 22:14:48.911 [UserService] INFO: Background job completed for user sarah.johnson
+2025-07-26 22:14:50.214 [CacheManager] INFO: User session created from 127.0.0.1
+2025-07-26 22:14:51.857 [APIGateway] INFO: User session created
+2025-07-26 22:14:54.432 [AuthenticationManager] INFO: Configuration loaded successfully for user mike.davis
+2025-07-26 22:14:54.639 [UserService] ERROR: Session expired for user
+2025-07-26 22:14:55.134 [WebServer] INFO: User session created
+2025-07-26 22:14:55.463 [CacheManager] INFO: Database connection established for user alice.smith
+2025-07-26 22:14:56.092 [EmailService] DEBUG: User session created
+2025-07-26 22:14:56.593 [EmailService] INFO: Background job completed
+2025-07-26 22:14:57.902 [WebServer] INFO: Database connection established for user john.doe
+2025-07-26 22:14:58.778 [OrderService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:15:00.274 [WebServer] INFO: Order processed successfully
+2025-07-26 22:15:02.533 [PaymentProcessor] INFO: Email notification sent
+2025-07-26 22:15:02.979 [CacheManager] INFO: Email notification sent for user alice.smith
+2025-07-26 22:15:03.233 [NotificationService] INFO: Order processed successfully for user tom.miller
+2025-07-26 22:15:04.776 [DatabasePool] INFO: Request processed in 150ms
+2025-07-26 22:15:05.482 [NotificationService] INFO: Configuration loaded successfully
+2025-07-26 22:15:05.965 [PaymentProcessor] INFO: User session created
+2025-07-26 22:15:06.664 [PaymentProcessor] INFO: User login successful
+2025-07-26 22:15:07.007 [CacheManager] DEBUG: Configuration loaded successfully
+2025-07-26 22:15:07.182 [EmailService] INFO: Request processed in 150ms from 172.16.0.20
+2025-07-26 22:15:07.606 [PaymentProcessor] DEBUG: Configuration loaded successfully
+2025-07-26 22:15:10.217 [UserService] INFO: Database connection established
+2025-07-26 22:15:11.043 [InventoryService] INFO: Cache hit for product data
+2025-07-26 22:15:12.106 [WebServer] INFO: Cache hit for product data from 192.168.1.10
+2025-07-26 22:15:12.253 [DatabasePool] INFO: Health check passed for user sarah.johnson
+2025-07-26 22:15:14.504 [PaymentProcessor] INFO: Configuration loaded successfully
+2025-07-26 22:15:15.354 [BackgroundWorker] INFO: Cache hit for product data for user tom.miller
+2025-07-26 22:15:15.562 [UserService] INFO: Cache hit for product data for user admin from 10.0.0.15
+2025-07-26 22:15:18.399 [NotificationService] INFO: Configuration loaded successfully for user jane.garcia
+2025-07-26 22:15:18.513 [PaymentProcessor] ERROR: Database query execution failed on table 'orders'
+2025-07-26 22:15:19.263 [OrderService] INFO: Configuration loaded successfully for user user123
+2025-07-26 22:15:19.344 [OrderService] INFO: Configuration loaded successfully from 10.0.0.15
+2025-07-26 22:15:23.154 [CacheManager] ERROR: Payment processing failed - invalid card for ORDER-47789
+2025-07-26 22:15:23.236 [OrderService] ERROR: Network unreachable - retrying connection
+2025-07-26 22:15:24.755 [NotificationService] DEBUG: Email notification sent from 203.0.113.5
+2025-07-26 22:15:26.243 [UserService] INFO: User login successful
+2025-07-26 22:15:27.470 [InventoryService] DEBUG: Email notification sent
+2025-07-26 22:15:28.467 [InventoryService] INFO: Request processed in 150ms
+2025-07-26 22:15:28.484 [EmailService] INFO: Cache hit for product data
+2025-07-26 22:15:28.548 [OrderService] INFO: Order processed successfully
+2025-07-26 22:15:29.034 [InventoryService] DEBUG: Configuration loaded successfully
+2025-07-26 22:15:30.656 [APIGateway] INFO: Cache hit for product data for user user123
+2025-07-26 22:15:31.511 [NotificationService] INFO: Order processed successfully for user alice.smith
+2025-07-26 22:15:32.647 [EmailService] INFO: Email notification sent
+2025-07-26 22:15:32.722 [APIGateway] INFO: Email notification sent
+2025-07-26 22:15:34.118 [InventoryService] INFO: Email notification sent
+2025-07-26 22:15:35.072 [OrderService] INFO: Cache hit for product data for user jane.garcia
+2025-07-26 22:15:35.265 [BackgroundWorker] INFO: Background job completed
+2025-07-26 22:15:35.901 [PaymentProcessor] INFO: User login successful for user jane.garcia
+2025-07-26 22:15:36.273 [EmailService] INFO: Order processed successfully
+2025-07-26 22:15:36.824 [InventoryService] DEBUG: User session created for user sarah.johnson
+2025-07-26 22:15:38.070 [InventoryService] INFO: Request processed in 150ms for user lisa.brown
+2025-07-26 22:15:38.905 [UserService] INFO: Cache hit for product data
+2025-07-26 22:15:38.972 [OrderService] DEBUG: Email notification sent
+2025-07-26 22:15:39.482 [APIGateway] INFO: Email notification sent
+2025-07-26 22:15:40.040 [EmailService] INFO: Request processed in 150ms
+2025-07-26 22:15:41.953 [PaymentProcessor] INFO: User session created from 127.0.0.1
+2025-07-26 22:15:42.574 [WebServer] INFO: Request processed in 150ms
+2025-07-26 22:15:42.958 [UserService] INFO: Health check passed
+2025-07-26 22:15:44.182 [BackgroundWorker] DEBUG: Order processed successfully from 198.51.100.8
+2025-07-26 22:15:45.336 [UserService] INFO: Health check passed
+2025-07-26 22:15:45.611 [BackgroundWorker] INFO: Configuration loaded successfully
+2025-07-26 22:15:48.302 [UserService] ERROR: Thread pool exhausted - unable to process request
+2025-07-26 22:15:48.996 [AuthenticationManager] INFO: Email notification sent
+2025-07-26 22:15:50.363 [DatabasePool] INFO: User session created
+2025-07-26 22:15:50.527 [BackgroundWorker] INFO: User session created
+2025-07-26 22:15:52.167 [APIGateway] INFO: Request processed in 150ms
+2025-07-26 22:15:54.728 [InventoryService] DEBUG: Background job completed for user sarah.johnson
+2025-07-26 22:15:55.895 [NotificationService] INFO: User login successful
+2025-07-26 22:15:58.890 [InventoryService] INFO: Health check passed
+2025-07-26 22:15:58.926 [PaymentProcessor] INFO: Request processed in 150ms from 172.16.0.20
+2025-07-26 22:15:58.941 [EmailService] INFO: Cache hit for product data
+2025-07-26 22:15:58.949 [BackgroundWorker] INFO: Order processed successfully
+2025-07-26 22:15:59.249 [APIGateway] INFO: User login successful
+2025-07-26 22:15:59.720 [UserService] DEBUG: Cache hit for product data
+2025-07-26 22:15:59.745 [NotificationService] INFO: Cache hit for product data
+2025-07-26 22:16:00.903 [AuthenticationManager] INFO: Order processed successfully
+2025-07-26 22:16:01.564 [OrderService] DEBUG: User session created from 172.16.0.20
+2025-07-26 22:16:01.611 [APIGateway] DEBUG: Email notification sent
+2025-07-26 22:16:02.040 [BackgroundWorker] DEBUG: Configuration loaded successfully
+2025-07-26 22:16:07.724 [UserService] DEBUG: User session created from 203.0.113.5
+2025-07-26 22:16:08.561 [PaymentProcessor] INFO: User session created
+2025-07-26 22:16:09.545 [EmailService] INFO: User session created from 203.0.113.5
+2025-07-26 22:16:10.843 [PaymentProcessor] INFO: Email notification sent
+2025-07-26 22:16:11.455 [APIGateway] INFO: User login successful
+2025-07-26 22:16:13.606 [InventoryService] INFO: Order processed successfully for user user123
+2025-07-26 22:16:14.027 [NotificationService] DEBUG: Cache hit for product data
+2025-07-26 22:16:14.983 [APIGateway] INFO: Background job completed for user sarah.johnson
+2025-07-26 22:16:15.115 [WebServer] INFO: Configuration loaded successfully from 198.51.100.8
+2025-07-26 22:16:15.283 [InventoryService] INFO: Order processed successfully from 192.168.0.50
+2025-07-26 22:16:15.899 [DatabasePool] INFO: Configuration loaded successfully
+2025-07-26 22:16:16.389 [OrderService] INFO: Database connection established
+2025-07-26 22:16:17.733 [PaymentProcessor] ERROR: Slow query detected: execution time 5000ms on table 'orders'
+2025-07-26 22:16:18.531 [WebServer] INFO: Database connection established
+2025-07-26 22:16:20.202 [AuthenticationManager] INFO: Background job completed
+2025-07-26 22:16:23.158 [InventoryService] INFO: Health check passed
+2025-07-26 22:16:23.777 [WebServer] INFO: Configuration loaded successfully
+2025-07-26 22:16:25.095 [CacheManager] INFO: Database connection established
+2025-07-26 22:16:26.952 [InventoryService] INFO: Database connection established for user jane.garcia
+2025-07-26 22:16:29.006 [CacheManager] INFO: Request processed in 150ms for user lisa.brown
+2025-07-26 22:16:29.638 [AuthenticationManager] INFO: Background job completed
+2025-07-26 22:16:29.985 [InventoryService] INFO: User login successful from 127.0.0.1
+2025-07-26 22:16:30.005 [CacheManager] INFO: User login successful
+2025-07-26 22:16:30.287 [AuthenticationManager] INFO: Database connection established
+2025-07-26 22:16:30.439 [OrderService] ERROR: Payment processing failed - invalid card for ORDER-24183
+2025-07-26 22:16:33.709 [InventoryService] INFO: Configuration loaded successfully
+2025-07-26 22:16:34.023 [NotificationService] DEBUG: User login successful from 198.51.100.8
+2025-07-26 22:16:34.350 [EmailService] INFO: Configuration loaded successfully for user lisa.brown
+2025-07-26 22:16:34.368 [InventoryService] INFO: Request processed in 150ms
+2025-07-26 22:16:34.944 [APIGateway] INFO: Cache hit for product data from 203.0.113.5
+2025-07-26 22:16:38.030 [APIGateway] INFO: Cache hit for product data
+2025-07-26 22:16:39.665 [NotificationService] INFO: Database connection established
+2025-07-26 22:16:39.819 [APIGateway] INFO: User session created from 10.10.10.100
+2025-07-26 22:16:41.819 [DatabasePool] INFO: Database connection established for user mike.davis
+2025-07-26 22:16:42.752 [WebServer] INFO: User session created
+2025-07-26 22:16:44.690 [BackgroundWorker] INFO: Health check passed
+2025-07-26 22:16:45.883 [PaymentProcessor] DEBUG: Database connection established for user bob.wilson from 203.0.113.5
+2025-07-26 22:16:46.643 [APIGateway] INFO: Cache hit for product data from 10.0.0.15
+2025-07-26 22:16:47.109 [APIGateway] DEBUG: Email notification sent for user user123
+2025-07-26 22:16:47.198 [APIGateway] DEBUG: User login successful for user admin from 10.0.0.15
+2025-07-26 22:16:47.449 [DatabasePool] ERROR: Slow query detected: execution time 5000ms on table 'users'
+2025-07-26 22:16:48.522 [WebServer] INFO: Database connection established
+2025-07-26 22:16:48.747 [DatabasePool] DEBUG: Health check passed from 192.168.0.50
+2025-07-26 22:16:49.612 [WebServer] INFO: Database connection established
+2025-07-26 22:16:50.206 [AuthenticationManager] DEBUG: Request processed in 150ms
+2025-07-26 22:16:51.909 [OrderService] ERROR: OutOfMemoryError: Java heap space exhausted
+2025-07-26 22:16:52.415 [OrderService] INFO: Configuration loaded successfully for user bob.wilson
+2025-07-26 22:16:53.592 [PaymentProcessor] INFO: Health check passed for user alice.smith from 10.0.0.15
+2025-07-26 22:16:55.668 [InventoryService] INFO: User session created
+2025-07-26 22:16:56.230 [EmailService] DEBUG: User session created
+2025-07-26 22:16:56.259 [DatabasePool] INFO: Database connection established from 10.10.10.100
+2025-07-26 22:16:58.541 [EmailService] DEBUG: Email notification sent
+2025-07-26 22:16:59.916 [WebServer] INFO: Cache hit for product data
+2025-07-26 22:17:00.657 [EmailService] INFO: Order processed successfully
+2025-07-26 22:17:01.261 [AuthenticationManager] INFO: User session created
+2025-07-26 22:17:06.029 [NotificationService] DEBUG: Configuration loaded successfully
+2025-07-26 22:17:09.417 [BackgroundWorker] INFO: Cache hit for product data for user mike.davis
+2025-07-26 22:17:11.933 [WebServer] INFO: Health check passed
+2025-07-26 22:17:12.009 [DatabasePool] INFO: Health check passed
+2025-07-26 22:17:12.544 [PaymentProcessor] INFO: User login successful for user tom.miller
+2025-07-26 22:17:13.397 [PaymentProcessor] INFO: Request processed in 150ms for user sarah.johnson
+2025-07-26 22:17:14.532 [InventoryService] INFO: Cache hit for product data for user jane.garcia
+2025-07-26 22:17:15.958 [WebServer] DEBUG: Request processed in 150ms
+2025-07-26 22:17:17.596 [WebServer] INFO: User login successful
+2025-07-26 22:17:18.359 [APIGateway] INFO: Background job completed for user jane.garcia
+2025-07-26 22:17:18.388 [InventoryService] INFO: Database connection established for user bob.wilson
+2025-07-26 22:17:18.798 [PaymentProcessor] INFO: User login successful for user sarah.johnson
+2025-07-26 22:17:21.076 [DatabasePool] DEBUG: Configuration loaded successfully
+2025-07-26 22:17:21.955 [NotificationService] ERROR: Session expired for user
+2025-07-26 22:17:21.992 [PaymentProcessor] INFO: Cache hit for product data
+2025-07-26 22:17:22.686 [InventoryService] DEBUG: Request processed in 150ms
+2025-07-26 22:17:22.979 [InventoryService] INFO: Order processed successfully from 192.168.0.50
+2025-07-26 22:17:23.796 [BackgroundWorker] INFO: User session created for user user123
+2025-07-26 22:17:25.024 [EmailService] DEBUG: Background job completed
+2025-07-26 22:17:25.827 [APIGateway] INFO: Order processed successfully from 172.16.0.20
+2025-07-26 22:17:27.333 [OrderService] INFO: Request processed in 150ms
+2025-07-26 22:17:27.623 [WebServer] INFO: Database connection established for user john.doe
+2025-07-26 22:17:29.259 [AuthenticationManager] INFO: User session created from 198.51.100.8
+2025-07-26 22:17:29.340 [UserService] INFO: Health check passed from 10.0.0.15
+2025-07-26 22:17:30.504 [EmailService] INFO: Configuration loaded successfully
+2025-07-26 22:17:30.649 [OrderService] DEBUG: Cache hit for product data for user john.doe
+2025-07-26 22:17:30.779 [PaymentProcessor] ERROR: Unable to connect to external service
+2025-07-26 22:17:30.934 [EmailService] INFO: Email notification sent
+2025-07-26 22:17:31.090 [BackgroundWorker] INFO: User session created for user admin
+2025-07-26 22:17:31.381 [WebServer] INFO: User session created for user john.doe
+2025-07-26 22:17:33.778 [UserService] INFO: Database connection established
+2025-07-26 22:17:34.751 [DatabasePool] DEBUG: Order processed successfully
+2025-07-26 22:17:35.357 [InventoryService] INFO: Cache hit for product data
+2025-07-26 22:17:35.397 [BackgroundWorker] ERROR: Connection timeout after 30 seconds
+2025-07-26 22:17:36.706 [DatabasePool] INFO: Cache hit for product data for user sarah.johnson from 10.0.0.15

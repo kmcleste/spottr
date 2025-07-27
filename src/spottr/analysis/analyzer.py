@@ -12,6 +12,12 @@ from spottr.analysis.correlation import (
     MultiFileCorrelationEngine,
 )
 from spottr.analysis.entailment import EntailmentScorer
+from spottr.analysis.llm_analyzer import (
+    ExtractedInsight,
+    LLMLogAnalyzer,
+    LogQualityAssessment,
+    RootCauseAnalysis,
+)
 from spottr.analysis.rule_engine import RuleEngine
 from spottr.analysis.temporal import TemporalAnalyzer, TemporalInsight
 from spottr.core.models import Insight, LogEntry, LogFormat
@@ -29,6 +35,10 @@ class EnhancedLogAnalyzer:
         log_format: Optional[LogFormat] = None,
         temporal_window_minutes: int = 5,
         correlation_window_minutes: int = 10,
+        use_llm: bool = False,
+        openai_api_key: Optional[str] = None,
+        base_url: Optional[str] = None,
+        llm_model: str = "gpt-4o-mini",
     ):
         # Existing components
         self.parser_factory = LogParserFactory()
@@ -47,9 +57,22 @@ class EnhancedLogAnalyzer:
                 self.logger.warning("Continuing without entailment scoring")
                 self.use_entailment = False
 
-        # New components
         self.temporal_analyzer = TemporalAnalyzer(temporal_window_minutes)
         self.correlation_engine = MultiFileCorrelationEngine(correlation_window_minutes)
+
+        self.use_llm = use_llm
+        self.llm_analyzer = None
+
+        if use_llm:
+            try:
+                self.llm_analyzer = LLMLogAnalyzer(
+                    api_key=openai_api_key, base_url=base_url, model=llm_model
+                )
+                self.logger.info(f"LLM analyzer initialized with model: {llm_model}")
+            except Exception as e:
+                self.logger.warning(f"Failed to initialize LLM analyzer: {e}")
+                self.logger.warning("Continuing without LLM analysis")
+                self.use_llm = False
 
     # Existing methods remain the same
     def analyze_file(
@@ -96,6 +119,141 @@ class EnhancedLogAnalyzer:
 
             traceback.print_exc()
             raise
+
+    def analyze_file_with_llm(
+        self,
+        file_path: str,
+        target_statements: List[str] = None,
+        include_temporal: bool = True,
+        include_llm_insights: bool = True,
+        include_quality_assessment: bool = True,
+        time_window_minutes: int = 5,
+    ) -> Dict[str, Any]:
+        """Enhanced analysis including LLM-powered insights."""
+
+        # Get standard enhanced analysis
+        result = self.analyze_file_enhanced(
+            file_path=file_path,
+            target_statements=target_statements,
+            include_temporal=include_temporal,
+            time_window_minutes=time_window_minutes,
+        )
+
+        # Add LLM analysis if enabled
+        if self.use_llm and self.llm_analyzer:
+            entries = result["entries"]
+
+            llm_results = {
+                "llm_insights": [],
+                "quality_assessment": None,
+                "suggested_rules": [],
+                "tag_summary": {},
+            }
+
+            try:
+                if include_llm_insights:
+                    print("Extracting LLM insights...")
+                    llm_insights = self.llm_analyzer.extract_insights_from_logs(entries)
+                    llm_results["llm_insights"] = [
+                        self._llm_insight_to_dict(insight) for insight in llm_insights
+                    ]
+                    print(f"Found {len(llm_insights)} LLM insights")
+
+                if include_quality_assessment:
+                    print("Assessing log quality...")
+                    quality_assessment = self.llm_analyzer.analyze_log_quality(entries)
+                    llm_results["quality_assessment"] = (
+                        self._quality_assessment_to_dict(quality_assessment)
+                    )
+
+                # Suggest new rules based on patterns
+                print("Suggesting rule patterns...")
+                suggested_rules = self.llm_analyzer.suggest_new_rules(entries)
+                llm_results["suggested_rules"] = suggested_rules
+
+                # Get tag summary
+                llm_results["tag_summary"] = self.llm_analyzer.get_tag_summary()
+
+            except Exception as e:
+                self.logger.error(f"Error in LLM analysis: {e}")
+                llm_results["error"] = str(e)
+
+            result["llm_analysis"] = llm_results
+
+        return result
+
+    def analyze_multiple_files_with_llm(
+        self,
+        file_paths: List[str],
+        target_statements: List[str] = None,
+        service_names: List[str] = None,
+        include_temporal: bool = True,
+        include_correlation: bool = True,
+        include_llm_insights: bool = True,
+        include_root_cause_analysis: bool = True,
+        time_window_minutes: int = 5,
+    ) -> Dict[str, Any]:
+        """Multi-file analysis with LLM-powered correlation and root cause analysis."""
+
+        # Get standard multi-file analysis
+        result = self.analyze_multiple_files(
+            file_paths=file_paths,
+            target_statements=target_statements,
+            service_names=service_names,
+            include_temporal=include_temporal,
+            include_correlation=include_correlation,
+            time_window_minutes=time_window_minutes,
+        )
+
+        # Add LLM analysis if enabled
+        if self.use_llm and self.llm_analyzer and include_llm_insights:
+            try:
+                print("Performing LLM-powered analysis...")
+
+                # Collect all insights for root cause analysis
+                all_insights = []  # noqa: F841
+                for service_name, service_data in result.get(
+                    "service_analysis", {}
+                ).items():
+                    # We need to reconstruct insights from the dict format
+                    # This would require access to the actual insight objects
+                    pass
+
+                # For now, analyze correlations if available
+                correlations = result.get("detailed_correlations", [])
+                if correlations and include_root_cause_analysis:
+                    print("Performing root cause analysis...")
+
+                    # Create context from correlations
+                    correlation_context = (
+                        f"Found {len(correlations)} correlations across services"
+                    )
+                    if correlations:
+                        correlation_context += (
+                            f". Primary correlation: {correlations[0]['description']}"
+                        )
+
+                    # This would need actual Insight objects, so we'll create a simplified version
+                    # for demonstration
+                    try:
+                        root_cause = self.llm_analyzer.perform_root_cause_analysis(
+                            insights=[],  # Would need actual insight objects
+                            correlation_context=correlation_context,
+                        )
+
+                        result["llm_analysis"] = {
+                            "root_cause_analysis": self._root_cause_to_dict(root_cause),
+                            "tag_summary": self.llm_analyzer.get_tag_summary(),
+                        }
+                    except Exception as e:
+                        self.logger.error(f"Error in LLM root cause analysis: {e}")
+                        result["llm_analysis"] = {"error": str(e)}
+
+            except Exception as e:
+                self.logger.error(f"Error in multi-file LLM analysis: {e}")
+                result["llm_analysis"] = {"error": str(e)}
+
+        return result
 
     # NEW: Enhanced single-file analysis with temporal patterns
     def analyze_file_enhanced(
@@ -547,6 +705,43 @@ class EnhancedLogAnalyzer:
             )
 
         return recommendations
+
+    def _llm_insight_to_dict(self, insight: ExtractedInsight) -> Dict[str, Any]:
+        """Convert LLM insight to dictionary."""
+        return {
+            "category": insight.category,
+            "confidence": insight.confidence,
+            "description": insight.description,
+            "severity": insight.severity,
+            "tags": insight.tags,
+            "business_impact": insight.business_impact,
+            "recommended_actions": insight.recommended_actions,
+            "root_cause_hypothesis": insight.root_cause_hypothesis,
+            "source": "llm_analysis",
+        }
+
+    def _quality_assessment_to_dict(
+        self, assessment: LogQualityAssessment
+    ) -> Dict[str, Any]:
+        """Convert quality assessment to dictionary."""
+        return {
+            "completeness_score": assessment.completeness_score,
+            "missing_context": assessment.missing_context,
+            "suggestions": assessment.suggestions,
+            "timestamp_consistency": assessment.timestamp_consistency,
+            "message_clarity_score": assessment.message_clarity_score,
+        }
+
+    def _root_cause_to_dict(self, analysis: RootCauseAnalysis) -> Dict[str, Any]:
+        """Convert root cause analysis to dictionary."""
+        return {
+            "primary_cause": analysis.primary_cause,
+            "contributing_factors": analysis.contributing_factors,
+            "evidence_summary": analysis.evidence_summary,
+            "confidence": analysis.confidence,
+            "timeline_analysis": analysis.timeline_analysis,
+            "impact_scope": analysis.impact_scope,
+        }
 
     # Existing helper methods (unchanged)
     def parse_log_file(self, file_path: str) -> List[LogEntry]:
