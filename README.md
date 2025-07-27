@@ -13,6 +13,7 @@ Spottr is an advanced log analysis system that combines deterministic rule-based
 ### 🧠 **Hybrid Analysis Engine**
 - **Rule-Based Detection**: Regex-driven detection for known issue patterns
 - **Semantic Analysis**: NorGLM-powered entailment scoring for contextual understanding
+- **Generative Suggestions**: LLM generated suggestions, see the [docs](/docs/llm.md) for more information
 - **Confidence Scoring**: Probability-based insight ranking with hybrid confidence
 - **Custom Targets**: User-defined statements for domain-specific insight detection
 
