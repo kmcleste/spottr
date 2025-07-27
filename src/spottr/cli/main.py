@@ -289,6 +289,10 @@ Examples:
                 )
             analysis_type = "single_file"
 
+        print(
+            f"DEBUG: Analysis completed, result keys: {list(result.keys()) if result else 'None'}"
+        )
+
         # Generate output
         if args.output_format in ["json", "both"]:
             json_output = format_json_output(result, analysis_type)
@@ -301,14 +305,14 @@ Examples:
             if args.output_format == "json":
                 print(json.dumps(json_output, indent=2, cls=NumpyEncoder))
 
-            if args.output_format in ["human", "both"]:
-                print_human_readable_report(
-                    result,
-                    analysis_type,
-                    include_temporal,
-                    include_correlation,
-                    args.use_llm,
-                )
+        if args.output_format in ["human", "both"]:
+            print_human_readable_report(
+                result,
+                analysis_type,
+                include_temporal,
+                include_correlation,
+                args.use_llm,
+            )
 
     except Exception as e:
         import traceback

@@ -1,0 +1,520 @@
+2025-07-26 21:17:37.215 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 21:18:06.625 [UserService] INFO: User lisa.brown logged in successfully from 198.51.100.8
+2025-07-26 21:18:06.735 [UserService] INFO: User lisa.brown logged in successfully from 192.168.1.10
+2025-07-26 21:18:11.496 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:18:16.657 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:18:17.738 [UserService] INFO: User john.doe logged in successfully from 10.10.10.100
+2025-07-26 21:18:18.754 [UserService] INFO: Session validated for user123
+2025-07-26 21:18:28.882 [UserService] INFO: User jane.garcia logged in successfully from 10.10.10.100
+2025-07-26 21:18:31.076 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:18:32.052 [UserService] INFO: Password reset requested for sarah.johnson
+2025-07-26 21:18:39.165 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:18:43.485 [UserService] INFO: Password reset requested for sarah.johnson
+2025-07-26 21:18:50.656 [UserService] INFO: User lisa.brown logged out
+2025-07-26 21:18:51.240 [UserService] INFO: User user123 logged in successfully from 10.10.10.100
+2025-07-26 21:18:59.169 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:19:00.660 [UserService] INFO: User alice.smith logged in successfully from 203.0.113.5
+2025-07-26 21:19:18.482 [UserService] INFO: User profile updated for bob.wilson
+2025-07-26 21:19:27.311 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:19:29.909 [UserService] INFO: User user123 logged out
+2025-07-26 21:19:32.244 [UserService] INFO: User bob.wilson logged in successfully from 203.0.113.5
+2025-07-26 21:19:45.848 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:19:47.582 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 21:19:52.154 [UserService] INFO: User alice.smith logged in successfully from 10.10.10.100
+2025-07-26 21:19:55.784 [UserService] INFO: User tom.miller logged in successfully from 192.168.1.10
+2025-07-26 21:19:57.092 [UserService] INFO: User alice.smith logged out
+2025-07-26 21:19:58.530 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 21:19:58.921 [UserService] ERROR: Authentication failed for user jane.garcia from 172.16.0.20 - invalid password
+2025-07-26 21:20:16.394 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:20:21.087 [UserService] INFO: User tom.miller logged in successfully from 203.0.113.5
+2025-07-26 21:20:23.262 [UserService] ERROR: Authentication failed for user bob.wilson from 172.16.0.20 - invalid password
+2025-07-26 21:20:37.015 [UserService] ERROR: Authentication failed for user sarah.johnson from 192.168.0.50 - invalid password
+2025-07-26 21:20:38.931 [UserService] INFO: User alice.smith logged out
+2025-07-26 21:21:03.217 [UserService] INFO: User lisa.brown logged in successfully from 203.0.113.5
+2025-07-26 21:21:10.164 [UserService] INFO: User profile updated for admin
+2025-07-26 21:21:11.667 [UserService] INFO: User mike.davis logged in successfully from 203.0.113.5
+2025-07-26 21:21:18.714 [UserService] INFO: User bob.wilson logged in successfully from 203.0.113.5
+2025-07-26 21:21:31.350 [UserService] INFO: Session validated for john.doe
+2025-07-26 21:21:31.747 [UserService] INFO: User lisa.brown logged in successfully from 127.0.0.1
+2025-07-26 21:21:32.432 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:21:34.609 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 21:21:42.221 [UserService] INFO: Session validated for lisa.brown
+2025-07-26 21:21:50.137 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:21:53.489 [UserService] INFO: User sarah.johnson logged in successfully from 127.0.0.1
+2025-07-26 21:21:54.109 [UserService] INFO: User mike.davis logged in successfully from 192.168.1.10
+2025-07-26 21:22:16.618 [UserService] INFO: User user123 logged out
+2025-07-26 21:22:21.860 [UserService] INFO: User user123 logged in successfully from 192.168.1.10
+2025-07-26 21:22:23.384 [UserService] INFO: User john.doe logged out
+2025-07-26 21:22:27.801 [UserService] INFO: Session validated for mike.davis
+2025-07-26 21:22:32.679 [UserService] INFO: User sarah.johnson logged in successfully from 172.16.0.20
+2025-07-26 21:22:34.302 [UserService] ERROR: Authentication failed for user bob.wilson from 192.168.1.10 - invalid password
+2025-07-26 21:22:40.105 [UserService] INFO: Password reset requested for lisa.brown
+2025-07-26 21:22:55.584 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 21:22:56.161 [UserService] INFO: User bob.wilson logged in successfully from 203.0.113.5
+2025-07-26 21:22:56.579 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:23:00.026 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:23:00.241 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:23:14.946 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:23:16.582 [UserService] INFO: Session validated for lisa.brown
+2025-07-26 21:23:21.375 [UserService] INFO: User user123 logged out
+2025-07-26 21:23:34.928 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:23:42.395 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:23:43.224 [UserService] INFO: User profile updated for admin
+2025-07-26 21:23:56.996 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:24:01.311 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:24:01.355 [UserService] INFO: User lisa.brown logged out
+2025-07-26 21:24:07.290 [UserService] INFO: Session validated for user123
+2025-07-26 21:24:10.692 [UserService] INFO: Session validated for user123
+2025-07-26 21:24:22.716 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:24:24.787 [UserService] INFO: User mike.davis logged out
+2025-07-26 21:24:26.962 [UserService] INFO: User mike.davis logged in successfully from 10.10.10.100
+2025-07-26 21:24:51.686 [UserService] INFO: User lisa.brown logged in successfully from 203.0.113.5
+2025-07-26 21:24:55.988 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 21:25:01.598 [UserService] ERROR: Authentication failed for user john.doe from 10.0.0.15 - invalid password
+2025-07-26 21:25:02.883 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 21:25:08.756 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 21:25:10.409 [UserService] INFO: User bob.wilson logged in successfully from 172.16.0.20
+2025-07-26 21:25:11.347 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:25:14.027 [UserService] INFO: User alice.smith logged in successfully from 198.51.100.8
+2025-07-26 21:25:17.879 [UserService] INFO: User user123 logged in successfully from 198.51.100.8
+2025-07-26 21:25:35.022 [UserService] INFO: User john.doe logged out
+2025-07-26 21:25:41.691 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:25:43.301 [UserService] INFO: Password reset requested for admin
+2025-07-26 21:25:48.919 [UserService] ERROR: Authentication failed for user sarah.johnson from 10.0.0.15 - invalid password
+2025-07-26 21:25:55.417 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:25:59.322 [UserService] INFO: Password reset requested for admin
+2025-07-26 21:26:04.986 [UserService] INFO: User tom.miller logged out
+2025-07-26 21:26:17.291 [UserService] INFO: User profile updated for bob.wilson
+2025-07-26 21:26:18.102 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:26:31.198 [UserService] ERROR: Authentication failed for user alice.smith from 172.16.0.20 - invalid password
+2025-07-26 21:26:33.222 [UserService] INFO: User alice.smith logged out
+2025-07-26 21:26:39.495 [UserService] INFO: User john.doe logged in successfully from 192.168.0.50
+2025-07-26 21:26:39.629 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 21:26:43.861 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:26:47.846 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:26:52.791 [UserService] INFO: Session validated for mike.davis
+2025-07-26 21:27:00.871 [UserService] INFO: User admin logged out
+2025-07-26 21:27:02.138 [UserService] INFO: Session validated for user123
+2025-07-26 21:27:02.368 [UserService] ERROR: Authentication failed for user bob.wilson from 198.51.100.8 - invalid password
+2025-07-26 21:27:31.612 [UserService] INFO: User lisa.brown logged in successfully from 127.0.0.1
+2025-07-26 21:27:34.719 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 21:27:51.561 [UserService] INFO: Session validated for alice.smith
+2025-07-26 21:27:57.703 [UserService] INFO: Password reset requested for sarah.johnson
+2025-07-26 21:27:59.592 [UserService] INFO: Password reset requested for sarah.johnson
+2025-07-26 21:28:00.490 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:28:01.135 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:28:03.186 [UserService] INFO: Password reset requested for sarah.johnson
+2025-07-26 21:28:20.720 [UserService] INFO: Session validated for john.doe
+2025-07-26 21:28:27.098 [UserService] INFO: User lisa.brown logged in successfully from 10.10.10.100
+2025-07-26 21:28:29.117 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 21:28:36.372 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 21:28:38.911 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 21:28:47.455 [UserService] ERROR: Authentication failed for user user123 from 192.168.1.10 - invalid password
+2025-07-26 21:28:48.741 [UserService] INFO: Session validated for user123
+2025-07-26 21:29:00.212 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:29:08.163 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:29:08.995 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 21:29:12.277 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:29:22.424 [UserService] INFO: Session validated for john.doe
+2025-07-26 21:29:22.541 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:29:27.984 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:29:48.209 [UserService] INFO: User bob.wilson logged out
+2025-07-26 21:29:49.955 [UserService] ERROR: Authentication failed for user mike.davis from 192.168.0.50 - invalid password
+2025-07-26 21:29:51.152 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:29:54.735 [UserService] INFO: User profile updated for admin
+2025-07-26 21:30:01.309 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:30:03.630 [UserService] ERROR: Authentication failed for user john.doe from 192.168.1.10 - invalid password
+2025-07-26 21:30:12.635 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:30:17.428 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 21:30:23.368 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:30:34.935 [UserService] INFO: Session validated for alice.smith
+2025-07-26 21:30:38.232 [UserService] INFO: User bob.wilson logged out
+2025-07-26 21:30:45.250 [UserService] ERROR: Authentication failed for user bob.wilson from 192.168.1.10 - invalid password
+2025-07-26 21:30:48.166 [UserService] INFO: User john.doe logged out
+2025-07-26 21:30:50.289 [UserService] INFO: Password reset requested for sarah.johnson
+2025-07-26 21:30:54.761 [UserService] INFO: User user123 logged in successfully from 10.10.10.100
+2025-07-26 21:31:01.031 [UserService] INFO: Session validated for user123
+2025-07-26 21:31:11.443 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 21:31:25.519 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:31:25.528 [UserService] INFO: User sarah.johnson logged in successfully from 10.0.0.15
+2025-07-26 21:31:36.616 [UserService] INFO: User bob.wilson logged out
+2025-07-26 21:31:48.187 [UserService] INFO: User alice.smith logged in successfully from 172.16.0.20
+2025-07-26 21:31:48.248 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:32:02.539 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:32:17.436 [UserService] INFO: User tom.miller logged in successfully from 203.0.113.5
+2025-07-26 21:32:17.820 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 21:32:18.867 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:32:24.401 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:32:28.138 [UserService] INFO: User mike.davis logged in successfully from 10.0.0.15
+2025-07-26 21:32:33.846 [UserService] INFO: User bob.wilson logged out
+2025-07-26 21:32:34.714 [UserService] ERROR: Authentication failed for user lisa.brown from 10.10.10.100 - invalid password
+2025-07-26 21:32:39.831 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:32:45.305 [UserService] INFO: Session validated for mike.davis
+2025-07-26 21:32:46.093 [UserService] INFO: User alice.smith logged in successfully from 192.168.1.10
+2025-07-26 21:32:58.544 [UserService] INFO: User mike.davis logged in successfully from 198.51.100.8
+2025-07-26 21:32:58.589 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 21:32:59.942 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:33:02.357 [UserService] INFO: User sarah.johnson logged in successfully from 127.0.0.1
+2025-07-26 21:33:18.101 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:33:34.486 [UserService] ERROR: Authentication failed for user sarah.johnson from 127.0.0.1 - invalid password
+2025-07-26 21:33:35.004 [UserService] INFO: User bob.wilson logged in successfully from 172.16.0.20
+2025-07-26 21:33:46.136 [UserService] INFO: Session validated for mike.davis
+2025-07-26 21:33:53.739 [UserService] INFO: User tom.miller logged in successfully from 192.168.0.50
+2025-07-26 21:34:02.561 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 21:34:03.952 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:34:06.893 [UserService] ERROR: Authentication failed for user sarah.johnson from 127.0.0.1 - invalid password
+2025-07-26 21:34:12.782 [UserService] INFO: Password reset requested for lisa.brown
+2025-07-26 21:34:15.535 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:34:18.416 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:34:18.424 [UserService] INFO: User user123 logged in successfully from 127.0.0.1
+2025-07-26 21:34:35.228 [UserService] INFO: User alice.smith logged in successfully from 192.168.1.10
+2025-07-26 21:34:41.587 [UserService] INFO: User profile updated for user123
+2025-07-26 21:34:44.736 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:34:45.174 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:35:04.265 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:35:10.985 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:35:14.391 [UserService] INFO: User john.doe logged out
+2025-07-26 21:35:17.449 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:35:17.650 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:35:20.489 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:35:31.574 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:35:43.771 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 21:35:47.473 [UserService] INFO: User jane.garcia logged in successfully from 198.51.100.8
+2025-07-26 21:35:50.376 [UserService] ERROR: Authentication failed for user tom.miller from 203.0.113.5 - invalid password
+2025-07-26 21:35:52.828 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:35:55.066 [UserService] INFO: User profile updated for admin
+2025-07-26 21:36:01.789 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:36:04.084 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 21:36:14.396 [UserService] INFO: Password reset requested for admin
+2025-07-26 21:36:25.085 [UserService] INFO: User john.doe logged out
+2025-07-26 21:36:25.267 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:36:37.205 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:36:48.510 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:36:52.060 [UserService] INFO: User alice.smith logged in successfully from 198.51.100.8
+2025-07-26 21:36:59.608 [UserService] INFO: Session validated for mike.davis
+2025-07-26 21:37:05.697 [UserService] INFO: User user123 logged out
+2025-07-26 21:37:09.343 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 21:37:16.492 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 21:37:17.183 [UserService] INFO: User tom.miller logged out
+2025-07-26 21:37:24.608 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:37:34.111 [UserService] INFO: User sarah.johnson logged in successfully from 127.0.0.1
+2025-07-26 21:37:38.983 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:37:40.832 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:37:50.692 [UserService] INFO: User profile updated for user123
+2025-07-26 21:37:59.790 [UserService] ERROR: Authentication failed for user tom.miller from 203.0.113.5 - invalid password
+2025-07-26 21:38:12.549 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:38:17.984 [UserService] INFO: User sarah.johnson logged in successfully from 192.168.0.50
+2025-07-26 21:38:21.036 [UserService] INFO: Session validated for john.doe
+2025-07-26 21:38:21.551 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:38:25.904 [UserService] INFO: User john.doe logged out
+2025-07-26 21:38:26.541 [UserService] INFO: User john.doe logged out
+2025-07-26 21:38:39.322 [UserService] ERROR: Authentication failed for user bob.wilson from 198.51.100.8 - invalid password
+2025-07-26 21:38:43.124 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:38:44.623 [UserService] INFO: User jane.garcia logged out
+2025-07-26 21:38:50.416 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:38:54.680 [UserService] INFO: User admin logged out
+2025-07-26 21:38:58.230 [UserService] INFO: User sarah.johnson logged in successfully from 172.16.0.20
+2025-07-26 21:39:07.991 [UserService] INFO: User tom.miller logged out
+2025-07-26 21:39:14.749 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:39:14.896 [UserService] ERROR: Authentication failed for user lisa.brown from 127.0.0.1 - invalid password
+2025-07-26 21:39:22.288 [UserService] INFO: User admin logged out
+2025-07-26 21:39:36.873 [UserService] INFO: User admin logged out
+2025-07-26 21:39:50.706 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 21:39:53.303 [UserService] INFO: User jane.garcia logged out
+2025-07-26 21:39:55.506 [UserService] INFO: User john.doe logged out
+2025-07-26 21:39:57.025 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:39:57.322 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:40:13.727 [UserService] INFO: Session validated for admin
+2025-07-26 21:40:27.365 [UserService] INFO: User profile updated for admin
+2025-07-26 21:40:28.894 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 21:40:30.044 [UserService] INFO: User user123 logged out
+2025-07-26 21:40:37.620 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:40:49.144 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 21:40:53.187 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:40:55.911 [UserService] INFO: User bob.wilson logged out
+2025-07-26 21:41:03.556 [UserService] INFO: User jane.garcia logged in successfully from 172.16.0.20
+2025-07-26 21:41:05.682 [UserService] INFO: Session validated for user123
+2025-07-26 21:41:06.466 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:41:19.930 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:41:29.588 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 21:41:34.427 [UserService] INFO: Session validated for user123
+2025-07-26 21:41:40.659 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:41:43.336 [UserService] INFO: User profile updated for user123
+2025-07-26 21:41:54.734 [UserService] ERROR: Authentication failed for user tom.miller from 203.0.113.5 - invalid password
+2025-07-26 21:41:56.293 [UserService] ERROR: Authentication failed for user jane.garcia from 127.0.0.1 - invalid password
+2025-07-26 21:42:08.735 [UserService] INFO: User user123 logged in successfully from 172.16.0.20
+2025-07-26 21:42:09.621 [UserService] INFO: User john.doe logged out
+2025-07-26 21:42:16.637 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:42:18.628 [UserService] INFO: User admin logged in successfully from 198.51.100.8
+2025-07-26 21:42:27.282 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:42:33.613 [UserService] ERROR: Authentication failed for user john.doe from 198.51.100.8 - invalid password
+2025-07-26 21:42:37.659 [UserService] INFO: User user123 logged in successfully from 172.16.0.20
+2025-07-26 21:42:48.806 [UserService] INFO: User lisa.brown logged in successfully from 192.168.1.10
+2025-07-26 21:42:49.684 [UserService] INFO: Session validated for mike.davis
+2025-07-26 21:42:52.278 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:43:07.214 [UserService] INFO: User jane.garcia logged out
+2025-07-26 21:43:08.115 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 21:43:17.260 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:43:19.326 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:43:27.857 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 21:43:30.498 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 21:43:38.241 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:43:39.445 [UserService] INFO: User alice.smith logged out
+2025-07-26 21:43:39.602 [UserService] INFO: User jane.garcia logged out
+2025-07-26 21:43:44.054 [UserService] INFO: User lisa.brown logged out
+2025-07-26 21:43:49.500 [UserService] INFO: User mike.davis logged in successfully from 172.16.0.20
+2025-07-26 21:43:56.453 [UserService] INFO: User jane.garcia logged in successfully from 172.16.0.20
+2025-07-26 21:44:00.970 [UserService] INFO: Password reset requested for sarah.johnson
+2025-07-26 21:44:06.632 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:44:11.416 [UserService] ERROR: Authentication failed for user jane.garcia from 192.168.0.50 - invalid password
+2025-07-26 21:44:28.000 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:44:39.381 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:44:45.062 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 21:44:46.740 [UserService] INFO: User john.doe logged in successfully from 198.51.100.8
+2025-07-26 21:44:47.584 [UserService] INFO: Password reset requested for admin
+2025-07-26 21:45:04.621 [UserService] INFO: Session validated for lisa.brown
+2025-07-26 21:45:17.643 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:45:21.207 [UserService] INFO: Password reset requested for admin
+2025-07-26 21:45:29.644 [UserService] INFO: User mike.davis logged in successfully from 172.16.0.20
+2025-07-26 21:45:29.678 [UserService] ERROR: Authentication failed for user mike.davis from 192.168.0.50 - invalid password
+2025-07-26 21:45:31.262 [UserService] ERROR: Authentication failed for user admin from 172.16.0.20 - invalid password
+2025-07-26 21:45:47.327 [UserService] INFO: User admin logged in successfully from 10.0.0.15
+2025-07-26 21:45:51.795 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:45:53.934 [UserService] ERROR: Authentication failed for user user123 from 127.0.0.1 - invalid password
+2025-07-26 21:46:04.082 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 21:46:06.351 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:46:10.912 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:46:11.625 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:46:19.814 [UserService] INFO: User tom.miller logged out
+2025-07-26 21:46:22.203 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:46:29.811 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:46:41.532 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:46:44.346 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 21:46:54.729 [UserService] INFO: User admin logged in successfully from 198.51.100.8
+2025-07-26 21:47:09.422 [UserService] ERROR: Authentication failed for user john.doe from 192.168.0.50 - invalid password
+2025-07-26 21:47:12.712 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:47:15.714 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 21:47:15.832 [UserService] ERROR: Authentication failed for user jane.garcia from 192.168.1.10 - invalid password
+2025-07-26 21:47:25.530 [UserService] INFO: User bob.wilson logged in successfully from 172.16.0.20
+2025-07-26 21:47:30.234 [UserService] INFO: User bob.wilson logged out
+2025-07-26 21:47:35.231 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 21:47:38.658 [UserService] INFO: User mike.davis logged out
+2025-07-26 21:47:39.985 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials
+2025-07-26 21:47:53.806 [UserService] INFO: Session validated for john.doe
+2025-07-26 21:48:06.623 [UserService] INFO: User user123 logged in successfully from 172.16.0.20
+2025-07-26 21:48:07.498 [UserService] ERROR: Authentication failed for user john.doe from 203.0.113.666 - invalid credentials
+2025-07-26 21:48:09.724 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:48:19.089 [UserService] ERROR: Authentication failed for user user123 from 203.0.113.666 - invalid credentials
+2025-07-26 21:48:19.572 [UserService] INFO: Session validated for mike.davis
+2025-07-26 21:48:23.482 [UserService] INFO: User profile updated for user123
+2025-07-26 21:48:25.046 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials
+2025-07-26 21:48:25.533 [UserService] INFO: User admin logged in successfully from 198.51.100.8
+2025-07-26 21:48:30.374 [UserService] INFO: User tom.miller logged in successfully from 10.0.0.15
+2025-07-26 21:48:32.068 [UserService] INFO: Session validated for alice.smith
+2025-07-26 21:48:32.106 [UserService] INFO: User profile updated for user123
+2025-07-26 21:48:37.528 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:48:46.814 [UserService] INFO: Session validated for john.doe
+2025-07-26 21:48:49.750 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials
+2025-07-26 21:48:55.121 [UserService] INFO: Session validated for john.doe
+2025-07-26 21:49:06.079 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:49:08.772 [UserService] INFO: User mike.davis logged out
+2025-07-26 21:49:09.121 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:49:11.390 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:49:11.537 [UserService] INFO: User mike.davis logged in successfully from 192.168.0.50
+2025-07-26 21:49:12.775 [UserService] INFO: User alice.smith logged in successfully from 198.51.100.8
+2025-07-26 21:49:19.778 [UserService] ERROR: Authentication failed for user john.doe from 203.0.113.666 - invalid credentials
+2025-07-26 21:49:26.892 [UserService] ERROR: Authentication failed for user user123 from 203.0.113.666 - invalid credentials
+2025-07-26 21:49:31.256 [UserService] INFO: User sarah.johnson logged in successfully from 203.0.113.5
+2025-07-26 21:49:32.241 [UserService] ERROR: Authentication failed for user user123 from 203.0.113.666 - invalid credentials
+2025-07-26 21:49:37.548 [UserService] INFO: User lisa.brown logged in successfully from 192.168.0.50
+2025-07-26 21:49:47.694 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 21:49:49.027 [UserService] ERROR: Authentication failed for user john.doe from 203.0.113.666 - invalid credentials
+2025-07-26 21:49:55.244 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 21:50:00.507 [UserService] INFO: User profile updated for john.doe
+2025-07-26 21:50:07.314 [UserService] INFO: User user123 logged out
+2025-07-26 21:50:08.683 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 21:50:17.482 [UserService] INFO: User profile updated for user123
+2025-07-26 21:50:18.081 [UserService] INFO: User mike.davis logged out
+2025-07-26 21:50:18.324 [UserService] ERROR: Authentication failed for user user123 from 203.0.113.666 - invalid credentials
+2025-07-26 21:50:20.500 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 21:50:24.421 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials
+2025-07-26 21:50:24.478 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials
+2025-07-26 21:50:36.401 [UserService] INFO: User bob.wilson logged out
+2025-07-26 21:50:40.240 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials
+2025-07-26 21:50:40.401 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 21:50:42.290 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials
+2025-07-26 21:50:50.414 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 21:50:52.292 [UserService] ERROR: Authentication failed for user john.doe from 203.0.113.666 - invalid credentials
+2025-07-26 21:51:00.940 [UserService] INFO: User admin logged in successfully from 192.168.1.10
+2025-07-26 21:51:02.690 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 21:51:03.105 [UserService] ERROR: Authentication failed for user admin from 203.0.113.666 - invalid credentials
+2025-07-26 21:51:05.788 [UserService] INFO: User admin logged out
+2025-07-26 21:51:18.590 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:51:20.526 [UserService] ERROR: Authentication failed for user lisa.brown from 10.10.10.100 - invalid password
+2025-07-26 21:51:21.003 [UserService] INFO: User mike.davis logged in successfully from 127.0.0.1
+2025-07-26 21:51:30.479 [UserService] INFO: User mike.davis logged out
+2025-07-26 21:51:33.172 [UserService] INFO: Session validated for user123
+2025-07-26 21:51:48.101 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 21:51:48.188 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:51:48.471 [UserService] INFO: User profile updated for admin
+2025-07-26 21:51:51.971 [UserService] INFO: User tom.miller logged in successfully from 10.10.10.100
+2025-07-26 21:51:59.464 [UserService] INFO: User admin logged out
+2025-07-26 21:52:06.995 [UserService] INFO: User mike.davis logged out
+2025-07-26 21:52:07.649 [UserService] ERROR: Authentication failed for user user123 from 203.0.113.666 - invalid credentials
+2025-07-26 21:52:15.224 [UserService] ERROR: Authentication failed for user john.doe from 203.0.113.666 - invalid credentials
+2025-07-26 21:52:18.413 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 21:52:19.604 [UserService] ERROR: Authentication failed for user john.doe from 203.0.113.666 - invalid credentials
+2025-07-26 21:52:25.440 [UserService] INFO: Password reset requested for admin
+2025-07-26 21:52:28.121 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 21:52:28.894 [UserService] ERROR: Authentication failed for user john.doe from 203.0.113.666 - invalid credentials
+2025-07-26 21:52:34.853 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:52:43.621 [UserService] INFO: Session validated for tom.miller
+2025-07-26 21:52:51.195 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 21:52:53.056 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 21:52:53.641 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 21:52:54.005 [UserService] INFO: User tom.miller logged out
+2025-07-26 21:52:59.861 [UserService] INFO: Session validated for alice.smith
+2025-07-26 21:53:01.547 [UserService] ERROR: Authentication failed for user user123 from 172.16.0.20 - invalid password
+2025-07-26 21:53:26.473 [UserService] INFO: Session validated for mike.davis
+2025-07-26 21:53:31.337 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 21:53:35.892 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 21:53:47.633 [UserService] INFO: Session validated for john.doe
+2025-07-26 21:53:53.128 [UserService] INFO: Session validated for lisa.brown
+2025-07-26 21:53:55.462 [UserService] INFO: User bob.wilson logged out
+2025-07-26 21:54:00.030 [UserService] INFO: User lisa.brown logged out
+2025-07-26 21:54:01.905 [UserService] INFO: User profile updated for user123
+2025-07-26 21:54:06.952 [UserService] INFO: User tom.miller logged in successfully from 198.51.100.8
+2025-07-26 21:54:08.512 [UserService] INFO: User john.doe logged in successfully from 192.168.1.10
+2025-07-26 21:54:11.398 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 21:54:18.268 [UserService] INFO: User jane.garcia logged in successfully from 192.168.0.50
+2025-07-26 21:54:34.957 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:54:37.918 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:54:39.219 [UserService] INFO: Session validated for lisa.brown
+2025-07-26 21:54:45.163 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 21:54:57.882 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:55:15.226 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 21:55:21.834 [UserService] INFO: User jane.garcia logged in successfully from 10.10.10.100
+2025-07-26 21:55:23.374 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:55:25.298 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 21:55:31.585 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 21:55:32.114 [UserService] INFO: User jane.garcia logged out
+2025-07-26 21:55:38.755 [UserService] ERROR: Authentication failed for user john.doe from 192.168.0.50 - invalid password
+2025-07-26 21:55:41.765 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:55:43.075 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:55:43.805 [UserService] INFO: User lisa.brown logged in successfully from 203.0.113.5
+2025-07-26 21:55:47.792 [UserService] INFO: User jane.garcia logged out
+2025-07-26 21:55:53.636 [UserService] INFO: User admin logged out
+2025-07-26 21:56:11.864 [UserService] INFO: User mike.davis logged in successfully from 172.16.0.20
+2025-07-26 21:56:12.891 [UserService] INFO: Session validated for user123
+2025-07-26 21:56:15.890 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 21:56:34.547 [UserService] ERROR: Authentication failed for user tom.miller from 192.168.1.10 - invalid password
+2025-07-26 21:56:45.849 [UserService] INFO: User tom.miller logged out
+2025-07-26 21:56:47.938 [UserService] INFO: User user123 logged in successfully from 192.168.0.50
+2025-07-26 21:56:48.285 [UserService] INFO: User john.doe logged in successfully from 10.0.0.15
+2025-07-26 21:56:50.432 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:56:58.962 [UserService] INFO: User profile updated for admin
+2025-07-26 21:57:01.737 [UserService] INFO: User profile updated for alice.smith
+2025-07-26 21:57:02.103 [UserService] INFO: User profile updated for admin
+2025-07-26 21:57:02.598 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:57:09.963 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 21:57:20.286 [UserService] INFO: User jane.garcia logged in successfully from 10.0.0.15
+2025-07-26 21:57:37.182 [UserService] INFO: Password reset requested for lisa.brown
+2025-07-26 21:57:37.788 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 21:57:49.602 [UserService] INFO: User user123 logged in successfully from 10.10.10.100
+2025-07-26 21:57:55.847 [UserService] INFO: User user123 logged in successfully from 172.16.0.20
+2025-07-26 21:57:57.486 [UserService] INFO: User profile updated for admin
+2025-07-26 21:58:08.729 [UserService] INFO: Password reset requested for lisa.brown
+2025-07-26 21:58:08.774 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:58:16.726 [UserService] ERROR: Authentication failed for user jane.garcia from 10.0.0.15 - invalid password
+2025-07-26 21:58:19.518 [UserService] INFO: User alice.smith logged out
+2025-07-26 21:58:28.096 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 21:58:38.342 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:58:51.459 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 21:58:52.116 [UserService] INFO: User bob.wilson logged in successfully from 198.51.100.8
+2025-07-26 21:58:52.611 [UserService] INFO: User alice.smith logged out
+2025-07-26 21:59:02.773 [UserService] INFO: User john.doe logged out
+2025-07-26 21:59:05.569 [UserService] INFO: Password reset requested for jane.garcia
+2025-07-26 21:59:13.395 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 21:59:18.649 [UserService] INFO: User user123 logged out
+2025-07-26 21:59:18.755 [UserService] INFO: Password reset requested for user123
+2025-07-26 21:59:30.712 [UserService] INFO: Session validated for admin
+2025-07-26 21:59:40.121 [UserService] INFO: User sarah.johnson logged in successfully from 192.168.1.10
+2025-07-26 21:59:52.470 [UserService] INFO: User mike.davis logged out
+2025-07-26 21:59:52.623 [UserService] ERROR: Authentication failed for user sarah.johnson from 127.0.0.1 - invalid password
+2025-07-26 22:00:01.659 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 22:00:13.851 [UserService] INFO: Password reset requested for sarah.johnson
+2025-07-26 22:00:14.494 [UserService] INFO: User user123 logged in successfully from 127.0.0.1
+2025-07-26 22:00:22.354 [UserService] INFO: User profile updated for user123
+2025-07-26 22:00:23.288 [UserService] INFO: Password reset requested for admin
+2025-07-26 22:00:25.999 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 22:00:33.077 [UserService] INFO: User admin logged in successfully from 127.0.0.1
+2025-07-26 22:00:40.971 [UserService] INFO: User john.doe logged out
+2025-07-26 22:00:57.627 [UserService] INFO: Session validated for alice.smith
+2025-07-26 22:01:04.037 [UserService] INFO: Session validated for lisa.brown
+2025-07-26 22:01:04.124 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 22:01:06.246 [UserService] INFO: User bob.wilson logged out
+2025-07-26 22:01:17.160 [UserService] INFO: User tom.miller logged out
+2025-07-26 22:01:19.726 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 22:01:19.731 [UserService] INFO: Password reset requested for john.doe
+2025-07-26 22:01:27.904 [UserService] INFO: User profile updated for jane.garcia
+2025-07-26 22:01:27.935 [UserService] INFO: User bob.wilson logged out
+2025-07-26 22:01:44.959 [UserService] INFO: Session validated for sarah.johnson
+2025-07-26 22:01:49.753 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 22:02:01.703 [UserService] INFO: Session validated for lisa.brown
+2025-07-26 22:02:03.019 [UserService] INFO: User alice.smith logged out
+2025-07-26 22:02:05.249 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 22:02:15.762 [UserService] INFO: User john.doe logged in successfully from 127.0.0.1
+2025-07-26 22:02:17.341 [UserService] INFO: Session validated for jane.garcia
+2025-07-26 22:02:26.408 [UserService] INFO: Password reset requested for admin
+2025-07-26 22:02:26.581 [UserService] INFO: User profile updated for tom.miller
+2025-07-26 22:02:36.391 [UserService] INFO: User admin logged in successfully from 172.16.0.20
+2025-07-26 22:02:38.336 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 22:02:40.123 [UserService] INFO: User bob.wilson logged out
+2025-07-26 22:02:42.505 [UserService] INFO: User alice.smith logged in successfully from 172.16.0.20
+2025-07-26 22:03:00.895 [UserService] INFO: User profile updated for bob.wilson
+2025-07-26 22:03:12.617 [UserService] INFO: User john.doe logged out
+2025-07-26 22:03:13.654 [UserService] INFO: User admin logged in successfully from 192.168.1.10
+2025-07-26 22:03:19.844 [UserService] INFO: User alice.smith logged in successfully from 10.0.0.15
+2025-07-26 22:03:22.410 [UserService] INFO: User profile updated for bob.wilson
+2025-07-26 22:03:35.455 [UserService] ERROR: Authentication failed for user mike.davis from 203.0.113.5 - invalid password
+2025-07-26 22:03:36.254 [UserService] INFO: Session validated for tom.miller
+2025-07-26 22:03:54.596 [UserService] INFO: Session validated for admin
+2025-07-26 22:04:00.097 [UserService] ERROR: Authentication failed for user sarah.johnson from 10.0.0.15 - invalid password
+2025-07-26 22:04:09.004 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 22:04:14.461 [UserService] INFO: Session validated for admin
+2025-07-26 22:04:15.715 [UserService] INFO: User alice.smith logged in successfully from 10.10.10.100
+2025-07-26 22:04:21.680 [UserService] INFO: User bob.wilson logged out
+2025-07-26 22:04:27.331 [UserService] INFO: Session validated for admin
+2025-07-26 22:04:31.532 [UserService] INFO: Session validated for alice.smith
+2025-07-26 22:04:31.905 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 22:04:36.792 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 22:04:36.822 [UserService] INFO: User admin logged out
+2025-07-26 22:04:48.856 [UserService] INFO: Session validated for tom.miller
+2025-07-26 22:04:48.925 [UserService] INFO: User jane.garcia logged out
+2025-07-26 22:05:03.106 [UserService] INFO: User sarah.johnson logged out
+2025-07-26 22:05:05.998 [UserService] INFO: Password reset requested for tom.miller
+2025-07-26 22:05:08.454 [UserService] INFO: User bob.wilson logged in successfully from 203.0.113.5
+2025-07-26 22:05:11.784 [UserService] INFO: Session validated for bob.wilson
+2025-07-26 22:05:18.262 [UserService] ERROR: Authentication failed for user sarah.johnson from 192.168.1.10 - invalid password
+2025-07-26 22:05:22.268 [UserService] INFO: Session validated for alice.smith
+2025-07-26 22:05:33.043 [UserService] INFO: User sarah.johnson logged in successfully from 10.0.0.15
+2025-07-26 22:05:44.696 [UserService] ERROR: Authentication failed for user alice.smith from 198.51.100.8 - invalid password
+2025-07-26 22:05:45.254 [UserService] INFO: User profile updated for sarah.johnson
+2025-07-26 22:05:49.597 [UserService] INFO: User alice.smith logged out
+2025-07-26 22:05:49.794 [UserService] INFO: User lisa.brown logged in successfully from 127.0.0.1
+2025-07-26 22:05:49.943 [UserService] INFO: User mike.davis logged out
+2025-07-26 22:05:58.169 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 22:06:10.139 [UserService] INFO: User admin logged in successfully from 192.168.0.50
+2025-07-26 22:06:20.465 [UserService] INFO: Password reset requested for alice.smith
+2025-07-26 22:06:34.691 [UserService] INFO: User admin logged out
+2025-07-26 22:06:35.465 [UserService] INFO: Password reset requested for bob.wilson
+2025-07-26 22:06:51.662 [UserService] INFO: User john.doe logged out
+2025-07-26 22:06:55.252 [UserService] INFO: User lisa.brown logged out
+2025-07-26 22:06:55.437 [UserService] INFO: User bob.wilson logged out
+2025-07-26 22:07:10.084 [UserService] INFO: Password reset requested for mike.davis
+2025-07-26 22:07:13.853 [UserService] INFO: User profile updated for lisa.brown
+2025-07-26 22:07:21.654 [UserService] INFO: Password reset requested for user123
+2025-07-26 22:07:23.501 [UserService] INFO: Session validated for tom.miller
+2025-07-26 22:07:25.563 [UserService] INFO: User profile updated for mike.davis
+2025-07-26 22:07:30.223 [UserService] INFO: User profile updated for admin
+2025-07-26 22:07:33.682 [UserService] INFO: Session validated for tom.miller
