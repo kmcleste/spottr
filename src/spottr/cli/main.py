@@ -1,11 +1,17 @@
 import argparse
 import json
 import logging
+import os
+from typing import Any, Dict
+
+from dotenv import load_dotenv
 
 from spottr.analysis.analyzer import EnhancedLogAnalyzer
 from spottr.analysis.temporal import TemporalInsight
 from spottr.core.models import Insight, LogFormat
 from spottr.utils.json_utils import NumpyEncoder
+
+load_dotenv()
 
 
 def main():
@@ -129,6 +135,42 @@ Examples:
     )
     parser.add_argument("-v", "--verbose", action="store_true", help="Verbose logging")
     parser.add_argument("--debug", action="store_true", help="Debug level logging")
+    llm_group = parser.add_argument_group("LLM Analysis Options")
+    llm_group.add_argument(
+        "--use-llm",
+        action="store_true",
+        help="Enable LLM-powered analysis (requires OpenAI API key)",
+    )
+    llm_group.add_argument(
+        "--openai-api-key",
+        help="OpenAI API key (can also use OPENAI_API_KEY environment variable)",
+    )
+    llm_group.add_argument(
+        "--llm-model",
+        default="gpt-4o-mini",
+        help="OpenAI model to use (default: gpt-4o-mini)",
+    )
+    llm_group.add_argument(
+        "--llm-insights",
+        action="store_true",
+        default=True,
+        help="Extract LLM insights (default: enabled when --use-llm is set)",
+    )
+    llm_group.add_argument(
+        "--no-llm-insights", action="store_true", help="Disable LLM insight extraction"
+    )
+    llm_group.add_argument(
+        "--quality-assessment",
+        action="store_true",
+        default=True,
+        help="Include log quality assessment (default: enabled when --use-llm is set)",
+    )
+    llm_group.add_argument(
+        "--root-cause-analysis",
+        action="store_true",
+        default=True,
+        help="Include LLM root cause analysis for multi-file analysis (default: enabled when --use-llm is set)",
+    )
 
     args = parser.parse_args()
 
@@ -160,18 +202,38 @@ Examples:
     include_temporal = args.include_temporal and not args.no_temporal
     include_correlation = args.include_correlation and not args.no_correlation
 
+    # LLM feature flags
+    include_llm_insights = (
+        args.llm_insights and not args.no_llm_insights and args.use_llm
+    )
+    include_quality_assessment = args.quality_assessment and args.use_llm
+    include_root_cause_analysis = args.root_cause_analysis and args.use_llm
+
+    # Validate LLM configuration
+    if args.use_llm:
+        api_key = args.openai_api_key or os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            parser.error(
+                "OpenAI API key required when using --use-llm. Set OPENAI_API_KEY environment variable or use --openai-api-key"
+            )
+
     # Initialize enhanced analyzer
     analyzer = EnhancedLogAnalyzer(
         use_entailment=use_entailment,
         log_format=log_format,
         temporal_window_minutes=args.temporal_window,
         correlation_window_minutes=args.correlation_window,
+        # LLM configuration
+        use_llm=args.use_llm,
+        openai_api_key=args.openai_api_key or os.getenv("OPENAI_API_KEY"),
+        llm_model=args.llm_model,
     )
 
     try:
         # Determine file list
         if args.directory:
             print(f"Analyzing directory: {args.directory}")
+            # Note: For directory analysis, we'd need to add LLM support to analyze_directory method
             result = analyzer.analyze_directory(
                 args.directory,
                 file_pattern=args.pattern,
@@ -184,25 +246,47 @@ Examples:
 
         elif len(args.log_files) > 1:
             print(f"Analyzing {len(args.log_files)} log files with correlation")
-            result = analyzer.analyze_multiple_files(
-                args.log_files,
-                target_statements=args.targets if use_entailment else None,
-                service_names=args.service_names,
-                include_temporal=include_temporal,
-                include_correlation=include_correlation,
-                time_window_minutes=args.window,
-            )
+            if args.use_llm:
+                result = analyzer.analyze_multiple_files_with_llm(
+                    args.log_files,
+                    target_statements=args.targets if use_entailment else None,
+                    service_names=args.service_names,
+                    include_temporal=include_temporal,
+                    include_correlation=include_correlation,
+                    include_llm_insights=include_llm_insights,
+                    include_root_cause_analysis=include_root_cause_analysis,
+                    time_window_minutes=args.window,
+                )
+            else:
+                result = analyzer.analyze_multiple_files(
+                    args.log_files,
+                    target_statements=args.targets if use_entailment else None,
+                    service_names=args.service_names,
+                    include_temporal=include_temporal,
+                    include_correlation=include_correlation,
+                    time_window_minutes=args.window,
+                )
             analysis_type = "multi_file"
 
         else:
             # Single file analysis
             print(f"Analyzing single file: {args.log_files[0]}")
-            result = analyzer.analyze_file_enhanced(
-                args.log_files[0],
-                target_statements=args.targets if use_entailment else None,
-                include_temporal=include_temporal,
-                time_window_minutes=args.window,
-            )
+            if args.use_llm:
+                result = analyzer.analyze_file_with_llm(
+                    args.log_files[0],
+                    target_statements=args.targets if use_entailment else None,
+                    include_temporal=include_temporal,
+                    include_llm_insights=include_llm_insights,
+                    include_quality_assessment=include_quality_assessment,
+                    time_window_minutes=args.window,
+                )
+            else:
+                result = analyzer.analyze_file_enhanced(
+                    args.log_files[0],
+                    target_statements=args.targets if use_entailment else None,
+                    include_temporal=include_temporal,
+                    time_window_minutes=args.window,
+                )
             analysis_type = "single_file"
 
         # Generate output
@@ -217,10 +301,14 @@ Examples:
             if args.output_format == "json":
                 print(json.dumps(json_output, indent=2, cls=NumpyEncoder))
 
-        if args.output_format in ["human", "both"]:
-            print_human_readable_report(
-                result, analysis_type, include_temporal, include_correlation
-            )
+            if args.output_format in ["human", "both"]:
+                print_human_readable_report(
+                    result,
+                    analysis_type,
+                    include_temporal,
+                    include_correlation,
+                    args.use_llm,
+                )
 
     except Exception as e:
         import traceback
@@ -259,21 +347,29 @@ def format_json_output(result, analysis_type: str):
 
 
 def print_human_readable_report(
-    result, analysis_type: str, include_temporal: bool, include_correlation: bool
+    result,
+    analysis_type: str,
+    include_temporal: bool,
+    include_correlation: bool,
+    include_llm: bool = False,
 ):
     """Print human-readable analysis report."""
 
     print("\n" + "=" * 80)
     print("SPOTTR ENHANCED LOG ANALYSIS REPORT")
+    if include_llm:
+        print("(with LLM-Powered Insights)")
     print("=" * 80)
 
     if analysis_type == "single_file":
-        print_single_file_report(result, include_temporal)
+        print_single_file_report(result, include_temporal, include_llm)
     else:
-        print_multi_file_report(result, include_temporal, include_correlation)
+        print_multi_file_report(
+            result, include_temporal, include_correlation, include_llm
+        )
 
 
-def print_single_file_report(result, include_temporal: bool):
+def print_single_file_report(result, include_temporal: bool, include_llm: bool = False):
     """Print single file analysis report."""
 
     summary = result["summary"]
@@ -324,8 +420,14 @@ def print_single_file_report(result, include_temporal: bool):
                 print(f"   Velocity: {pattern.velocity:.3f}")
             print()
 
+    # LLM Analysis
+    if include_llm and "llm_analysis" in result:
+        print_llm_analysis_section(result["llm_analysis"])
 
-def print_multi_file_report(result, include_temporal: bool, include_correlation: bool):
+
+def print_multi_file_report(
+    result, include_temporal: bool, include_correlation: bool, include_llm: bool = False
+):
     """Print multi-file analysis report."""
 
     summary = result["summary"]
@@ -396,6 +498,89 @@ def print_multi_file_report(result, include_temporal: bool, include_correlation:
         print("Recommendations:")
         for i, rec in enumerate(risk_assessment["recommendations"], 1):
             print(f"  {i}. {rec}")
+
+    # LLM Analysis
+    if include_llm and "llm_analysis" in result:
+        print_llm_analysis_section(result["llm_analysis"])
+
+
+def print_llm_analysis_section(llm_analysis: Dict[str, Any]):
+    """Print LLM analysis results."""
+    if not llm_analysis or "error" in llm_analysis:
+        if "error" in llm_analysis:
+            print(f"LLM Analysis Error: {llm_analysis['error']}")
+        return
+
+    print("\nLLM-Powered Analysis:")
+    print("-" * 30)
+
+    # LLM Insights
+    if "llm_insights" in llm_analysis and llm_analysis["llm_insights"]:
+        print(f"LLM Insights Found: {len(llm_analysis['llm_insights'])}")
+        for i, insight in enumerate(llm_analysis["llm_insights"][:3], 1):
+            print(f"{i}. [{insight['severity']}] {insight['description']}")
+            print(f"   Confidence: {insight['confidence']:.3f}")
+            if insight["tags"]:
+                print(f"   Tags: {', '.join(insight['tags'])}")
+            if insight["business_impact"]:
+                print(f"   Business Impact: {insight['business_impact']}")
+            if insight["recommended_actions"]:
+                print(
+                    f"   Recommendations: {', '.join(insight['recommended_actions'][:2])}"
+                )
+            print()
+
+    # Quality Assessment
+    if "quality_assessment" in llm_analysis and llm_analysis["quality_assessment"]:
+        qa = llm_analysis["quality_assessment"]
+        print("\nLog Quality Assessment:")
+        print(f"  Completeness Score: {qa['completeness_score']:.2f}/1.0")
+        print(f"  Message Clarity Score: {qa['message_clarity_score']:.2f}/1.0")
+        print(f"  Timestamp Consistency: {'✓' if qa['timestamp_consistency'] else '✗'}")
+
+        if qa["missing_context"]:
+            print("  Missing Context:")
+            for context in qa["missing_context"][:3]:
+                print(f"    - {context}")
+
+        if qa["suggestions"]:
+            print("  Improvement Suggestions:")
+            for suggestion in qa["suggestions"][:3]:
+                print(f"    - {suggestion}")
+
+    # Root Cause Analysis
+    if "root_cause_analysis" in llm_analysis and llm_analysis["root_cause_analysis"]:
+        rca = llm_analysis["root_cause_analysis"]
+        print(f"\nRoot Cause Analysis (Confidence: {rca['confidence']:.2f}):")
+        print(f"  Primary Cause: {rca['primary_cause']}")
+
+        if rca["contributing_factors"]:
+            print("  Contributing Factors:")
+            for factor in rca["contributing_factors"][:3]:
+                print(f"    - {factor}")
+
+        if rca["impact_scope"]:
+            print(f"  Impact Scope: {', '.join(rca['impact_scope'])}")
+
+        if rca["timeline_analysis"]:
+            print(f"  Timeline: {rca['timeline_analysis']}")
+
+    # Suggested Rules
+    if "suggested_rules" in llm_analysis and llm_analysis["suggested_rules"]:
+        print(f"\nSuggested Rules ({len(llm_analysis['suggested_rules'])}):")
+        for i, rule in enumerate(llm_analysis["suggested_rules"][:3], 1):
+            print(f"{i}. {rule['rule_name']} [{rule['severity']}]")
+            print(f"   Pattern: {rule['pattern']}")
+            print(f"   Description: {rule['description']}")
+
+    # Tag Summary
+    if "tag_summary" in llm_analysis and llm_analysis["tag_summary"]:
+        tag_summary = llm_analysis["tag_summary"]
+        print(f"\nTag Repository: {tag_summary['total_tags']} tags")
+        if tag_summary.get("popular_tags"):
+            print("  Most Used Tags:")
+            for tag, count in tag_summary["popular_tags"][:5]:
+                print(f"    - {tag} ({count} uses)")
 
 
 if __name__ == "__main__":
