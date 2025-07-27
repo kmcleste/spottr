@@ -2,7 +2,7 @@
 
 **Intelligent Log Analysis with Hybrid Rule-Based and Semantic Detection**
 
-Spottr automatically detects and extracts actionable insights from application logs using a powerful combination of deterministic rule-based extraction and modern Natural Language Inference (NLI). Stop manually sifting through logs – let Spottr spot the issues for you.
+Spottr is an advanced log analysis system that combines deterministic rule-based extraction with modern Natural Language Inference (NLI) to automatically detect and extract actionable insights from application logs. The hybrid approach provides both high-precision pattern matching and semantic understanding capabilities, enabling organizations to proactively identify operational issues, security threats, and performance bottlenecks.
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -10,24 +10,30 @@ Spottr automatically detects and extracts actionable insights from application l
 
 ## ✨ Features
 
-### 🔍 **Hybrid Analysis Engine**
-- **Rule-Based Detection**: High-precision pattern matching for known issues
-- **Semantic Understanding**: NorGLM-powered entailment scoring for nuanced insights
-- **Confidence Fusion**: Combines deterministic and probabilistic confidence scores
+### 🧠 **Hybrid Analysis Engine**
+- **Rule-Based Detection**: Regex-driven detection for known issue patterns
+- **Semantic Analysis**: NorGLM-powered entailment scoring for contextual understanding
+- **Confidence Scoring**: Probability-based insight ranking with hybrid confidence
+- **Custom Targets**: User-defined statements for domain-specific insight detection
 
 ### 📋 **Multi-Format Log Support**
 - **Plain Text Logs**: Traditional application logs with flexible parsing
 - **JSON Logs**: Structured log parsing with intelligent field mapping
 - **Auto-Detection**: Automatically identifies and handles different log formats
 
-### 🎛️ **Built-in Detection Rules**
-| Category | Examples | Severity |
-|----------|----------|----------|
-| **Memory Issues** | OutOfMemoryError, heap exhaustion | CRITICAL |
-| **Performance** | Slow queries, high response times | MEDIUM-HIGH |
-| **Authentication** | Login failures, access denied | HIGH |
-| **Network** | Connection timeouts, unreachable hosts | HIGH |
-| **Resource Warnings** | Disk full, CPU high, thread pool exhaustion | MEDIUM |
+### ⏰ **Temporal Pattern Analysis**
+- **Escalation Detection**: Identify error rates increasing over time
+- **Burst Analysis**: Detect sudden activity spikes and anomalies
+- **Periodic Patterns**: Discover recurring issues using autocorrelation
+- **Trend Analysis**: Track performance degradation and system health trends
+- **Configurable Windows**: Customizable time windows for pattern detection
+
+### 🔗 **Multi-File Correlation**
+- **Cross-Service Analysis**: Correlate insights across multiple log files
+- **Dependency Modeling**: Track failure propagation through service chains
+- **Root Cause Detection**: Identify common infrastructure issues affecting multiple services
+- **Synchronized Events**: Detect coordinated activities across distributed systems
+- **Risk Assessment**: Comprehensive system health scoring and recommendations
 
 ### 💡 **Intelligent Insights**
 - **Timestamped Evidence**: Maintains chain of evidence for each insight
@@ -35,30 +41,41 @@ Spottr automatically detects and extracts actionable insights from application l
 - **Category Organization**: PERFORMANCE, ERROR, SECURITY, RESOURCE
 - **Actionable Descriptions**: Human-readable insight summaries
 
+## 🏗️ Architecture
 
-## 📁 Directory Structure
-
-```bash
-spottr/
-├── cli/
-│   └── main.py                    # CLI interface and argument parsing
-├── core/
-│   └── models.py                  # Data models (LogEntry, Insight)
-├── parsers/
-│   ├── base.py                    # BaseLogParser, LogFormat enum
-│   ├── line_delimited.py          # LineDelimitedParser
-│   ├── json_parser.py             # JSONLogParser
-│   └── factory.py                 # LogParserFactory
-├── analysis/
-│   ├── rule_engine.py             # RuleEngine
-│   ├── entailment.py              # EntailmentScorer
-│   └── analyzer.py                # LogAnalyzer
-├── utils/
-│   ├── validation.py              # validate_log_entries and helpers
-│   └── json_utils.py              # NumpyEncoder and JSON utilities
-└── sample_data/
-    ├── generator.py               # LogGenerator
-    └── test_runner.py             # Test runner script
+```
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   Log Sources   │───▶│  Parser Factory  │───▶│ Enhanced Analyzer│
+│                 │    │                  │    │                 │
+│ • JSON Logs     │    │ • Auto-detection │    │ • Rule Engine   │
+│ • Line Logs     │    │ • Format-specific│    │ • Entailment    │
+│ • Multi-files   │    │   parsers        │    │ • Temporal      │
+└─────────────────┘    └──────────────────┘    │ • Correlation   │
+                                               └─────────────────┘
+                                                        │
+                       ┌─────────────────────────────────┼─────────────────────────────────┐
+                       ▼                                 ▼                                 ▼
+            ┌─────────────────┐              ┌─────────────────┐              ┌─────────────────┐
+            │ Rule-Based      │              │ Temporal        │              │ Correlation     │
+            │ Insights        │              │ Patterns        │              │ Analysis        │
+            │                 │              │                 │              │                 │
+            │ • Error patterns│              │ • Escalations   │              │ • Cascade fails │
+            │ • Performance   │              │ • Bursts        │              │ • Root causes   │
+            │ • Security      │              │ • Periodic      │              │ • Synchronized  │
+            │ • Resources     │              │ • Degradation   │              │ • Dependencies  │
+            └─────────────────┘              └─────────────────┘              └─────────────────┘
+                       │                                 │                                 │
+                       └─────────────────────────────────┼─────────────────────────────────┘
+                                                        ▼
+                                              ┌─────────────────┐
+                                              │ Comprehensive   │
+                                              │ Report          │
+                                              │                 │
+                                              │ • Risk scoring  │
+                                              │ • Recommendations│
+                                              │ • Evidence      │
+                                              │ • Visualizations│
+                                              └─────────────────┘
 ```
 
 ## 🚀 Quick Start
@@ -95,126 +112,254 @@ uv run spottr app.log -t "database performance issues" "memory leaks"
 # Export results to JSON
 uv run spottr app.log -o insights_report.json
 
-# Disable entailment scoring (rules only)
-uv run spottr app.log --no-entailment
+# Rule-based analysis only
+uv run spottr app.log --no-entailment --no-temporal
 
 # Specify log format explicitly
 uv run spottr app.log --format json
 
 # Verbose output with debugging
 uv run spottr app.log -v
+
+# Custom target statements
+uv spottr /path/to/your/app.log -t "database errors" "authentication failures"
 ```
 
-### Generate Sample Logs for Testing
+### Multi-File Analysis with Correlation
 
 ```bash
-# Generate all sample log types
-uv run spottr-generate --all
+# Analyze multiple service logs
+uv run spottr logs/user-service.log logs/payment-service.log logs/database.log
 
-# Generate specific log types
-uv run spottr-generate --app-log --microservices
+# Specify service names for better correlation
+uv run spottr logs/*.log --service-names user-service payment-service database api-gateway
 
-# Run complete test suite
-uv run spottr-test
+# Directory analysis with auto-detection
+uv run spottr --directory logs/ --pattern "*.log"
+
+# Custom correlation and temporal windows
+uv run spottr logs/*.log --correlation-window 15 --temporal-window 10
 ```
 
-## 📊 Example Output
+### Advanced Options
+```bash
+# Full-featured analysis with custom settings
+uv run spottr --directory logs/ \
+    --correlation-window 20 \
+    --temporal-window 5 \
+    -t "memory issues" "performance degradation" "security events" \
+    --output analysis-report.json \
+    --output-format both
 
+# Focus on specific analysis types
+uv run spottr logs/*.log --no-correlation  # Disable correlation analysis
+uv run spottr logs/*.log --no-temporal     # Disable temporal patterns
+uv run spottr logs/*.log --no-entailment   # Disable semantic analysis
+```
+
+## 📋 Supported Rule Categories
+
+| Category | Detection Patterns | Severity |
+|----------|-------------------|----------|
+| **Memory Exhaustion** | OutOfMemoryError, heap full, allocation failures | CRITICAL |
+| **High Error Rates** | Configurable error rate thresholds over time windows | HIGH |
+| **Performance Issues** | Slow queries, high response times, timeouts | MEDIUM |
+| **Authentication Failures** | Login failures, invalid credentials, access denied | HIGH |
+| **Network Issues** | Connection timeouts, network unreachable | HIGH |
+| **Resource Warnings** | Disk full, CPU high, thread pool exhaustion | MEDIUM |
+
+## 🕒 Temporal Pattern Types
+
+| Pattern | Description | Use Case |
+|---------|-------------|----------|
+| **Escalation** | Error rates increasing over time | Early warning system |
+| **Burst** | Sudden activity spikes | Capacity planning |
+| **Periodic** | Recurring patterns | Maintenance scheduling |
+| **Degradation** | Performance declining trends | Proactive optimization |
+
+## 🔗 Correlation Types
+
+| Type | Description | Business Value |
+|------|-------------|----------------|
+| **Temporal** | Events occurring simultaneously | System coordination issues |
+| **Cascade** | Failure propagation chains | Impact assessment |
+| **Synchronized** | Coordinated events across services | Attack detection |
+| **Root Cause** | Multiple symptoms from shared issues | Infrastructure problems |
+
+## 📊 Output Formats
+
+### Human-Readable Report
+```
+SPOTTR ENHANCED LOG ANALYSIS REPORT
+================================================================================
+Files Analyzed: 3
+Services: user-service, payment-service, database
+Total Log Entries: 15,247
+Total Insights: 23
+Correlations Found: 5
+Temporal Patterns: 3
+
+Risk Assessment:
+Overall Risk Level: MEDIUM
+Risk Score: 3.2
+
+Service Analysis:
+  user-service: 5,234 entries, 8 insights (avg conf: 0.842)
+  payment-service: 7,891 entries, 12 insights (avg conf: 0.756)
+  database: 2,122 entries, 3 insights (avg conf: 0.923)
+
+Top Correlations:
+1. [CASCADE] Payment service failures following database timeouts
+   Confidence: 0.891 | Services: database, payment-service
+   Analysis: Database connection pool exhaustion causing downstream failures
+
+Recommendations:
+1. Review database connection pooling and query performance
+2. Implement circuit breakers to prevent cascade failures
+3. Set up automated alerting for error rate increases
+```
+
+### JSON Report
 ```json
 {
   "summary": {
-    "total_insights": 12,
-    "average_confidence": 0.847,
-    "categories": {
-      "ERROR": 5,
-      "PERFORMANCE": 4,
-      "SECURITY": 2,
-      "RESOURCE": 1
-    },
-    "severities": {
-      "CRITICAL": 2,
-      "HIGH": 4,
-      "MEDIUM": 6
-    }
+    "files_analyzed": 3,
+    "services_analyzed": ["user-service", "payment-service", "database"],
+    "total_log_entries": 15247,
+    "total_insights": 23,
+    "correlations_found": 5,
+    "temporal_patterns": 3,
+    "analysis_timestamp": "2024-01-15T14:30:25.123Z"
   },
-  "insights": [
-    {
-      "rule_name": "memory_exhaustion",
-      "confidence": 0.95,
-      "description": "Memory exhaustion detected (3 occurrences)",
-      "severity": "CRITICAL",
-      "category": "RESOURCE",
-      "avg_entailment_score": 0.89,
-      "target_statement": "memory and resource exhaustion",
-      "evidence_sample": [
-        "2024-01-15 14:30:25 [PaymentProcessor] FATAL: OutOfMemoryError: Java heap space"
-      ]
-    }
-  ]
+  "risk_assessment": {
+    "overall_risk_level": "MEDIUM",
+    "risk_score": 3.2,
+    "risk_factors": {
+      "cascade_failures": 2,
+      "escalating_errors": 1,
+      "critical_insights": 0,
+      "multi_service_impacts": 2
+    },
+    "recommendations": [
+      "Review database connection pooling and query performance",
+      "Implement circuit breakers to prevent cascade failures"
+    ]
+  },
+  "correlation_analysis": {
+    "total": 5,
+    "types": {
+      "cascade": 2,
+      "temporal": 2,
+      "root_cause": 1
+    },
+    "high_confidence": 3,
+    "avg_confidence": 0.782
+  },
+  "temporal_analysis": {
+    "total": 3,
+    "patterns": {
+      "escalation": 1,
+      "burst": 1,
+      "periodic": 1
+    },
+    "avg_confidence": 0.756
+  }
 }
 ```
 
-## 🏗️ Architecture
+## 🧪 Sample Data Generation
 
-### Core Components
+Generate realistic test logs for development and testing:
 
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│  Log Parser     │    │   Rule Engine    │    │ Entailment      │
-│  Factory        │────▶   (Pattern       │────▶ Scorer         │
-│                 │    │   Detection)     │    │ (NorGLM)        │
-│ • Auto-detect   │    │                  │    │                 │
-│ • JSON          │    │ • Memory issues  │    │ • Semantic      │
-│ • Plain text    │    │ • Auth failures  │    │   matching      │
-│ • Extensible    │    │ • Performance    │    │ • Confidence    │
-└─────────────────┘    │ • Custom rules   │    │   scoring       │
-                       └──────────────────┘    └─────────────────┘
-                                ▼
-                       ┌──────────────────┐
-                       │ Insight          │
-                       │ Generator        │
-                       │                  │
-                       │ • Evidence       │
-                       │ • Confidence     │
-                       │ • Categorization │
-                       │ • JSON export    │
-                       └──────────────────┘
+```bash
+# Generate various log types
+uv run spottr-generate --all
+
+# Generate specific scenarios
+uv run spottr-generate --app-log --error-log --microservices
+
+# Custom generation
+uv run spottr-generate --output-dir test_logs --duration 4
 ```
 
-### Parser Architecture
-
-Spottr uses a flexible parser architecture that automatically detects log formats:
-
-- **BaseLogParser**: Abstract interface for all parsers
-- **LineDelimitedParser**: Traditional application logs
-- **JSONLogParser**: Structured JSON logs with field mapping
-- **LogParserFactory**: Automatic format detection and parser selection
+This creates:
+- `application.log` - Mixed operational scenarios
+- `high_error_rate.log` - Error threshold testing
+- `microservice_*.log` - Service-specific patterns
+- `security_incidents.log` - Security testing scenarios
 
 ## 🔧 Configuration
 
-### Custom Target Statements
+### Service Dependencies
+Configure service dependency relationships for better correlation:
 
-Define domain-specific insights using natural language:
+```python
+from spottr.analysis.analyzer import EnhancedLogAnalyzer
 
-```bash
-uv run python spottr/analyzer.py app.log -t \
-    "authentication and authorization failures" \
-    "database connection pool exhaustion" \
-    "payment processing errors" \
-    "memory leak indicators"
+analyzer = EnhancedLogAnalyzer()
+
+# Add custom dependencies
+analyzer.correlation_engine.dependency_graph.add_dependency('api-gateway', 'user-service')
+analyzer.correlation_engine.dependency_graph.add_dependency('payment-service', 'database')
+analyzer.correlation_engine.dependency_graph.add_dependency('order-service', 'payment-service')
 ```
 
 ### Custom Rules
-
-Add custom detection rules by extending the `RuleEngine`:
+Add domain-specific detection rules:
 
 ```python
-analyzer.rule_engine.add_rule('custom_pattern', {
-    'patterns': [r'CUSTOM_ERROR', r'specific.*pattern'],
-    'severity': 'HIGH',
-    'category': 'CUSTOM',
-    'description': 'Custom issue detected'
+# Add custom rule to rule engine
+analyzer.rule_engine.add_rule("custom_pattern", {
+    "patterns": [r"CUSTOM_ERROR.*timeout", r"business logic failure"],
+    "severity": "HIGH",
+    "category": "BUSINESS",
+    "description": "Custom business logic errors"
 })
+```
+
+### Temporal Analysis Tuning
+```python
+# Customize temporal analysis
+analyzer = EnhancedLogAnalyzer(
+    temporal_window_minutes=10,     # 10-minute analysis windows
+    correlation_window_minutes=20   # 20-minute correlation windows
+)
+```
+
+## 🚀 Advanced Usage
+
+### Programmatic API
+```python
+from spottr.analysis.analyzer import EnhancedLogAnalyzer
+
+# Initialize with custom settings
+analyzer = EnhancedLogAnalyzer(
+    use_entailment=True,
+    temporal_window_minutes=5,
+    correlation_window_minutes=10
+)
+
+# Single file analysis
+result = analyzer.analyze_file_enhanced(
+    "logs/application.log",
+    target_statements=["database errors", "memory issues"],
+    include_temporal=True
+)
+
+# Multi-file correlation analysis
+result = analyzer.analyze_multiple_files(
+    ["logs/service1.log", "logs/service2.log"],
+    service_names=["user-service", "payment-service"],
+    include_correlation=True,
+    include_temporal=True
+)
+
+# Directory batch analysis
+result = analyzer.analyze_directory(
+    "logs/",
+    file_pattern="*.log",
+    include_correlation=True
+)
 ```
 
 ## 🤝 Contributing
